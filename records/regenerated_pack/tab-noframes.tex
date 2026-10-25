@@ -1,0 +1,22 @@
+% tab-noframes.tex -- fragment only: the float, caption and label are the typesetter ones.
+% Values read at run time from: evidence.task-23cd232b2b.
+% Rates and CP95 in percent; paired differences in percentage points (pp).
+% SUGGESTED CAPTION: No-frames reading (b): how often the model still answers when every frame is removed, against uniform@16 and the zero-information constant-letter prior.
+% NOTE: CP95 is the Clopper-Pearson 95\% interval on the question-level rate (n = 110). Paired contrasts give the question-level paired difference in pp, the video-level 95\% clustered bootstrap interval, the discordant counts \textit{n}\textsubscript{01} (second arm right only) and \textit{n}\textsubscript{10} (first arm right only), the exact McNemar p, and the Holm-adjusted p over the family of 3.
+{\footnotesize
+\begin{tabular}{@{}l l l l l r r r@{}}
+\toprule
+Arm or contrast & hits/\textit{n} & acc. (\%) & CP95 (\%) & \Delta, pp [video 95\% CI] & \textit{n}\textsubscript{01}/\textit{n}\textsubscript{10} & McNemar \textit{p} & Holm \textit{p} \\
+\midrule
+\multicolumn{8}{@{}l}{\emph{Arms}} \\
+no frames & 43/110 & 39.1 & 29.9--48.9 & --- & --- & --- & --- \\
+uniform@16 & 62/110 & 56.4 & 46.6--65.8 & --- & --- & --- & --- \\
+constant-letter prior (C) & 31/110 & 28.2 & 20.0--37.6 & --- & --- & --- & --- \\
+\midrule
+\multicolumn{8}{@{}l}{\emph{Paired contrasts (family of 3, Holm)}} \\
+uniform@16 $-$ no frames & --- & --- & --- & 17.3 [10.7, 33.0] & 3/22 & 0.0002 & 0.0003 \\
+uniform@16 $-$ prior & --- & --- & --- & 28.2 [18.2, 46.7] & 15/46 & $<$0.0001 & 0.0003 \\
+no frames $-$ prior & --- & --- & --- & 10.9 [$-3.6$, 25.6] & 17/29 & 0.1038 & 0.1038 \\
+\bottomrule
+\end{tabular}
+}

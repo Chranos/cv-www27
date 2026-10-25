@@ -1,0 +1,31 @@
+% tab-single.tex -- fragment only: the float, caption and label are the typesetter ones.
+% Values read at run time from: evidence.task-240d7a5d60.
+% Rates and CP95 in percent; paired differences in percentage points (pp).
+% SUGGESTED CAPTION: Single-frame reading (c) on 24 video units: one question per video under the registered uniform draw, one rule-selected frame against sixteen uniform frames, with the bounded-difference statement reported alongside the paired interval.
+% NOTE: One unit is one video and one question, drawn once per video under the registered uniform draw (seed 20261021); one unit is 4.17 pp. CP95 is the Clopper-Pearson interval on the unit-level rate. Delta is the unit-level paired difference (first arm named minus second) with its video-level 95\% clustered bootstrap interval; \textit{m} is the number of discordant units, shown with \textit{n}\textsubscript{01} (second arm only) and \textit{n}\textsubscript{10} (first arm only), so \textit{m} = \textit{n}\textsubscript{01} + \textit{n}\textsubscript{10}. McNemar is the exact question-level test and the last column the exact video-level sign test. All six pairwise contrasts among the four arms are in the record and all six are listed; no family-level adjustment is applied to them at this cell. The bounded-difference block gives the observed interval both in percentage points ($-8.3$ to 25.0) and in units ($-2$ to 6 units at \textit{m} = 4), and separately the smallest symmetric half-width attainable at that \textit{m} ($\pm 4$ units, $\pm 16.7$ pp), which is a statement of attainable precision, not of observed width. The band pre-registered for this contrast in the Plan is $-$3 to $+$4 units; the observed upper bound (+6 units) lies outside it. Record checks: all 24 draws are recomputable from the candidate file and the seed, rechecked from disk with 0 mismatches; on the 17 units whose drawn question is the archived question, 17 of 17 letters equal the archive (the expected count is 13 because only the single-candidate units enter it, and 17 units drew index 0); the other units drew a different question and are not in that count.
+{\footnotesize
+\begin{tabular}{@{}l l l l l l r r@{}}
+\toprule
+Arm or contrast & hits/\textit{n} & acc. (\%) & CP95 (\%) & $\Delta$, pp [video 95\% CI] & \textit{m} ($n_{01}$/$n_{10}$) & McNemar \textit{p} & sign test \textit{p} \\
+\midrule
+\multicolumn{8}{@{}l}{\emph{Arms (\SglNUnits units)}} \\
+uniform@16 & \SglUniformHits/\SglNUnits & 50.0 & \SglUniformCPLo--\SglUniformCPHi & --- & --- & --- & --- \\
+single frame $j^\star$ & \SglSingleHits/\SglNUnits & 58.3 & \SglSingleCPLo--\SglSingleCPHi & --- & --- & --- & --- \\
+no frames & \SglNoFramesHits/\SglNUnits & 29.2 & \SglNoFramesCPLo--\SglNoFramesCPHi & --- & --- & --- & --- \\
+constant-letter prior (\SglPriorLetter) & \SglPriorHits/\SglNUnits & 41.7 & \SglPriorCPLo--\SglPriorCPHi & --- & --- & --- & --- \\
+\midrule
+\multicolumn{8}{@{}l}{\emph{Paired contrasts at the unit level (all six pairs; no family, no threshold)}} \\
+single frame $-$ uniform@16 & --- & --- & --- & $\SglSingleVsUniformDelta$ [$\SglSingleVsUniformDeltaLo$, $\SglSingleVsUniformDeltaHi$] & \SglSingleVsUniformM (\SglSingleVsUniformNOne/\SglSingleVsUniformNTen) & \SglSingleVsUniformMcNemarP & \SglSingleVsUniformSignP \\
+single frame $-$ no frames & --- & --- & --- & $\SglSingleVsNoFramesDelta$ [$\SglSingleVsNoFramesDeltaLo$, $\SglSingleVsNoFramesDeltaHi$] & \SglSingleVsNoFramesM (\SglSingleVsNoFramesNOne/\SglSingleVsNoFramesNTen) & \SglSingleVsNoFramesMcNemarP & \SglSingleVsNoFramesSignP \\
+single frame $-$ prior & --- & --- & --- & $\SglSingleVsPriorDelta$ [$\SglSingleVsPriorDeltaLo$, $\SglSingleVsPriorDeltaHi$] & \SglSingleVsPriorM (\SglSingleVsPriorNOne/\SglSingleVsPriorNTen) & \SglSingleVsPriorMcNemarP & \SglSingleVsPriorSignP \\
+uniform@16 $-$ no frames & --- & --- & --- & $\SglUniformVsNoFramesDelta$ [$\SglUniformVsNoFramesDeltaLo$, $\SglUniformVsNoFramesDeltaHi$] & \SglUniformVsNoFramesM (\SglUniformVsNoFramesNOne/\SglUniformVsNoFramesNTen) & \SglUniformVsNoFramesMcNemarP & \SglUniformVsNoFramesSignP \\
+uniform@16 $-$ prior & --- & --- & --- & $\SglUniformVsPriorDelta$ [$\SglUniformVsPriorDeltaLo$, $\SglUniformVsPriorDeltaHi$] & \SglUniformVsPriorM (\SglUniformVsPriorNOne/\SglUniformVsPriorNTen) & \SglUniformVsPriorMcNemarP & \SglUniformVsPriorSignP \\
+no frames $-$ prior & --- & --- & --- & $\SglNoFramesVsPriorDelta$ [$\SglNoFramesVsPriorDeltaLo$, $\SglNoFramesVsPriorDeltaHi$] & \SglNoFramesVsPriorM (\SglNoFramesVsPriorNOne/\SglNoFramesVsPriorNTen) & \SglNoFramesVsPriorMcNemarP & \SglNoFramesVsPriorSignP \\
+\midrule
+\multicolumn{8}{@{}l}{\emph{Bounded difference, single frame minus uniform@16 (no threshold, no pass/fail rule)}} \\
+paired difference & \multicolumn{3}{@{}l}{$\SglBoundedPointUnits$ units (1 unit = $\SglUnitPP$ pp)} & \multicolumn{5}{@{}l}{observed 95\% CI $\SglBoundedLo$ to $\SglBoundedHi$ pp, that is $\SglBoundedLoUnits$ to $\SglBoundedHiUnits$ units; \textit{m} = \SglBoundedM} \\
+attainable precision & \multicolumn{3}{@{}l}{$\pm \SglAttainUnits$ units ($\pm \SglAttainPP$ pp)} & \multicolumn{5}{@{}l}{smallest symmetric half-width attainable at \textit{m} = \SglBoundedM, not the observed width; approximate half-width $\SglApproxHalfWidthPP$ pp (the record field it comes from holds the proportion $\SglApproxHalfWidthProp$, not units)} \\
+exact bounds at $m = 0$ & \multicolumn{3}{@{}l}{$\SglExactUpperIfZero$ pp, two-sided 95\% (= one-sided 97.5\%)} & \multicolumn{5}{@{}l}{one-sided 95\% upper bound $\SglOneSidedBound$ pp; both are exact upper bounds at \textit{m} = 0, where the observed interval is degenerate} \\
+\bottomrule
+\end{tabular}
+}

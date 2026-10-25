@@ -1,0 +1,80 @@
+{"video_id": "16Z-XQh9jhk", "uid": 2256, "question_type": ["entity recognition", "temporal grounding"], "time_reference": "45:08-45:09", "gold": "A", "order_index": 0, "selected": false}
+{"video_id": "16Z-XQh9jhk", "uid": 2264, "question_type": ["entity recognition"], "time_reference": "01:25-01:28", "gold": "B", "order_index": 1, "selected": false}
+{"video_id": "16Z-XQh9jhk", "uid": 2266, "question_type": ["entity recognition"], "time_reference": "03:50-03:51", "gold": "B", "order_index": 2, "selected": true}
+{"video_id": "16Z-XQh9jhk", "uid": 2269, "question_type": ["temporal grounding", "entity recognition"], "time_reference": "05:45-05:46", "gold": "B", "order_index": 3, "selected": false}
+{"video_id": "GcRKREorGSc", "uid": 977, "question_type": ["entity recognition"], "time_reference": "00:52-00:52", "gold": "D", "order_index": 0, "selected": false}
+{"video_id": "GcRKREorGSc", "uid": 978, "question_type": ["entity recognition"], "time_reference": "02:07-02:07", "gold": "D", "order_index": 1, "selected": false}
+{"video_id": "GcRKREorGSc", "uid": 983, "question_type": ["entity recognition"], "time_reference": "15:46-15:46", "gold": "D", "order_index": 2, "selected": false}
+{"video_id": "GcRKREorGSc", "uid": 985, "question_type": ["entity recognition"], "time_reference": "19:18-19:18", "gold": "C", "order_index": 3, "selected": false}
+{"video_id": "GcRKREorGSc", "uid": 991, "question_type": ["event understanding", "entity recognition"], "time_reference": "31:38-31:38", "gold": "C", "order_index": 4, "selected": true}
+{"video_id": "GcRKREorGSc", "uid": 992, "question_type": ["event understanding", "entity recognition"], "time_reference": "31:54-31:54", "gold": "A", "order_index": 5, "selected": false}
+{"video_id": "GcRKREorGSc", "uid": 995, "question_type": ["event understanding"], "time_reference": "37:43-37:43", "gold": "C", "order_index": 6, "selected": false}
+{"video_id": "GcRKREorGSc", "uid": 996, "question_type": ["event understanding", "entity recognition"], "time_reference": "38:14-38:14", "gold": "C", "order_index": 7, "selected": false}
+{"video_id": "GcRKREorGSc", "uid": 998, "question_type": ["event understanding", "entity recognition"], "time_reference": "39:26-39:26", "gold": "A", "order_index": 8, "selected": false}
+{"video_id": "GcRKREorGSc", "uid": 999, "question_type": ["event understanding", "entity recognition"], "time_reference": "40:51-40:51", "gold": "C", "order_index": 9, "selected": false}
+{"video_id": "GcRKREorGSc", "uid": 1000, "question_type": ["event understanding", "entity recognition"], "time_reference": "41:02-41:02", "gold": "D", "order_index": 10, "selected": false}
+{"video_id": "JPPMz8fEml0", "uid": 2958, "question_type": ["key information retrieval"], "time_reference": "00:09-00:12", "gold": "D", "order_index": 0, "selected": true}
+{"video_id": "JPPMz8fEml0", "uid": 2963, "question_type": ["key information retrieval"], "time_reference": "01:18-01:21", "gold": "D", "order_index": 1, "selected": false}
+{"video_id": "KktLi3UifPY", "uid": 1170, "question_type": ["key information retrieval"], "time_reference": "14:16-14:16", "gold": "C", "order_index": 0, "selected": false}
+{"video_id": "KktLi3UifPY", "uid": 1174, "question_type": ["key information retrieval"], "time_reference": "21:23-21:23", "gold": "A", "order_index": 1, "selected": false}
+{"video_id": "KktLi3UifPY", "uid": 1176, "question_type": ["key information retrieval"], "time_reference": "27:17-27:17", "gold": "B", "order_index": 2, "selected": true}
+{"video_id": "KktLi3UifPY", "uid": 1179, "question_type": ["reasoning", "temporal grounding"], "time_reference": "40:20-40:20", "gold": "D", "order_index": 3, "selected": false}
+{"video_id": "KktLi3UifPY", "uid": 1188, "question_type": ["key information retrieval", "temporal grounding"], "time_reference": "88:07-88:07", "gold": "D", "order_index": 4, "selected": false}
+{"video_id": "KktLi3UifPY", "uid": 1194, "question_type": ["key information retrieval"], "time_reference": "99:35-99:35", "gold": "B", "order_index": 5, "selected": false}
+{"video_id": "RCAqKnvu_P0", "uid": 2898, "question_type": ["temporal grounding", "entity recognition"], "time_reference": "00:23-00:24", "gold": "D", "order_index": 0, "selected": true}
+{"video_id": "RCAqKnvu_P0", "uid": 2899, "question_type": ["key information retrieval"], "time_reference": "00:51-00:51", "gold": "C", "order_index": 1, "selected": false}
+{"video_id": "RbpKkvlHYTw", "uid": 2805, "question_type": ["event understanding", "entity recognition"], "time_reference": "63:29-63:29", "gold": "B", "order_index": 0, "selected": true}
+{"video_id": "RbpKkvlHYTw", "uid": 2806, "question_type": ["entity recognition", "temporal grounding"], "time_reference": "65:20-65:20", "gold": "B", "order_index": 1, "selected": false}
+{"video_id": "S8vPx-u9p_A", "uid": 600, "question_type": ["entity recognition"], "time_reference": "06:12-06:15", "gold": "A", "order_index": 0, "selected": true}
+{"video_id": "SRq0weUKskM", "uid": 479, "question_type": ["entity recognition"], "time_reference": "00:13-00:16", "gold": "B", "order_index": 0, "selected": false}
+{"video_id": "SRq0weUKskM", "uid": 484, "question_type": ["entity recognition"], "time_reference": "01:18-01:21", "gold": "B", "order_index": 1, "selected": true}
+{"video_id": "SRq0weUKskM", "uid": 487, "question_type": ["entity recognition"], "time_reference": "02:21-02:22", "gold": "B", "order_index": 2, "selected": false}
+{"video_id": "TZ0j6kr4ZJ0", "uid": 1417, "question_type": ["reasoning"], "time_reference": "02:46-02:46", "gold": "A", "order_index": 0, "selected": false}
+{"video_id": "TZ0j6kr4ZJ0", "uid": 1419, "question_type": ["entity recognition"], "time_reference": "05:51-05:53", "gold": "A", "order_index": 1, "selected": false}
+{"video_id": "TZ0j6kr4ZJ0", "uid": 1420, "question_type": ["entity recognition", "reasoning"], "time_reference": "06:42-06:42", "gold": "C", "order_index": 2, "selected": false}
+{"video_id": "TZ0j6kr4ZJ0", "uid": 1429, "question_type": ["entity recognition", "key information retrieval"], "time_reference": "27:13-27:13", "gold": "C", "order_index": 3, "selected": false}
+{"video_id": "TZ0j6kr4ZJ0", "uid": 1430, "question_type": ["key information retrieval"], "time_reference": "28:13-28:13", "gold": "D", "order_index": 4, "selected": true}
+{"video_id": "TZ0j6kr4ZJ0", "uid": 1433, "question_type": ["entity recognition", "reasoning"], "time_reference": "33:00-33:00", "gold": "A", "order_index": 5, "selected": false}
+{"video_id": "TZ0j6kr4ZJ0", "uid": 1434, "question_type": ["event understanding"], "time_reference": "33:33-33:34", "gold": "C", "order_index": 6, "selected": false}
+{"video_id": "TZ0j6kr4ZJ0", "uid": 1437, "question_type": ["entity recognition"], "time_reference": "39:21-39:21", "gold": "D", "order_index": 7, "selected": false}
+{"video_id": "TiQBTesZUJQ", "uid": 842, "question_type": ["entity recognition", "event understanding"], "time_reference": "06:23-06:23", "gold": "A", "order_index": 0, "selected": true}
+{"video_id": "TiQBTesZUJQ", "uid": 850, "question_type": ["entity recognition"], "time_reference": "19:02-19:03", "gold": "A", "order_index": 1, "selected": false}
+{"video_id": "TiQBTesZUJQ", "uid": 857, "question_type": ["entity recognition", "temporal grounding", "event understanding"], "time_reference": "34:22-34:22", "gold": "D", "order_index": 2, "selected": false}
+{"video_id": "TiQBTesZUJQ", "uid": 859, "question_type": ["entity recognition"], "time_reference": "39:49-39:49", "gold": "B", "order_index": 3, "selected": false}
+{"video_id": "W-BnDvXXfOs", "uid": 4964, "question_type": ["temporal grounding", "entity recognition"], "time_reference": "19:13-19:13", "gold": "A", "order_index": 0, "selected": false}
+{"video_id": "W-BnDvXXfOs", "uid": 4969, "question_type": ["event understanding"], "time_reference": "34:07-34:07", "gold": "B", "order_index": 1, "selected": false}
+{"video_id": "W-BnDvXXfOs", "uid": 4975, "question_type": ["temporal grounding", "event understanding"], "time_reference": "47:38-47:38", "gold": "C", "order_index": 2, "selected": false}
+{"video_id": "W-BnDvXXfOs", "uid": 4976, "question_type": ["entity recognition"], "time_reference": "52:18-52:18", "gold": "D", "order_index": 3, "selected": true}
+{"video_id": "W-BnDvXXfOs", "uid": 4977, "question_type": ["entity recognition"], "time_reference": "55:20-55:20", "gold": "A", "order_index": 4, "selected": false}
+{"video_id": "Z4HGQL_McDQ", "uid": 1112, "question_type": ["entity recognition"], "time_reference": "00:43-00:43", "gold": "D", "order_index": 0, "selected": false}
+{"video_id": "Z4HGQL_McDQ", "uid": 1113, "question_type": ["key information retrieval"], "time_reference": "01:20-01:20", "gold": "A", "order_index": 1, "selected": false}
+{"video_id": "Z4HGQL_McDQ", "uid": 1117, "question_type": ["entity recognition"], "time_reference": "15:39-15:39", "gold": "D", "order_index": 2, "selected": false}
+{"video_id": "Z4HGQL_McDQ", "uid": 1118, "question_type": ["event understanding", "reasoning"], "time_reference": "16:00-16:00", "gold": "B", "order_index": 3, "selected": true}
+{"video_id": "Z4HGQL_McDQ", "uid": 1123, "question_type": ["entity recognition", "event understanding"], "time_reference": "36:55-36:55", "gold": "A", "order_index": 4, "selected": false}
+{"video_id": "Z4HGQL_McDQ", "uid": 1126, "question_type": ["event understanding", "entity recognition"], "time_reference": "45:16-45:16", "gold": "D", "order_index": 5, "selected": false}
+{"video_id": "Z4HGQL_McDQ", "uid": 1132, "question_type": ["key information retrieval"], "time_reference": "04:32-04:32", "gold": "B", "order_index": 6, "selected": false}
+{"video_id": "Z4HGQL_McDQ", "uid": 1133, "question_type": ["entity recognition", "temporal grounding"], "time_reference": "04:47-04:47", "gold": "A", "order_index": 7, "selected": false}
+{"video_id": "Z4HGQL_McDQ", "uid": 1134, "question_type": ["entity recognition"], "time_reference": "05:23-05:23", "gold": "A", "order_index": 8, "selected": false}
+{"video_id": "Z4HGQL_McDQ", "uid": 1135, "question_type": ["entity recognition", "temporal grounding"], "time_reference": "06:01-06:01", "gold": "D", "order_index": 9, "selected": false}
+{"video_id": "Z4HGQL_McDQ", "uid": 1137, "question_type": ["entity recognition"], "time_reference": "06:09-06:09", "gold": "A", "order_index": 10, "selected": false}
+{"video_id": "Z86xysw5Ncc", "uid": 4195, "question_type": ["key information retrieval"], "time_reference": "01:39-01:41", "gold": "C", "order_index": 0, "selected": false}
+{"video_id": "Z86xysw5Ncc", "uid": 4198, "question_type": ["event understanding", "temporal grounding"], "time_reference": "03:36-03:36", "gold": "C", "order_index": 1, "selected": false}
+{"video_id": "Z86xysw5Ncc", "uid": 4203, "question_type": ["key information retrieval"], "time_reference": "06:06-06:06", "gold": "B", "order_index": 2, "selected": false}
+{"video_id": "Z86xysw5Ncc", "uid": 4207, "question_type": ["key information retrieval"], "time_reference": "07:49-07:49", "gold": "D", "order_index": 3, "selected": true}
+{"video_id": "Z86xysw5Ncc", "uid": 4212, "question_type": ["event understanding", "key information retrieval"], "time_reference": "09:24-09:27", "gold": "C", "order_index": 4, "selected": false}
+{"video_id": "Z86xysw5Ncc", "uid": 4213, "question_type": ["event understanding", "temporal grounding"], "time_reference": "20:38-20:38", "gold": "D", "order_index": 5, "selected": false}
+{"video_id": "hROKtPqktO8", "uid": 2642, "question_type": ["event understanding", "entity recognition"], "time_reference": "08:40-08:40", "gold": "A", "order_index": 0, "selected": true}
+{"video_id": "pXD3txG2bVQ", "uid": 730, "question_type": ["event understanding"], "time_reference": "05:29-05:29", "gold": "B", "order_index": 0, "selected": false}
+{"video_id": "pXD3txG2bVQ", "uid": 740, "question_type": ["event understanding"], "time_reference": "15:17-15:17", "gold": "A", "order_index": 1, "selected": false}
+{"video_id": "pXD3txG2bVQ", "uid": 747, "question_type": ["event understanding"], "time_reference": "25:56-25:56", "gold": "C", "order_index": 2, "selected": true}
+{"video_id": "pe_LddfHAUU", "uid": 5110, "question_type": ["key information retrieval", "event understanding"], "time_reference": "20:10-20:10", "gold": "D", "order_index": 0, "selected": false}
+{"video_id": "pe_LddfHAUU", "uid": 5114, "question_type": ["key information retrieval"], "time_reference": "31:46-31:46", "gold": "B", "order_index": 1, "selected": false}
+{"video_id": "pe_LddfHAUU", "uid": 5116, "question_type": ["key information retrieval"], "time_reference": "35:35-35:35", "gold": "C", "order_index": 2, "selected": true}
+{"video_id": "pe_LddfHAUU", "uid": 5124, "question_type": ["key information retrieval", "reasoning"], "time_reference": "71:29-71:29", "gold": "B", "order_index": 3, "selected": false}
+{"video_id": "qAIRFyR6NyQ", "uid": 2, "question_type": ["entity recognition"], "time_reference": "01:00-01:00", "gold": "C", "order_index": 0, "selected": false}
+{"video_id": "qAIRFyR6NyQ", "uid": 9, "question_type": ["entity recognition", "event understanding"], "time_reference": "22:04-22:04", "gold": "C", "order_index": 1, "selected": false}
+{"video_id": "qAIRFyR6NyQ", "uid": 10, "question_type": ["reasoning"], "time_reference": "27:59-27:59", "gold": "C", "order_index": 2, "selected": false}
+{"video_id": "qAIRFyR6NyQ", "uid": 15, "question_type": ["key information retrieval"], "time_reference": "49:39-49:39", "gold": "D", "order_index": 3, "selected": false}
+{"video_id": "qAIRFyR6NyQ", "uid": 20, "question_type": ["entity recognition"], "time_reference": "66:44-66:46", "gold": "C", "order_index": 4, "selected": false}
+{"video_id": "qAIRFyR6NyQ", "uid": 21, "question_type": ["key information retrieval", "event understanding"], "time_reference": "66:58-66:58", "gold": "A", "order_index": 5, "selected": false}
+{"video_id": "qAIRFyR6NyQ", "uid": 23, "question_type": ["event understanding"], "time_reference": "74:15-74:17", "gold": "A", "order_index": 6, "selected": true}

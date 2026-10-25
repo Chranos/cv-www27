@@ -1,0 +1,3214 @@
+{
+ "arms": {
+  "distorted_evidence_noise_k0": {
+   "cp95": [
+    0.5010067267954198,
+    0.9318922595626433
+   ],
+   "hits": 13,
+   "n": 17,
+   "value": 0.7647058823529411
+  },
+  "distorted_evidence_noise_k1": {
+   "cp95": [
+    0.4404172812456628,
+    0.89686448562968
+   ],
+   "hits": 12,
+   "n": 17,
+   "value": 0.7058823529411765
+  },
+  "distorted_evidence_noise_k2": {
+   "cp95": [
+    0.3832836634434029,
+    0.857902516889779
+   ],
+   "hits": 11,
+   "n": 17,
+   "value": 0.6470588235294118
+  },
+  "distorted_evidence_patchcopy_k0": {
+   "cp95": [
+    0.4404172812456628,
+    0.89686448562968
+   ],
+   "hits": 12,
+   "n": 17,
+   "value": 0.7058823529411765
+  },
+  "distorted_evidence_patchcopy_k1": {
+   "cp95": [
+    0.4404172812456628,
+    0.89686448562968
+   ],
+   "hits": 12,
+   "n": 17,
+   "value": 0.7058823529411765
+  },
+  "distorted_evidence_patchcopy_k2": {
+   "cp95": [
+    0.4404172812456628,
+    0.89686448562968
+   ],
+   "hits": 12,
+   "n": 17,
+   "value": 0.7058823529411765
+  },
+  "distorted_nonevidence_noise_k0": {
+   "cp95": [
+    0.06810774043735666,
+    0.4989932732045801
+   ],
+   "hits": 4,
+   "n": 17,
+   "value": 0.23529411764705882
+  },
+  "distorted_nonevidence_noise_k1": {
+   "cp95": [
+    0.06810774043735666,
+    0.4989932732045801
+   ],
+   "hits": 4,
+   "n": 17,
+   "value": 0.23529411764705882
+  },
+  "distorted_nonevidence_noise_k2": {
+   "cp95": [
+    0.06810774043735666,
+    0.4989932732045801
+   ],
+   "hits": 4,
+   "n": 17,
+   "value": 0.23529411764705882
+  },
+  "distorted_nonevidence_patchcopy_k0": {
+   "cp95": [
+    0.06810774043735666,
+    0.4989932732045801
+   ],
+   "hits": 4,
+   "n": 17,
+   "value": 0.23529411764705882
+  },
+  "distorted_nonevidence_patchcopy_k1": {
+   "cp95": [
+    0.06810774043735666,
+    0.4989932732045801
+   ],
+   "hits": 4,
+   "n": 17,
+   "value": 0.23529411764705882
+  },
+  "distorted_nonevidence_patchcopy_k2": {
+   "cp95": [
+    0.06810774043735666,
+    0.4989932732045801
+   ],
+   "hits": 4,
+   "n": 17,
+   "value": 0.23529411764705882
+  },
+  "single_clean": {
+   "cp95": [
+    0.5010067267954198,
+    0.9318922595626433
+   ],
+   "hits": 13,
+   "n": 17,
+   "value": 0.7647058823529411
+  }
+ },
+ "backbone": {
+  "archive_identity_applies": true,
+  "family": "Qwen2-VL-7B-Instruct",
+  "model_dir": "<DATA_ROOT>/qwen2vl-7b-2cbada593a2b",
+  "name": "qwen2vl",
+  "pixel_control": "min_pixels=28*28*4, max_pixels=448*448 (native dynamic resolution)"
+ },
+ "bar_hits": 5,
+ "claim_tested": {
+  "d1": "a pre-registered distortion never destroyed the evidence it was meant to remove (behavioural criterion)"
+ },
+ "extraction": {
+  "examples": [],
+  "n_bad": 0,
+  "n_none_letter_cells": 0,
+  "rule": "mvp_common.parse_letter: first A-Ea-e uppercased; None counts as wrong and is not dropped"
+ },
+ "forward_counts": {
+  "by_arm": {
+   "answer:distorted_evidence_noise_k0": 17,
+   "answer:distorted_evidence_noise_k1": 17,
+   "answer:distorted_evidence_noise_k2": 17,
+   "answer:distorted_evidence_patchcopy_k0": 17,
+   "answer:distorted_evidence_patchcopy_k1": 17,
+   "answer:distorted_evidence_patchcopy_k2": 17,
+   "answer:distorted_nonevidence_noise_k0": 17,
+   "answer:distorted_nonevidence_noise_k1": 17,
+   "answer:distorted_nonevidence_noise_k2": 17,
+   "answer:distorted_nonevidence_patchcopy_k0": 17,
+   "answer:distorted_nonevidence_patchcopy_k1": 17,
+   "answer:distorted_nonevidence_patchcopy_k2": 17,
+   "answer:single_clean": 17,
+   "control:det_answer_16_frames": 2,
+   "control:det_answer_1_frame": 2,
+   "control:named_A_single_clean": 6,
+   "control:named_Aperm_single_clean": 6,
+   "control:named_Arep_single_clean": 2,
+   "control:named_B_single_clean": 6,
+   "control:named_Bperm_single_clean": 6,
+   "control:perm_single_clean": 6,
+   "control:visibility_answer": 6
+  },
+  "by_kind": {
+   "answer:distorted_evidence_noise_k0": 17,
+   "answer:distorted_evidence_noise_k1": 17,
+   "answer:distorted_evidence_noise_k2": 17,
+   "answer:distorted_evidence_patchcopy_k0": 17,
+   "answer:distorted_evidence_patchcopy_k1": 17,
+   "answer:distorted_evidence_patchcopy_k2": 17,
+   "answer:distorted_nonevidence_noise_k0": 17,
+   "answer:distorted_nonevidence_noise_k1": 17,
+   "answer:distorted_nonevidence_noise_k2": 17,
+   "answer:distorted_nonevidence_patchcopy_k0": 17,
+   "answer:distorted_nonevidence_patchcopy_k1": 17,
+   "answer:distorted_nonevidence_patchcopy_k2": 17,
+   "answer:single_clean": 17,
+   "control:det_answer_16_frames": 2,
+   "control:det_answer_1_frame": 2,
+   "control:det_score_1_image": 2,
+   "control:named_A_single_clean": 6,
+   "control:named_Aperm_single_clean": 6,
+   "control:named_Arep_single_clean": 2,
+   "control:named_B_single_clean": 6,
+   "control:named_Bperm_single_clean": 6,
+   "control:perm_single_clean": 6,
+   "control:visibility_answer": 6,
+   "control:visibility_score": 6
+  },
+  "note": "accumulated inside the run by the code path that actually ran; the same accumulator produces every sub-total and the grand total",
+  "total": 271
+ },
+ "holm_evidence_vs_nonevidence": [
+  {
+   "name": "patchcopy_k0_evidence_vs_nonevidence",
+   "p_holm": 0.107421875,
+   "p_raw": 0.021484375,
+   "reject_005": false
+  },
+  {
+   "name": "patchcopy_k1_evidence_vs_nonevidence",
+   "p_holm": 0.107421875,
+   "p_raw": 0.021484375,
+   "reject_005": false
+  },
+  {
+   "name": "patchcopy_k2_evidence_vs_nonevidence",
+   "p_holm": 0.107421875,
+   "p_raw": 0.021484375,
+   "reject_005": false
+  },
+  {
+   "name": "noise_k0_evidence_vs_nonevidence",
+   "p_holm": 0.0234375,
+   "p_raw": 0.00390625,
+   "reject_005": true
+  },
+  {
+   "name": "noise_k1_evidence_vs_nonevidence",
+   "p_holm": 0.107421875,
+   "p_raw": 0.021484375,
+   "reject_005": false
+  },
+  {
+   "name": "noise_k2_evidence_vs_nonevidence",
+   "p_holm": 0.107421875,
+   "p_raw": 0.0390625,
+   "reject_005": false
+  }
+ ],
+ "identity": {
+  "annotation_matches": true,
+  "annotation_sha256": "a3042f766f568d457e2a91a30cdcf32a886c5421226eefa98a006ffaae038d8f",
+  "annotation_sha256_expected": "a3042f766f568d457e2a91a30cdcf32a886c5421226eefa98a006ffaae038d8f",
+  "dataset": "lvbench-24209d43cbdd",
+  "license": "README cc-by-nc-sa-4.0 / LICENSE Apache-2.0 text with a merge marker; non-commercial academic research only",
+  "manifest_matches": true,
+  "manifest_sha256_expected": "224e854da5ed0a527dd03dac9c42e384f2a11da194a9c29d6ef3678de405a184",
+  "manifest_sha256_recomputed": "224e854da5ed0a527dd03dac9c42e384f2a11da194a9c29d6ef3678de405a184",
+  "model_dir": "<DATA_ROOT>/qwen2vl-7b-2cbada593a2b",
+  "model_identity_note": "model_dir / model_manifest_sha256 were rewritten by finish() from the backbone this run loaded; the expected-constant field is nulled because it belonged to the first backbone",
+  "model_manifest_sha256": "2402ffda2977a2ff7450b96c18771bfb0fe416ed840c2cff51014572f8f3cb9b",
+  "model_manifest_sha256_expected": null,
+  "n_files": 27,
+  "n_files_expected": 27,
+  "path": "<DATA_ROOT>/lvbench-24209d43cbdd",
+  "revision": "24209d43cbddb260fcb43dbdee2de0899c87163f",
+  "source": "AI-ModelScope/LVBench (ModelScope mirror)",
+  "verified_by": "the run itself, not the sandbox (no data_dirs configured on this device)"
+ },
+ "identity_vs_archive": {
+  "agreement": {
+   "distorted_evidence_noise_k0": {
+    "agree": 5,
+    "n": 5
+   },
+   "distorted_evidence_noise_k1": {
+    "agree": 5,
+    "n": 5
+   },
+   "distorted_evidence_noise_k2": {
+    "agree": 5,
+    "n": 5
+   },
+   "distorted_evidence_patchcopy_k0": {
+    "agree": 5,
+    "n": 5
+   },
+   "distorted_evidence_patchcopy_k1": {
+    "agree": 5,
+    "n": 5
+   },
+   "distorted_evidence_patchcopy_k2": {
+    "agree": 5,
+    "n": 5
+   },
+   "distorted_nonevidence_noise_k0": {
+    "agree": 5,
+    "n": 5
+   },
+   "distorted_nonevidence_noise_k1": {
+    "agree": 5,
+    "n": 5
+   },
+   "distorted_nonevidence_noise_k2": {
+    "agree": 5,
+    "n": 5
+   },
+   "distorted_nonevidence_patchcopy_k0": {
+    "agree": 5,
+    "n": 5
+   },
+   "distorted_nonevidence_patchcopy_k1": {
+    "agree": 5,
+    "n": 5
+   },
+   "distorted_nonevidence_patchcopy_k2": {
+    "agree": 5,
+    "n": 5
+   },
+   "single_clean": {
+    "agree": 5,
+    "n": 5
+   }
+  },
+  "available": true,
+  "changed_units": [
+   {
+    "draw_index": 2,
+    "n_candidates": 4,
+    "pair": 0,
+    "qid": "16Z-XQh9jhk#2266",
+    "uid": 2266,
+    "uid_min": 2256,
+    "video_id": "16Z-XQh9jhk"
+   },
+   {
+    "draw_index": 4,
+    "n_candidates": 11,
+    "pair": 1,
+    "qid": "GcRKREorGSc#991",
+    "uid": 991,
+    "uid_min": 977,
+    "video_id": "GcRKREorGSc"
+   },
+   {
+    "draw_index": 2,
+    "n_candidates": 6,
+    "pair": 3,
+    "qid": "KktLi3UifPY#1176",
+    "uid": 1176,
+    "uid_min": 1170,
+    "video_id": "KktLi3UifPY"
+   },
+   {
+    "draw_index": 1,
+    "n_candidates": 3,
+    "pair": 7,
+    "qid": "SRq0weUKskM#484",
+    "uid": 484,
+    "uid_min": 479,
+    "video_id": "SRq0weUKskM"
+   },
+   {
+    "draw_index": 4,
+    "n_candidates": 8,
+    "pair": 8,
+    "qid": "TZ0j6kr4ZJ0#1430",
+    "uid": 1430,
+    "uid_min": 1417,
+    "video_id": "TZ0j6kr4ZJ0"
+   },
+   {
+    "draw_index": 3,
+    "n_candidates": 5,
+    "pair": 10,
+    "qid": "W-BnDvXXfOs#4976",
+    "uid": 4976,
+    "uid_min": 4964,
+    "video_id": "W-BnDvXXfOs"
+   },
+   {
+    "draw_index": 3,
+    "n_candidates": 11,
+    "pair": 11,
+    "qid": "Z4HGQL_McDQ#1118",
+    "uid": 1118,
+    "uid_min": 1112,
+    "video_id": "Z4HGQL_McDQ"
+   },
+   {
+    "draw_index": 3,
+    "n_candidates": 6,
+    "pair": 12,
+    "qid": "Z86xysw5Ncc#4207",
+    "uid": 4207,
+    "uid_min": 4195,
+    "video_id": "Z86xysw5Ncc"
+   },
+   {
+    "draw_index": 2,
+    "n_candidates": 3,
+    "pair": 14,
+    "qid": "pXD3txG2bVQ#747",
+    "uid": 747,
+    "uid_min": 730,
+    "video_id": "pXD3txG2bVQ"
+   },
+   {
+    "draw_index": 2,
+    "n_candidates": 4,
+    "pair": 15,
+    "qid": "pe_LddfHAUU#5116",
+    "uid": 5116,
+    "uid_min": 5110,
+    "video_id": "pe_LddfHAUU"
+   },
+   {
+    "draw_index": 6,
+    "n_candidates": 7,
+    "pair": 16,
+    "qid": "qAIRFyR6NyQ#23",
+    "uid": 23,
+    "uid_min": 2,
+    "video_id": "qAIRFyR6NyQ"
+   }
+  ],
+  "covered_rule": "only units whose drawn question is the archived min-uid question have an archived counterpart; changed units are excluded, not counted as mismatches; uniform@16/no_frames are compared only in pilot mode, where this reading measures them",
+  "mismatches": [],
+  "n_changed_units": 11,
+  "n_expected": 5,
+  "n_mismatch": 0,
+  "n_overlap": 5,
+  "ok": true,
+  "path": "sources/task-68cebbe16b/results/twin5_P1_carrier_samples.jsonl",
+  "per_arm_coverage_complete": true
+ },
+ "independent_unit": "video (one twin pair per video)",
+ "instrument_controls": {
+  "answer_visibility": {
+   "all_answer_correct": true,
+   "all_score_correct": true,
+   "chance": 0.25,
+   "hits_answer": 6,
+   "hits_score": 6,
+   "n": 6,
+   "renderer": [
+    "ImageFont.load_default(size=44) on 448x448"
+   ],
+   "rule": "reported through the same answer path and the same single-image scoring path the readings use; it is a positive control and enters no table.",
+   "stimulus": "SYNTHETIC CONTROL, not carrier data: a blank frame with the correct option's word painted on it, four options, the correct option's letter cycles A,B,C,D across the units. The model is guaranteed to be able to answer it; anything below n/n points at the prompt template, the option<->letter map or the letter extraction, not at the model.",
+   "units": [
+    {
+     "answer_correct": true,
+     "answer_letter": "A",
+     "answer_raw": "A",
+     "gold": "A",
+     "i": 0,
+     "options": [
+      "SEVENTEEN",
+      "ORANGE",
+      "GUITAR",
+      "PLANET"
+     ],
+     "score_correct": true,
+     "score_letter": "A",
+     "word": "SEVENTEEN"
+    },
+    {
+     "answer_correct": true,
+     "answer_letter": "B",
+     "answer_raw": "B",
+     "gold": "B",
+     "i": 1,
+     "options": [
+      "SEVENTEEN",
+      "ORANGE",
+      "GUITAR",
+      "PLANET"
+     ],
+     "score_correct": true,
+     "score_letter": "B",
+     "word": "ORANGE"
+    },
+    {
+     "answer_correct": true,
+     "answer_letter": "C",
+     "answer_raw": "C",
+     "gold": "C",
+     "i": 2,
+     "options": [
+      "SEVENTEEN",
+      "ORANGE",
+      "GUITAR",
+      "PLANET"
+     ],
+     "score_correct": true,
+     "score_letter": "C",
+     "word": "GUITAR"
+    },
+    {
+     "answer_correct": true,
+     "answer_letter": "D",
+     "answer_raw": "D",
+     "gold": "D",
+     "i": 3,
+     "options": [
+      "SEVENTEEN",
+      "ORANGE",
+      "GUITAR",
+      "PLANET"
+     ],
+     "score_correct": true,
+     "score_letter": "D",
+     "word": "PLANET"
+    },
+    {
+     "answer_correct": true,
+     "answer_letter": "A",
+     "answer_raw": "A",
+     "gold": "A",
+     "i": 4,
+     "options": [
+      "SEVENTEEN",
+      "ORANGE",
+      "GUITAR",
+      "PLANET"
+     ],
+     "score_correct": true,
+     "score_letter": "A",
+     "word": "SEVENTEEN"
+    },
+    {
+     "answer_correct": true,
+     "answer_letter": "B",
+     "answer_raw": "B",
+     "gold": "B",
+     "i": 5,
+     "options": [
+      "SEVENTEEN",
+      "ORANGE",
+      "GUITAR",
+      "PLANET"
+     ],
+     "score_correct": true,
+     "score_letter": "B",
+     "word": "ORANGE"
+    }
+   ]
+  },
+  "determinism": {
+   "all_agree": true,
+   "n_agree": 3,
+   "n_paths": 3,
+   "paths": [
+    {
+     "agree": true,
+     "kind": "answer",
+     "letter_agree": true,
+     "letters": [
+      "C",
+      "C"
+     ],
+     "logits_identical": null,
+     "n_images": 16,
+     "path": "answer_16_frames",
+     "raw": [
+      "C",
+      "C"
+     ],
+     "raw_agree": true
+    },
+    {
+     "agree": true,
+     "kind": "answer",
+     "letter_agree": true,
+     "letters": [
+      "C",
+      "C"
+     ],
+     "logits_identical": null,
+     "n_images": 1,
+     "path": "answer_1_frame",
+     "raw": [
+      "C",
+      "C"
+     ],
+     "raw_agree": true
+    },
+    {
+     "agree": true,
+     "kind": "score",
+     "letter_agree": true,
+     "letters": [
+      [
+       "C"
+      ],
+      [
+       "C"
+      ]
+     ],
+     "logits_identical": true,
+     "n_images": 1,
+     "path": "score_1_image",
+     "raw": [
+      null,
+      null
+     ],
+     "raw_agree": null
+    }
+   ],
+   "rule": "the same call, twice, on each of the three prompt paths. The 16-frame answer path, the 1-frame answer path and the single-image scoring path are all repeated inside the run; a repeat that only re-runs one path cannot say anything about the other two."
+  },
+  "letter_decode": {
+   "all_ok": true,
+   "rows": [
+    {
+     "decoded": "A",
+     "id": 32,
+     "letter": "A",
+     "ok": true
+    },
+    {
+     "decoded": "B",
+     "id": 33,
+     "letter": "B",
+     "ok": true
+    },
+    {
+     "decoded": "C",
+     "id": 34,
+     "letter": "C",
+     "ok": true
+    },
+    {
+     "decoded": "D",
+     "id": 35,
+     "letter": "D",
+     "ok": true
+    },
+    {
+     "decoded": "E",
+     "id": 36,
+     "letter": "E",
+     "ok": true
+    }
+   ],
+   "rule": "each option letter is a single token; decoding that id must give the same letter back, so an id->letter offset cannot pass unnoticed"
+  },
+  "option_control": {
+   "arithmetic_ok": true,
+   "fault_injection": {
+    "fired": false,
+    "identity": {
+     "every_differing_pair_caught": true,
+     "n_contradictions": 4,
+     "n_evaluable": 12,
+     "n_pairs": 12,
+     "n_pairs_where_corrupted_target_differs": 4,
+     "status": "not_discriminating"
+    },
+    "identity_reproduces_reported": true,
+    "partial_half": {
+     "every_differing_pair_caught": true,
+     "n_contradictions": 8,
+     "n_evaluable": 12,
+     "n_pairs": 12,
+     "n_pairs_where_corrupted_target_differs": 8,
+     "status": "not_discriminating"
+    },
+    "partial_half_parity": 0,
+    "rule": "the same comparison function that produces `mapping` is re-run with the letter->option index map deliberately offset (identity, +1, -1, and +1 on one parity). A criterion that derived the option text from the letter would be invariant to all four. `fired` is true only when the offset is caught on every pair it touches, the identity run reproduces the reported count, and the offset verdict is fail. This tests the comparison, not the real wiring.",
+    "shift_minus1": {
+     "every_differing_pair_caught": true,
+     "n_contradictions": 10,
+     "n_evaluable": 12,
+     "n_pairs": 12,
+     "n_pairs_where_corrupted_target_differs": 10,
+     "status": "not_discriminating"
+    },
+    "shift_plus1": {
+     "every_differing_pair_caught": true,
+     "n_contradictions": 11,
+     "n_evaluable": 12,
+     "n_pairs": 12,
+     "n_pairs_where_corrupted_target_differs": 11,
+     "status": "not_discriminating"
+    },
+    "verdict_changes": false
+   },
+   "mapping": {
+    "contradiction_counts": {
+     "corrected_exact_first": {
+      "contradictions_plus_unevaluable": 4,
+      "n_contradictions": 4,
+      "n_evaluable": 12,
+      "rule": "Plan -r4 \u00a713a: an exact match outranks a containment match; longest match only as the fallback when nothing is exact",
+      "status": "not_discriminating"
+     },
+     "old_rule_longest_match": {
+      "contradictions_plus_unevaluable": 4,
+      "n_contradictions": 4,
+      "n_evaluable": 12,
+      "rule": "the superseded parse: the longest candidate wins even when a shorter candidate is an exact match of the reply (instance 2sriHX3PbXw#511, permuted order)",
+      "status": "not_discriminating",
+      "tolerance_b": 10
+     },
+     "pairs": [
+      {
+       "contradiction": false,
+       "evaluable": true,
+       "letter": "C",
+       "letter_points_at": "Seven colors",
+       "named_parse_old_rule": "exact",
+       "named_text_old_rule": "Seven colors",
+       "order": "original",
+       "qid": "16Z-XQh9jhk#2266"
+      },
+      {
+       "contradiction": false,
+       "evaluable": true,
+       "letter": "A",
+       "letter_points_at": "Seven colors",
+       "named_parse_old_rule": "exact",
+       "named_text_old_rule": "Seven colors",
+       "order": "permuted",
+       "qid": "16Z-XQh9jhk#2266"
+      },
+      {
+       "contradiction": true,
+       "evaluable": true,
+       "letter": "C",
+       "letter_points_at": "Bateleur",
+       "named_parse_old_rule": "exact",
+       "named_text_old_rule": "Namaqua doves",
+       "order": "original",
+       "qid": "GcRKREorGSc#991"
+      },
+      {
+       "contradiction": true,
+       "evaluable": true,
+       "letter": "B",
+       "letter_points_at": "Bateleur",
+       "named_parse_old_rule": "exact",
+       "named_text_old_rule": "Namaqua doves",
+       "order": "permuted",
+       "qid": "GcRKREorGSc#991"
+      },
+      {
+       "contradiction": false,
+       "evaluable": true,
+       "letter": "D",
+       "letter_points_at": "49%",
+       "named_parse_old_rule": "exact",
+       "named_text_old_rule": "49%",
+       "order": "original",
+       "qid": "JPPMz8fEml0#2958"
+      },
+      {
+       "contradiction": false,
+       "evaluable": true,
+       "letter": "A",
+       "letter_points_at": "49%",
+       "named_parse_old_rule": "exact",
+       "named_text_old_rule": "49%",
+       "order": "permuted",
+       "qid": "JPPMz8fEml0#2958"
+      },
+      {
+       "contradiction": false,
+       "evaluable": true,
+       "letter": "B",
+       "letter_points_at": "8 months ago",
+       "named_parse_old_rule": "exact",
+       "named_text_old_rule": "8 months ago",
+       "order": "original",
+       "qid": "KktLi3UifPY#1176"
+      },
+      {
+       "contradiction": false,
+       "evaluable": true,
+       "letter": "B",
+       "letter_points_at": "8 months ago",
+       "named_parse_old_rule": "exact",
+       "named_text_old_rule": "8 months ago",
+       "order": "permuted",
+       "qid": "KktLi3UifPY#1176"
+      },
+      {
+       "contradiction": true,
+       "evaluable": true,
+       "letter": "D",
+       "letter_points_at": "Sakura",
+       "named_parse_old_rule": "exact",
+       "named_text_old_rule": "Mount Fuji",
+       "order": "original",
+       "qid": "RCAqKnvu_P0#2898"
+      },
+      {
+       "contradiction": true,
+       "evaluable": true,
+       "letter": "A",
+       "letter_points_at": "Sakura",
+       "named_parse_old_rule": "exact",
+       "named_text_old_rule": "Mount Fuji",
+       "order": "permuted",
+       "qid": "RCAqKnvu_P0#2898"
+      },
+      {
+       "contradiction": false,
+       "evaluable": true,
+       "letter": "B",
+       "letter_points_at": "By the sea",
+       "named_parse_old_rule": "exact",
+       "named_text_old_rule": "By the sea",
+       "order": "original",
+       "qid": "RbpKkvlHYTw#2805"
+      },
+      {
+       "contradiction": false,
+       "evaluable": true,
+       "letter": "A",
+       "letter_points_at": "By the sea",
+       "named_parse_old_rule": "exact",
+       "named_text_old_rule": "By the sea",
+       "order": "permuted",
+       "qid": "RbpKkvlHYTw#2805"
+      }
+     ],
+     "printed_both_because": "review \u00a71.2 condition 3: the corrected count must never be printed alone, because the fix can only lower it"
+    },
+    "contradictions": [
+     {
+      "letter": "C",
+      "letter_points_at": "Bateleur",
+      "named_text": "Namaqua doves",
+      "order": "original",
+      "qid": "GcRKREorGSc#991",
+      "raw_named": "Namaqua doves\""
+     },
+     {
+      "letter": "B",
+      "letter_points_at": "Bateleur",
+      "named_text": "Namaqua doves",
+      "order": "permuted",
+      "qid": "GcRKREorGSc#991",
+      "raw_named": "Namaqua doves\""
+     },
+     {
+      "letter": "D",
+      "letter_points_at": "Sakura",
+      "named_text": "Mount Fuji",
+      "order": "original",
+      "qid": "RCAqKnvu_P0#2898",
+      "raw_named": "Mount Fuji\"."
+     },
+     {
+      "letter": "A",
+      "letter_points_at": "Sakura",
+      "named_text": "Mount Fuji",
+      "order": "permuted",
+      "qid": "RCAqKnvu_P0#2898",
+      "raw_named": "Mount Fuji\"."
+     }
+    ],
+    "contradictions_plus_unevaluable": 4,
+    "coverage": {
+     "e_max_allowed": 5,
+     "max_absorbable_unevaluable_pairs": 3,
+     "n_evaluable": 12,
+     "n_pairs": 12,
+     "n_unevaluable": 0,
+     "observed_coverage_frac": 1.0,
+     "required_coverage_frac": 0.5833333333333334,
+     "required_pairs_for_a_pass": 7,
+     "rule": "e_max = the largest e with e <= B(n_pairs - e, p_hi) (C = 0, the most favourable case); a cell with more than e_max unevaluable pairs cannot pass at any contradiction count.  required_coverage_frac = (n_pairs - e_max)/n_pairs.  slack_b_minus_c = B - C is the distance from the line at the observed n_eval; it is NOT how many further unevaluable pairs this run could absorb, because B shrinks with each one.  That quantity is max_absorbable_unevaluable_pairs = the largest e' with C + e' <= B(n_pairs - e', p_hi); quote that one for 'how many more the run could take'.  (This replaces the field `margin_pairs`, whose definition was B - C while its prose claimed the absorbable count.)",
+     "slack_b_minus_c": 6,
+     "sufficient": true
+    },
+    "fault_injection": {
+     "fired": false,
+     "identity": {
+      "every_differing_pair_caught": true,
+      "n_contradictions": 4,
+      "n_evaluable": 12,
+      "n_pairs": 12,
+      "n_pairs_where_corrupted_target_differs": 4,
+      "status": "not_discriminating"
+     },
+     "identity_reproduces_reported": true,
+     "partial_half": {
+      "every_differing_pair_caught": true,
+      "n_contradictions": 8,
+      "n_evaluable": 12,
+      "n_pairs": 12,
+      "n_pairs_where_corrupted_target_differs": 8,
+      "status": "not_discriminating"
+     },
+     "partial_half_parity": 0,
+     "rule": "the same comparison function that produces `mapping` is re-run with the letter->option index map deliberately offset (identity, +1, -1, and +1 on one parity). A criterion that derived the option text from the letter would be invariant to all four. `fired` is true only when the offset is caught on every pair it touches, the identity run reproduces the reported count, and the offset verdict is fail. This tests the comparison, not the real wiring.",
+     "shift_minus1": {
+      "every_differing_pair_caught": true,
+      "n_contradictions": 10,
+      "n_evaluable": 12,
+      "n_pairs": 12,
+      "n_pairs_where_corrupted_target_differs": 10,
+      "status": "not_discriminating"
+     },
+     "shift_plus1": {
+      "every_differing_pair_caught": true,
+      "n_contradictions": 11,
+      "n_evaluable": 12,
+      "n_pairs": 12,
+      "n_pairs_where_corrupted_target_differs": 11,
+      "status": "not_discriminating"
+     },
+     "verdict_changes": false
+    },
+    "mapping_ok": false,
+    "n_contradictions": 4,
+    "n_evaluable": 12,
+    "n_letter_missing": 0,
+    "n_letter_reply": 0,
+    "n_letter_reply_after_escalation": 0,
+    "n_orders_per_unit": 2,
+    "n_pairs": 12,
+    "n_recovered_pairs": 0,
+    "n_refusal_like": 0,
+    "n_refusal_matched_option": 0,
+    "n_refusal_no_option": 0,
+    "n_resolved_by_escalation": 0,
+    "n_unevaluable_charged": 0,
+    "n_units": 6,
+    "n_units_with_refusal_option": 0,
+    "n_unparseable": 0,
+    "naming_retest": {
+     "channels": {
+      "A": "primary (option texts only, no letter labels) -- feeds `mapping`",
+      "B": "test-retest (same texts, same order, with the letter labels)"
+     },
+     "disagreement_rate": 0.25,
+     "identical_repeat": {
+      "n": 2,
+      "n_identical": 2,
+      "structurally_zero_note": "a greedy decode repeated with the same prompt is bit-identical by construction, so this is a check that the naming decode path is deterministic and NOT the noise floor"
+     },
+     "n_both_parsed": 8,
+     "n_disagree": 2,
+     "n_letter_reply_A": 0,
+     "n_letter_reply_B": 0,
+     "n_pairs": 12,
+     "rule": "the noise floor is the A-vs-B disagreement rate: same question, same option texts, same order, only the option-list labelling differs, so the answer should not change. Its one-sided 95% upper bound SETS the pass line of `mapping` (see `mapping.pass_line`, Plan r3 \u00a710); it is not decoration."
+    },
+    "naming_rule": "a bare-letter reply is classified `letter_reply`, escalated ONCE with the block applied to the first two generated positions and an instruction not to write a letter, and either resolved by that retry (`resolved_by_escalation`) or recorded as `letter_reply_after_escalation` and counted unevaluable. The letter is never converted into option text.",
+    "pass_line": {
+     "alpha_one_sided": 0.05,
+     "can_prove": "a gross mis-wiring only: a fault that contradicts on a large share of the 48 pairs is rejected (the smallest detectable rate is reported)",
+     "cannot_prove": "that the letter<->option map is correct; a fault on a minority of pairs is invisible at 48 pairs",
+     "contradiction_rate": 0.3333333333333333,
+     "contradictions_plus_unevaluable": 4,
+     "coverage": {
+      "e_max_allowed": 5,
+      "max_absorbable_unevaluable_pairs": 3,
+      "n_evaluable": 12,
+      "n_pairs": 12,
+      "n_unevaluable": 0,
+      "observed_coverage_frac": 1.0,
+      "required_coverage_frac": 0.5833333333333334,
+      "required_pairs_for_a_pass": 7,
+      "rule": "e_max = the largest e with e <= B(n_pairs - e, p_hi) (C = 0, the most favourable case); a cell with more than e_max unevaluable pairs cannot pass at any contradiction count.  required_coverage_frac = (n_pairs - e_max)/n_pairs.  slack_b_minus_c = B - C is the distance from the line at the observed n_eval; it is NOT how many further unevaluable pairs this run could absorb, because B shrinks with each one.  That quantity is max_absorbable_unevaluable_pairs = the largest e' with C + e' <= B(n_pairs - e', p_hi); quote that one for 'how many more the run could take'.  (This replaces the field `margin_pairs`, whose definition was B - C while its prose claimed the absorbable count.)",
+      "slack_b_minus_c": 6,
+      "sufficient": true
+     },
+     "demoted_naming_unstable": true,
+     "mapping_ok": false,
+     "n_contradictions": 4,
+     "n_evaluable": 12,
+     "n_pairs": 12,
+     "n_retest_both": 8,
+     "n_retest_disagree": 2,
+     "n_unevaluable": 0,
+     "naming_step_unstable": true,
+     "p_retest": 0.25,
+     "p_retest_upper95": 0.5996893891908329,
+     "passes_only_because_of_noise": false,
+     "r2_rule_status": "pass",
+     "reason": "naming step unstable: p_hi = 0.5997 >= 0.35 (the registered demotion): reported, no pass",
+     "refusal_rule": "a reply that normalises to one of REFUSAL_PHRASES is a refusal, not an unparseable answer: if the unit's own option list contains an option with that normalised text it names that option (refusal_matched_option) and the pair is judged; otherwise the pair stays unevaluable (refusal_no_option) and is charged as a worst-case contradiction. A refusal is never mapped onto a neighbouring option by meaning.",
+     "rule": "registered in Plan plan-single-frame-random-question-r3 \u00a79-\u00a710 (control C; it supersedes the r2 \u00a75 line, and the r2 verdict on the same numbers is reported as r2_rule_status). A pair is judged by the same comparison as before: the option the letter points at must equal the option the model names in free text on that same order, never derived from the letter. What changed is the treatment of a pair that could not be judged: it is charged as a worst-case contradiction. pass iff C + e <= B and e <= e_max; fail iff C > B (the contradictions alone exceed the line); incomplete iff C <= B < C + e, or e > e_max (too little coverage: no verdict can be given and the cell does not report); not_discriminating iff no pair was parsed on both channels, or p_hi >= 0.35 (the naming step is too unstable to gate a map). B = quantile_0.95(Binomial(n_eval, p_hi)), p_hi = one-sided 95% Clopper-Pearson upper bound on the naming test-retest rate on the same pairs, e_max = the largest e with e <= B(n_pairs - e, p_hi). B_strict is the same line at retest 0/n_pairs. A pass says no gross mis-wiring, never that the map is correct.",
+     "sensitivity": {
+      "permutation_seed": {
+       "measured_here": false,
+       "quoted_from": "evidence.task-6e86f0d18c (rerun_of task-c0dda04c23, seed 1, same commit, same 24 units, same draw; only the option permutation differs): n_retest_disagree/n_retest_both = 8/29, p_retest_upper95 = 0.4429, verdict not_discriminating",
+       "why": "a different permutation needs new letter asks (forwards), so it cannot be recomputed from this run's pairs; quoted, not measured here"
+      },
+      "point_estimate_noise": {
+       "contradictions_plus_unevaluable": 4,
+       "p_retest_point": 0.25,
+       "status": "pass",
+       "tolerance_b": 6,
+       "what": "B at the observed retest rate (p_hat) instead of its 95% upper bound"
+      },
+      "rule": "reported only, no forward pass; the registered verdict is `status`. Both lines are computed from this run's own pairs.",
+      "worst_case_noise_denominator": {
+       "n_both_charged": 12,
+       "n_disagree_charged": 6,
+       "p_retest_upper95": 0.7547001987258748,
+       "status": "not_discriminating",
+       "what": "pairs whose retest channel named no option are charged as disagreements -- the same worst-case principle the criterion applies to unevaluable pairs"
+      }
+     },
+     "smallest_detectable_rate": 0.9700000000000008,
+     "status": "not_discriminating",
+     "tolerance_b": 10,
+     "tolerance_b_strict": 5,
+     "why_the_line_changed": "two after-the-fact corrections, both written down before the run that uses them. (1) r2's zero tolerance was withdrawn because the naming step disagrees with itself on 1 of 8 pairs on the same question, so a 48-pair cell passed at 0.0016 and the criterion could only ever withhold. (2) r2's coverage = 1 rule was withdrawn for the same reason one level up: one unit that refuses to name an option made the whole cell incomplete, and under the same 95% convention a coverage = 1 rule withholds about 99% of runs of this size whatever the map does. Unevaluable pairs are now charged as contradictions, which is never looser than the r2 line: at the same n_eval it demands C <= B - e, i.e. strictly fewer contradictions."
+    },
+    "r2_rule_status": "pass",
+    "reason": "naming step unstable: p_hi = 0.5997 >= 0.35 (the registered demotion): reported, no pass",
+    "recovered_pairs": [],
+    "refusal_phrases": [
+     "none of the above",
+     "none of these",
+     "none of the options",
+     "none of the choices",
+     "not enough information",
+     "cannot be determined",
+     "insufficient information"
+    ],
+    "rule": "THE CRITERION. For each unit and each option order, opts[idx(letter)] must equal the option the model names in free text on that same order, read from the naming ask and matched on normalised strings. Never derived from the letter. The PASS LINE is the one registered in Plan plan-single-frame-random-question-r3 \u00a79-\u00a710 and computed in `mapping_pass_line`: a pair that cannot be judged is charged as a worst-case contradiction, so pass iff C + e <= B (the contradiction count plus the unevaluable pairs does not exceed what the naming step's own test-retest rate can produce at 95%) and e <= e_max (the derived coverage floor); fail iff C > B; incomplete iff C <= B < C + e or e > e_max. A pass says 'no gross mis-wiring', never 'the map is correct'.",
+    "status": "not_discriminating",
+    "unevaluable_pairs": [],
+    "why_split": "the r2 rule `n_text_preserved == n` measured the model's sensitivity to option order (5/6, 4/6, 2/3, 5/6; 0 of 4 cells passed) while 0 of 21 units carried the mapping-fault signature; it was withdrawn as an after-the-fact change and the corrected control re-run",
+    "why_the_line_changed": "two after-the-fact corrections. (1) The line used to be zero contradictions; the naming step disagrees with itself on 1 of 8 pairs when only the option-list labelling changes, so a 48-pair cell passed at 0.0016 and the criterion could only ever withhold; it was replaced by the line derived from that same measured rate on the same pairs (r2 \u00a75). (2) That line still demanded every pair evaluable, which made one refusing unit enough to withhold the cell; unevaluable pairs are now charged as worst-case contradictions and the coverage floor is derived from the same inequality (r3 \u00a710). At e = 0 the two versions agree; at e > 0 r3 demands strictly fewer contradictions. The criterion, the pairs and the consequence (landing = null unless pass) are unchanged."
+   },
+   "n": 6,
+   "naming_block": {
+    "computed_from": "the tokenizer's own vocabulary: every id that decodes to a bare single Latin letter (any case, optionally wrapped in ()/[] and/or closed with . : ) -), plus the same check applied again at the second generated position when the first generated token is whitespace only",
+    "ids": [
+     32,
+     33,
+     34,
+     35,
+     36,
+     37,
+     38,
+     39,
+     40,
+     41,
+     42,
+     43,
+     44,
+     45,
+     46,
+     47,
+     48,
+     49,
+     50,
+     51,
+     52,
+     53,
+     54,
+     55,
+     56,
+     57,
+     64,
+     65,
+     66,
+     67,
+     68,
+     69,
+     70,
+     71,
+     72,
+     73,
+     74,
+     75,
+     76,
+     77,
+     78,
+     79,
+     80,
+     81,
+     82,
+     83,
+     84,
+     85,
+     86,
+     87,
+     88,
+     89,
+     259,
+     264,
+     272,
+     274,
+     281,
+     282,
+     289,
+     293,
+     294,
+     296,
+     297,
+     305,
+     308,
+     326,
+     328,
+     342,
+     348,
+     350,
+     356,
+     358,
+     362,
+     379,
+     384,
+     386,
+     393,
+     422,
+     425,
+     431,
+     434,
+     435,
+     444,
+     451,
+     467,
+     468,
+     472,
+     479,
+     502,
+     506,
+     547,
+     575,
+     595,
+     600,
+     619,
+     647,
+     730,
+     809,
+     856,
+     955,
+     1141,
+     1147,
+     1155,
+     1207,
+     1255,
+     1295,
+     1337,
+     1445,
+     1500,
+     1599,
+     1863,
+     1883,
+     1956,
+     2026,
+     2075,
+     2333,
+     2601,
+     2785,
+     2804,
+     2877,
+     3025,
+     3189,
+     3203,
+     3268,
+     3325,
+     3622,
+     3747,
+     3759,
+     4140,
+     4346,
+     4957,
+     5304,
+     5349,
+     5432,
+     5969,
+     6253,
+     6699,
+     7021,
+     7644,
+     7832,
+     8154,
+     8204,
+     8972,
+     10108,
+     10583,
+     10722,
+     10896,
+     12317,
+     12410,
+     13174,
+     14031,
+     16368,
+     16738,
+     19238,
+     20206,
+     27855
+    ],
+    "n_ids": 156,
+    "supersedes": "the v3 `naming_first_token_block.ids` = [32, 33, 34, 35, 36]",
+    "what": "those ids are suppressed at the first generated token of the naming ask only (and at the second position on the escalation retry), so the answer cannot be a bare letter. No option is favoured: only single-letter tokens are removed, and a letter that is itself an option's whole text is not removed for that unit (`blocking_conflicts_with_option`).",
+    "why": "v1 and v2 both got a bare letter back under two different instructions (task-bbb62d92f8, task-83b6aa08bc: 0 of 30 pairs evaluable each), and v3's hard-coded ids 32-36 (upper-case A-E only) were bypassed with lower-case d/c/b and out-of-range F/G/H/M (task-f0d4a231c4: 26 of 42 unevaluable)"
+   },
+   "naming_escalation_instruction": "Write only that option's words. Do not write a letter or a number.",
+   "naming_forced_prefix": "The option text is: \"",
+   "naming_max_new_tokens": 96,
+   "naming_prompt_template": "<question>\n- <option 1>\n- <option 2>\nWhich option answers the question? Copy that option's text exactly as it is written above, without its letter.",
+   "naming_prompt_template_channel_B": "<question>\nA. <option 1>\nB. <option 2>\nWhich option answers the question? Copy that option's text exactly as it is written above, without its letter.",
+   "naming_retest": {
+    "channels": {
+     "A": "primary (option texts only, no letter labels) -- feeds `mapping`",
+     "B": "test-retest (same texts, same order, with the letter labels)"
+    },
+    "disagreement_rate": 0.25,
+    "identical_repeat": {
+     "n": 2,
+     "n_identical": 2,
+     "structurally_zero_note": "a greedy decode repeated with the same prompt is bit-identical by construction, so this is a check that the naming decode path is deterministic and NOT the noise floor"
+    },
+    "n_both_parsed": 8,
+    "n_disagree": 2,
+    "n_letter_reply_A": 0,
+    "n_letter_reply_B": 0,
+    "n_pairs": 12,
+    "rule": "the noise floor is the A-vs-B disagreement rate: same question, same option texts, same order, only the option-list labelling differs, so the answer should not change. Its one-sided 95% upper bound SETS the pass line of `mapping` (see `mapping.pass_line`, Plan r3 \u00a710); it is not decoration."
+   },
+   "order_sensitivity": {
+    "hits_original": 5,
+    "hits_permuted": 5,
+    "mapping_fault_signature": "text preserved AND the text's index was moved by the permutation AND the letter did not move",
+    "mapping_fault_signature_note": "structurally zero when `text` is derived from the letter (text preserved forces perm[li] == li), which is exactly why the criterion had to move to the free-text naming ask",
+    "n": 6,
+    "n_mapping_fault_signature": 0,
+    "n_text_preserved": 6,
+    "no_pass_line": true,
+    "patterns": {
+     "S1_text_preserved_letter_moved": 5,
+     "S2_text_preserved_letter_stayed": 1,
+     "S3_text_changed_letter_moved": 0,
+     "S4_text_changed_letter_stayed": 0,
+     "note": "text here is the option the letter points at, as in r2: this half is a description of how the answers moved when the options were rotated, and it decides nothing. The criterion is `mapping` above and it does not derive text from the letter."
+    }
+   },
+   "rule": "same frames, same question, option order rotated with a permutation drawn from EXP_SEED. What this control reports is split in two: `mapping` (criterion) and `order_sensitivity` (quantity, no pass line). The naming step is read on two channels (A primary, B test-retest) and the criterion is self-tested by a deliberate offset of the letter->option map.",
+   "units": [
+    {
+     "arm": "single_clean",
+     "chosen_text": "Seven colors",
+     "chosen_text_permuted": "Seven colors",
+     "correct_orig": false,
+     "correct_permuted": false,
+     "gold": "B",
+     "gold_permuted": "B",
+     "gold_permuted_is_arithmetic": true,
+     "identical_repeat": {
+      "identical": true,
+      "named_text": "Seven colors",
+      "parse": "exact",
+      "raw": "Seven colors\""
+     },
+     "letter": "C",
+     "letter_moved": true,
+     "letter_permuted": "A",
+     "n_options": 4,
+     "naming": {
+      "original": {
+       "A": {
+        "block_steps": [
+         0
+        ],
+        "blocking_conflicts_with_option": [],
+        "escalated": false,
+        "n_blocked_ids": 156,
+        "n_matching_options": 1,
+        "named_text": "Seven colors",
+        "parse": "exact",
+        "raw": "Seven colors\"",
+        "shown": "Seven colors"
+       },
+       "B": {
+        "block_steps": [
+         0
+        ],
+        "blocking_conflicts_with_option": [],
+        "escalated": false,
+        "n_blocked_ids": 156,
+        "n_matching_options": 0,
+        "named_text": null,
+        "parse": "unparseable",
+        "raw": "Which option answers the question? Copy that option's text exactly as it is written above, without its letter.\"",
+        "shown": "Which option answers the question? Copy that option's text exactly as it is written above, without its letter."
+       }
+      },
+      "permuted": {
+       "A": {
+        "block_steps": [
+         0
+        ],
+        "blocking_conflicts_with_option": [],
+        "escalated": false,
+        "n_blocked_ids": 156,
+        "n_matching_options": 1,
+        "named_text": "Seven colors",
+        "parse": "exact",
+        "raw": "Seven colors\"",
+        "shown": "Seven colors"
+       },
+       "B": {
+        "block_steps": [
+         0
+        ],
+        "blocking_conflicts_with_option": [],
+        "escalated": false,
+        "n_blocked_ids": 156,
+        "n_matching_options": 0,
+        "named_text": null,
+        "parse": "unparseable",
+        "raw": "Which option answers the question? Copy that option's text exactly as it is written above, without its letter.\"",
+        "shown": "Which option answers the question? Copy that option's text exactly as it is written above, without its letter."
+       }
+      }
+     },
+     "options": [
+      "Five colors",
+      "Six colors",
+      "Seven colors",
+      "Four colors"
+     ],
+     "options_permuted": [
+      "Seven colors",
+      "Six colors",
+      "Four colors",
+      "Five colors"
+     ],
+     "options_permuted_is_arithmetic": true,
+     "pairs": [
+      {
+       "agrees": true,
+       "evaluable": true,
+       "identical_repeat": {
+        "identical": true,
+        "named_text": "Seven colors",
+        "parse": "exact",
+        "raw": "Seven colors\""
+       },
+       "letter": "C",
+       "letter_index": 2,
+       "letter_points_at": "Seven colors",
+       "n_matching_options": 1,
+       "n_options": 4,
+       "named_parse": "exact",
+       "named_text": "Seven colors",
+       "naming": {
+        "block_steps": [
+         0
+        ],
+        "blocking_conflicts_with_option": [],
+        "escalated": false,
+        "n_blocked_ids": 156,
+        "n_matching_options": 1,
+        "named_text": "Seven colors",
+        "parse": "exact",
+        "raw": "Seven colors\"",
+        "shown": "Seven colors"
+       },
+       "options": [
+        "Five colors",
+        "Six colors",
+        "Seven colors",
+        "Four colors"
+       ],
+       "order": "original",
+       "raw_named": "Seven colors\"",
+       "retest": {
+        "block_steps": [
+         0
+        ],
+        "blocking_conflicts_with_option": [],
+        "escalated": false,
+        "n_blocked_ids": 156,
+        "n_matching_options": 0,
+        "named_text": null,
+        "parse": "unparseable",
+        "raw": "Which option answers the question? Copy that option's text exactly as it is written above, without its letter.\"",
+        "shown": "Which option answers the question? Copy that option's text exactly as it is written above, without its letter."
+       }
+      },
+      {
+       "agrees": true,
+       "evaluable": true,
+       "identical_repeat": null,
+       "letter": "A",
+       "letter_index": 0,
+       "letter_points_at": "Seven colors",
+       "n_matching_options": 1,
+       "n_options": 4,
+       "named_parse": "exact",
+       "named_text": "Seven colors",
+       "naming": {
+        "block_steps": [
+         0
+        ],
+        "blocking_conflicts_with_option": [],
+        "escalated": false,
+        "n_blocked_ids": 156,
+        "n_matching_options": 1,
+        "named_text": "Seven colors",
+        "parse": "exact",
+        "raw": "Seven colors\"",
+        "shown": "Seven colors"
+       },
+       "options": [
+        "Seven colors",
+        "Six colors",
+        "Four colors",
+        "Five colors"
+       ],
+       "order": "permuted",
+       "raw_named": "Seven colors\"",
+       "retest": {
+        "block_steps": [
+         0
+        ],
+        "blocking_conflicts_with_option": [],
+        "escalated": false,
+        "n_blocked_ids": 156,
+        "n_matching_options": 0,
+        "named_text": null,
+        "parse": "unparseable",
+        "raw": "Which option answers the question? Copy that option's text exactly as it is written above, without its letter.\"",
+        "shown": "Which option answers the question? Copy that option's text exactly as it is written above, without its letter."
+       }
+      }
+     ],
+     "perm_fixes_chosen_index": false,
+     "perm_is_a_permutation": true,
+     "permutation": [
+      2,
+      1,
+      3,
+      0
+     ],
+     "qid": "16Z-XQh9jhk#2266",
+     "raw": "C",
+     "raw_permuted": "A",
+     "text_preserved": true
+    },
+    {
+     "arm": "single_clean",
+     "chosen_text": "Bateleur",
+     "chosen_text_permuted": "Bateleur",
+     "correct_orig": true,
+     "correct_permuted": true,
+     "gold": "C",
+     "gold_permuted": "B",
+     "gold_permuted_is_arithmetic": true,
+     "identical_repeat": {
+      "identical": true,
+      "named_text": "Namaqua doves",
+      "parse": "exact",
+      "raw": "Namaqua doves\""
+     },
+     "letter": "C",
+     "letter_moved": true,
+     "letter_permuted": "B",
+     "n_options": 4,
+     "naming": {
+      "original": {
+       "A": {
+        "block_steps": [
+         0
+        ],
+        "blocking_conflicts_with_option": [],
+        "escalated": false,
+        "n_blocked_ids": 156,
+        "n_matching_options": 1,
+        "named_text": "Namaqua doves",
+        "parse": "exact",
+        "raw": "Namaqua doves\"",
+        "shown": "Namaqua doves"
+       },
+       "B": {
+        "block_steps": [
+         0
+        ],
+        "blocking_conflicts_with_option": [],
+        "escalated": false,
+        "n_blocked_ids": 156,
+        "n_matching_options": 1,
+        "named_text": "Helmeted guineafowl",
+        "parse": "exact",
+        "raw": "Helmeted guineafowl\"",
+        "shown": "Helmeted guineafowl"
+       }
+      },
+      "permuted": {
+       "A": {
+        "block_steps": [
+         0
+        ],
+        "blocking_conflicts_with_option": [],
+        "escalated": false,
+        "n_blocked_ids": 156,
+        "n_matching_options": 1,
+        "named_text": "Namaqua doves",
+        "parse": "exact",
+        "raw": "Namaqua doves\"",
+        "shown": "Namaqua doves"
+       },
+       "B": {
+        "block_steps": [
+         0
+        ],
+        "blocking_conflicts_with_option": [],
+        "escalated": false,
+        "n_blocked_ids": 156,
+        "n_matching_options": 1,
+        "named_text": "Helmeted guineafowl",
+        "parse": "exact",
+        "raw": "Helmeted guineafowl\"",
+        "shown": "Helmeted guineafowl"
+       }
+      }
+     },
+     "options": [
+      "African goshawks",
+      "Namaqua doves",
+      "Bateleur",
+      "Helmeted guineafowl"
+     ],
+     "options_permuted": [
+      "African goshawks",
+      "Bateleur",
+      "Helmeted guineafowl",
+      "Namaqua doves"
+     ],
+     "options_permuted_is_arithmetic": true,
+     "pairs": [
+      {
+       "agrees": false,
+       "evaluable": true,
+       "identical_repeat": {
+        "identical": true,
+        "named_text": "Namaqua doves",
+        "parse": "exact",
+        "raw": "Namaqua doves\""
+       },
+       "letter": "C",
+       "letter_index": 2,
+       "letter_points_at": "Bateleur",
+       "n_matching_options": 1,
+       "n_options": 4,
+       "named_parse": "exact",
+       "named_text": "Namaqua doves",
+       "naming": {
+        "block_steps": [
+         0
+        ],
+        "blocking_conflicts_with_option": [],
+        "escalated": false,
+        "n_blocked_ids": 156,
+        "n_matching_options": 1,
+        "named_text": "Namaqua doves",
+        "parse": "exact",
+        "raw": "Namaqua doves\"",
+        "shown": "Namaqua doves"
+       },
+       "options": [
+        "African goshawks",
+        "Namaqua doves",
+        "Bateleur",
+        "Helmeted guineafowl"
+       ],
+       "order": "original",
+       "raw_named": "Namaqua doves\"",
+       "retest": {
+        "block_steps": [
+         0
+        ],
+        "blocking_conflicts_with_option": [],
+        "escalated": false,
+        "n_blocked_ids": 156,
+        "n_matching_options": 1,
+        "named_text": "Helmeted guineafowl",
+        "parse": "exact",
+        "raw": "Helmeted guineafowl\"",
+        "shown": "Helmeted guineafowl"
+       }
+      },
+      {
+       "agrees": false,
+       "evaluable": true,
+       "identical_repeat": null,
+       "letter": "B",
+       "letter_index": 1,
+       "letter_points_at": "Bateleur",
+       "n_matching_options": 1,
+       "n_options": 4,
+       "named_parse": "exact",
+       "named_text": "Namaqua doves",
+       "naming": {
+        "block_steps": [
+         0
+        ],
+        "blocking_conflicts_with_option": [],
+        "escalated": false,
+        "n_blocked_ids": 156,
+        "n_matching_options": 1,
+        "named_text": "Namaqua doves",
+        "parse": "exact",
+        "raw": "Namaqua doves\"",
+        "shown": "Namaqua doves"
+       },
+       "options": [
+        "African goshawks",
+        "Bateleur",
+        "Helmeted guineafowl",
+        "Namaqua doves"
+       ],
+       "order": "permuted",
+       "raw_named": "Namaqua doves\"",
+       "retest": {
+        "block_steps": [
+         0
+        ],
+        "blocking_conflicts_with_option": [],
+        "escalated": false,
+        "n_blocked_ids": 156,
+        "n_matching_options": 1,
+        "named_text": "Helmeted guineafowl",
+        "parse": "exact",
+        "raw": "Helmeted guineafowl\"",
+        "shown": "Helmeted guineafowl"
+       }
+      }
+     ],
+     "perm_fixes_chosen_index": false,
+     "perm_is_a_permutation": true,
+     "permutation": [
+      0,
+      2,
+      3,
+      1
+     ],
+     "qid": "GcRKREorGSc#991",
+     "raw": "C",
+     "raw_permuted": "B",
+     "text_preserved": true
+    },
+    {
+     "arm": "single_clean",
+     "chosen_text": "49%",
+     "chosen_text_permuted": "49%",
+     "correct_orig": true,
+     "correct_permuted": true,
+     "gold": "D",
+     "gold_permuted": "A",
+     "gold_permuted_is_arithmetic": true,
+     "identical_repeat": null,
+     "letter": "D",
+     "letter_moved": true,
+     "letter_permuted": "A",
+     "n_options": 4,
+     "naming": {
+      "original": {
+       "A": {
+        "block_steps": [
+         0
+        ],
+        "blocking_conflicts_with_option": [],
+        "escalated": false,
+        "n_blocked_ids": 156,
+        "n_matching_options": 1,
+        "named_text": "49%",
+        "parse": "exact",
+        "raw": "49%\".",
+        "shown": "49%\"."
+       },
+       "B": {
+        "block_steps": [
+         0
+        ],
+        "blocking_conflicts_with_option": [],
+        "escalated": false,
+        "n_blocked_ids": 156,
+        "n_matching_options": 0,
+        "named_text": null,
+        "parse": "unparseable",
+        "raw": "The World's Angriest Countries\"",
+        "shown": "The World's Angriest Countries"
+       }
+      },
+      "permuted": {
+       "A": {
+        "block_steps": [
+         0
+        ],
+        "blocking_conflicts_with_option": [],
+        "escalated": false,
+        "n_blocked_ids": 156,
+        "n_matching_options": 1,
+        "named_text": "49%",
+        "parse": "exact",
+        "raw": "49%\"",
+        "shown": "49%"
+       },
+       "B": {
+        "block_steps": [
+         0
+        ],
+        "blocking_conflicts_with_option": [],
+        "escalated": false,
+        "n_blocked_ids": 156,
+        "n_matching_options": 1,
+        "named_text": "49%",
+        "parse": "exact",
+        "raw": "49%\".",
+        "shown": "49%\"."
+       }
+      }
+     },
+     "options": [
+      "48%",
+      "51%",
+      "53%",
+      "49%"
+     ],
+     "options_permuted": [
+      "49%",
+      "53%",
+      "48%",
+      "51%"
+     ],
+     "options_permuted_is_arithmetic": true,
+     "pairs": [
+      {
+       "agrees": true,
+       "evaluable": true,
+       "identical_repeat": null,
+       "letter": "D",
+       "letter_index": 3,
+       "letter_points_at": "49%",
+       "n_matching_options": 1,
+       "n_options": 4,
+       "named_parse": "exact",
+       "named_text": "49%",
+       "naming": {
+        "block_steps": [
+         0
+        ],
+        "blocking_conflicts_with_option": [],
+        "escalated": false,
+        "n_blocked_ids": 156,
+        "n_matching_options": 1,
+        "named_text": "49%",
+        "parse": "exact",
+        "raw": "49%\".",
+        "shown": "49%\"."
+       },
+       "options": [
+        "48%",
+        "51%",
+        "53%",
+        "49%"
+       ],
+       "order": "original",
+       "raw_named": "49%\".",
+       "retest": {
+        "block_steps": [
+         0
+        ],
+        "blocking_conflicts_with_option": [],
+        "escalated": false,
+        "n_blocked_ids": 156,
+        "n_matching_options": 0,
+        "named_text": null,
+        "parse": "unparseable",
+        "raw": "The World's Angriest Countries\"",
+        "shown": "The World's Angriest Countries"
+       }
+      },
+      {
+       "agrees": true,
+       "evaluable": true,
+       "identical_repeat": null,
+       "letter": "A",
+       "letter_index": 0,
+       "letter_points_at": "49%",
+       "n_matching_options": 1,
+       "n_options": 4,
+       "named_parse": "exact",
+       "named_text": "49%",
+       "naming": {
+        "block_steps": [
+         0
+        ],
+        "blocking_conflicts_with_option": [],
+        "escalated": false,
+        "n_blocked_ids": 156,
+        "n_matching_options": 1,
+        "named_text": "49%",
+        "parse": "exact",
+        "raw": "49%\"",
+        "shown": "49%"
+       },
+       "options": [
+        "49%",
+        "53%",
+        "48%",
+        "51%"
+       ],
+       "order": "permuted",
+       "raw_named": "49%\"",
+       "retest": {
+        "block_steps": [
+         0
+        ],
+        "blocking_conflicts_with_option": [],
+        "escalated": false,
+        "n_blocked_ids": 156,
+        "n_matching_options": 1,
+        "named_text": "49%",
+        "parse": "exact",
+        "raw": "49%\".",
+        "shown": "49%\"."
+       }
+      }
+     ],
+     "perm_fixes_chosen_index": false,
+     "perm_is_a_permutation": true,
+     "permutation": [
+      3,
+      2,
+      0,
+      1
+     ],
+     "qid": "JPPMz8fEml0#2958",
+     "raw": "D",
+     "raw_permuted": "A",
+     "text_preserved": true
+    },
+    {
+     "arm": "single_clean",
+     "chosen_text": "8 months ago",
+     "chosen_text_permuted": "8 months ago",
+     "correct_orig": true,
+     "correct_permuted": true,
+     "gold": "B",
+     "gold_permuted": "B",
+     "gold_permuted_is_arithmetic": true,
+     "identical_repeat": null,
+     "letter": "B",
+     "letter_moved": false,
+     "letter_permuted": "B",
+     "n_options": 4,
+     "naming": {
+      "original": {
+       "A": {
+        "block_steps": [
+         0
+        ],
+        "blocking_conflicts_with_option": [],
+        "escalated": false,
+        "n_blocked_ids": 156,
+        "n_matching_options": 1,
+        "named_text": "8 months ago",
+        "parse": "exact",
+        "raw": "8 months ago\".",
+        "shown": "8 months ago\"."
+       },
+       "B": {
+        "block_steps": [
+         0
+        ],
+        "blocking_conflicts_with_option": [],
+        "escalated": false,
+        "n_blocked_ids": 156,
+        "n_matching_options": 1,
+        "named_text": "8 months ago",
+        "parse": "exact",
+        "raw": "8 months ago\".",
+        "shown": "8 months ago\"."
+       }
+      },
+      "permuted": {
+       "A": {
+        "block_steps": [
+         0
+        ],
+        "blocking_conflicts_with_option": [],
+        "escalated": false,
+        "n_blocked_ids": 156,
+        "n_matching_options": 1,
+        "named_text": "8 months ago",
+        "parse": "exact",
+        "raw": "8 months ago\".",
+        "shown": "8 months ago\"."
+       },
+       "B": {
+        "block_steps": [
+         0
+        ],
+        "blocking_conflicts_with_option": [],
+        "escalated": false,
+        "n_blocked_ids": 156,
+        "n_matching_options": 1,
+        "named_text": "8 months ago",
+        "parse": "exact",
+        "raw": "8 months ago\".",
+        "shown": "8 months ago\"."
+       }
+      }
+     },
+     "options": [
+      "8 days ago",
+      "8 months ago",
+      "4 months ago",
+      "3 months ago"
+     ],
+     "options_permuted": [
+      "3 months ago",
+      "8 months ago",
+      "4 months ago",
+      "8 days ago"
+     ],
+     "options_permuted_is_arithmetic": true,
+     "pairs": [
+      {
+       "agrees": true,
+       "evaluable": true,
+       "identical_repeat": null,
+       "letter": "B",
+       "letter_index": 1,
+       "letter_points_at": "8 months ago",
+       "n_matching_options": 1,
+       "n_options": 4,
+       "named_parse": "exact",
+       "named_text": "8 months ago",
+       "naming": {
+        "block_steps": [
+         0
+        ],
+        "blocking_conflicts_with_option": [],
+        "escalated": false,
+        "n_blocked_ids": 156,
+        "n_matching_options": 1,
+        "named_text": "8 months ago",
+        "parse": "exact",
+        "raw": "8 months ago\".",
+        "shown": "8 months ago\"."
+       },
+       "options": [
+        "8 days ago",
+        "8 months ago",
+        "4 months ago",
+        "3 months ago"
+       ],
+       "order": "original",
+       "raw_named": "8 months ago\".",
+       "retest": {
+        "block_steps": [
+         0
+        ],
+        "blocking_conflicts_with_option": [],
+        "escalated": false,
+        "n_blocked_ids": 156,
+        "n_matching_options": 1,
+        "named_text": "8 months ago",
+        "parse": "exact",
+        "raw": "8 months ago\".",
+        "shown": "8 months ago\"."
+       }
+      },
+      {
+       "agrees": true,
+       "evaluable": true,
+       "identical_repeat": null,
+       "letter": "B",
+       "letter_index": 1,
+       "letter_points_at": "8 months ago",
+       "n_matching_options": 1,
+       "n_options": 4,
+       "named_parse": "exact",
+       "named_text": "8 months ago",
+       "naming": {
+        "block_steps": [
+         0
+        ],
+        "blocking_conflicts_with_option": [],
+        "escalated": false,
+        "n_blocked_ids": 156,
+        "n_matching_options": 1,
+        "named_text": "8 months ago",
+        "parse": "exact",
+        "raw": "8 months ago\".",
+        "shown": "8 months ago\"."
+       },
+       "options": [
+        "3 months ago",
+        "8 months ago",
+        "4 months ago",
+        "8 days ago"
+       ],
+       "order": "permuted",
+       "raw_named": "8 months ago\".",
+       "retest": {
+        "block_steps": [
+         0
+        ],
+        "blocking_conflicts_with_option": [],
+        "escalated": false,
+        "n_blocked_ids": 156,
+        "n_matching_options": 1,
+        "named_text": "8 months ago",
+        "parse": "exact",
+        "raw": "8 months ago\".",
+        "shown": "8 months ago\"."
+       }
+      }
+     ],
+     "perm_fixes_chosen_index": true,
+     "perm_is_a_permutation": true,
+     "permutation": [
+      3,
+      1,
+      2,
+      0
+     ],
+     "qid": "KktLi3UifPY#1176",
+     "raw": "B",
+     "raw_permuted": "B",
+     "text_preserved": true
+    },
+    {
+     "arm": "single_clean",
+     "chosen_text": "Sakura",
+     "chosen_text_permuted": "Sakura",
+     "correct_orig": true,
+     "correct_permuted": true,
+     "gold": "D",
+     "gold_permuted": "A",
+     "gold_permuted_is_arithmetic": true,
+     "identical_repeat": null,
+     "letter": "D",
+     "letter_moved": true,
+     "letter_permuted": "A",
+     "n_options": 4,
+     "naming": {
+      "original": {
+       "A": {
+        "block_steps": [
+         0
+        ],
+        "blocking_conflicts_with_option": [],
+        "escalated": false,
+        "n_blocked_ids": 156,
+        "n_matching_options": 1,
+        "named_text": "Mount Fuji",
+        "parse": "exact",
+        "raw": "Mount Fuji\".",
+        "shown": "Mount Fuji\"."
+       },
+       "B": {
+        "block_steps": [
+         0
+        ],
+        "blocking_conflicts_with_option": [],
+        "escalated": false,
+        "n_blocked_ids": 156,
+        "n_matching_options": 1,
+        "named_text": "Mount Fuji",
+        "parse": "exact",
+        "raw": "Mount Fuji\".",
+        "shown": "Mount Fuji\"."
+       }
+      },
+      "permuted": {
+       "A": {
+        "block_steps": [
+         0
+        ],
+        "blocking_conflicts_with_option": [],
+        "escalated": false,
+        "n_blocked_ids": 156,
+        "n_matching_options": 1,
+        "named_text": "Mount Fuji",
+        "parse": "exact",
+        "raw": "Mount Fuji\".",
+        "shown": "Mount Fuji\"."
+       },
+       "B": {
+        "block_steps": [
+         0
+        ],
+        "blocking_conflicts_with_option": [],
+        "escalated": false,
+        "n_blocked_ids": 156,
+        "n_matching_options": 0,
+        "named_text": null,
+        "parse": "unparseable",
+        "raw": "The option text is: \"A. Sakura\"",
+        "shown": "A. Sakura"
+       }
+      }
+     },
+     "options": [
+      "Ginza",
+      "Tokyo Tower",
+      "Mount Fuji",
+      "Sakura"
+     ],
+     "options_permuted": [
+      "Sakura",
+      "Mount Fuji",
+      "Tokyo Tower",
+      "Ginza"
+     ],
+     "options_permuted_is_arithmetic": true,
+     "pairs": [
+      {
+       "agrees": false,
+       "evaluable": true,
+       "identical_repeat": null,
+       "letter": "D",
+       "letter_index": 3,
+       "letter_points_at": "Sakura",
+       "n_matching_options": 1,
+       "n_options": 4,
+       "named_parse": "exact",
+       "named_text": "Mount Fuji",
+       "naming": {
+        "block_steps": [
+         0
+        ],
+        "blocking_conflicts_with_option": [],
+        "escalated": false,
+        "n_blocked_ids": 156,
+        "n_matching_options": 1,
+        "named_text": "Mount Fuji",
+        "parse": "exact",
+        "raw": "Mount Fuji\".",
+        "shown": "Mount Fuji\"."
+       },
+       "options": [
+        "Ginza",
+        "Tokyo Tower",
+        "Mount Fuji",
+        "Sakura"
+       ],
+       "order": "original",
+       "raw_named": "Mount Fuji\".",
+       "retest": {
+        "block_steps": [
+         0
+        ],
+        "blocking_conflicts_with_option": [],
+        "escalated": false,
+        "n_blocked_ids": 156,
+        "n_matching_options": 1,
+        "named_text": "Mount Fuji",
+        "parse": "exact",
+        "raw": "Mount Fuji\".",
+        "shown": "Mount Fuji\"."
+       }
+      },
+      {
+       "agrees": false,
+       "evaluable": true,
+       "identical_repeat": null,
+       "letter": "A",
+       "letter_index": 0,
+       "letter_points_at": "Sakura",
+       "n_matching_options": 1,
+       "n_options": 4,
+       "named_parse": "exact",
+       "named_text": "Mount Fuji",
+       "naming": {
+        "block_steps": [
+         0
+        ],
+        "blocking_conflicts_with_option": [],
+        "escalated": false,
+        "n_blocked_ids": 156,
+        "n_matching_options": 1,
+        "named_text": "Mount Fuji",
+        "parse": "exact",
+        "raw": "Mount Fuji\".",
+        "shown": "Mount Fuji\"."
+       },
+       "options": [
+        "Sakura",
+        "Mount Fuji",
+        "Tokyo Tower",
+        "Ginza"
+       ],
+       "order": "permuted",
+       "raw_named": "Mount Fuji\".",
+       "retest": {
+        "block_steps": [
+         0
+        ],
+        "blocking_conflicts_with_option": [],
+        "escalated": false,
+        "n_blocked_ids": 156,
+        "n_matching_options": 0,
+        "named_text": null,
+        "parse": "unparseable",
+        "raw": "The option text is: \"A. Sakura\"",
+        "shown": "A. Sakura"
+       }
+      }
+     ],
+     "perm_fixes_chosen_index": false,
+     "perm_is_a_permutation": true,
+     "permutation": [
+      3,
+      2,
+      1,
+      0
+     ],
+     "qid": "RCAqKnvu_P0#2898",
+     "raw": "D",
+     "raw_permuted": "A",
+     "text_preserved": true
+    },
+    {
+     "arm": "single_clean",
+     "chosen_text": "By the sea",
+     "chosen_text_permuted": "By the sea",
+     "correct_orig": true,
+     "correct_permuted": true,
+     "gold": "B",
+     "gold_permuted": "A",
+     "gold_permuted_is_arithmetic": true,
+     "identical_repeat": null,
+     "letter": "B",
+     "letter_moved": true,
+     "letter_permuted": "A",
+     "n_options": 4,
+     "naming": {
+      "original": {
+       "A": {
+        "block_steps": [
+         0
+        ],
+        "blocking_conflicts_with_option": [],
+        "escalated": false,
+        "n_blocked_ids": 156,
+        "n_matching_options": 1,
+        "named_text": "By the sea",
+        "parse": "exact",
+        "raw": "By the sea\"",
+        "shown": "By the sea"
+       },
+       "B": {
+        "block_steps": [
+         0
+        ],
+        "blocking_conflicts_with_option": [],
+        "escalated": false,
+        "n_blocked_ids": 156,
+        "n_matching_options": 1,
+        "named_text": "By the sea",
+        "parse": "exact",
+        "raw": "By the sea\"",
+        "shown": "By the sea"
+       }
+      },
+      "permuted": {
+       "A": {
+        "block_steps": [
+         0
+        ],
+        "blocking_conflicts_with_option": [],
+        "escalated": false,
+        "n_blocked_ids": 156,
+        "n_matching_options": 1,
+        "named_text": "By the sea",
+        "parse": "exact",
+        "raw": "By the sea\"",
+        "shown": "By the sea"
+       },
+       "B": {
+        "block_steps": [
+         0
+        ],
+        "blocking_conflicts_with_option": [],
+        "escalated": false,
+        "n_blocked_ids": 156,
+        "n_matching_options": 1,
+        "named_text": "By the sea",
+        "parse": "exact",
+        "raw": "By the sea\"",
+        "shown": "By the sea"
+       }
+      }
+     },
+     "options": [
+      "On a beach",
+      "By the sea",
+      "In a mountain",
+      "At an amusement park"
+     ],
+     "options_permuted": [
+      "By the sea",
+      "On a beach",
+      "In a mountain",
+      "At an amusement park"
+     ],
+     "options_permuted_is_arithmetic": true,
+     "pairs": [
+      {
+       "agrees": true,
+       "evaluable": true,
+       "identical_repeat": null,
+       "letter": "B",
+       "letter_index": 1,
+       "letter_points_at": "By the sea",
+       "n_matching_options": 1,
+       "n_options": 4,
+       "named_parse": "exact",
+       "named_text": "By the sea",
+       "naming": {
+        "block_steps": [
+         0
+        ],
+        "blocking_conflicts_with_option": [],
+        "escalated": false,
+        "n_blocked_ids": 156,
+        "n_matching_options": 1,
+        "named_text": "By the sea",
+        "parse": "exact",
+        "raw": "By the sea\"",
+        "shown": "By the sea"
+       },
+       "options": [
+        "On a beach",
+        "By the sea",
+        "In a mountain",
+        "At an amusement park"
+       ],
+       "order": "original",
+       "raw_named": "By the sea\"",
+       "retest": {
+        "block_steps": [
+         0
+        ],
+        "blocking_conflicts_with_option": [],
+        "escalated": false,
+        "n_blocked_ids": 156,
+        "n_matching_options": 1,
+        "named_text": "By the sea",
+        "parse": "exact",
+        "raw": "By the sea\"",
+        "shown": "By the sea"
+       }
+      },
+      {
+       "agrees": true,
+       "evaluable": true,
+       "identical_repeat": null,
+       "letter": "A",
+       "letter_index": 0,
+       "letter_points_at": "By the sea",
+       "n_matching_options": 1,
+       "n_options": 4,
+       "named_parse": "exact",
+       "named_text": "By the sea",
+       "naming": {
+        "block_steps": [
+         0
+        ],
+        "blocking_conflicts_with_option": [],
+        "escalated": false,
+        "n_blocked_ids": 156,
+        "n_matching_options": 1,
+        "named_text": "By the sea",
+        "parse": "exact",
+        "raw": "By the sea\"",
+        "shown": "By the sea"
+       },
+       "options": [
+        "By the sea",
+        "On a beach",
+        "In a mountain",
+        "At an amusement park"
+       ],
+       "order": "permuted",
+       "raw_named": "By the sea\"",
+       "retest": {
+        "block_steps": [
+         0
+        ],
+        "blocking_conflicts_with_option": [],
+        "escalated": false,
+        "n_blocked_ids": 156,
+        "n_matching_options": 1,
+        "named_text": "By the sea",
+        "parse": "exact",
+        "raw": "By the sea\"",
+        "shown": "By the sea"
+       }
+      }
+     ],
+     "perm_fixes_chosen_index": false,
+     "perm_is_a_permutation": true,
+     "permutation": [
+      1,
+      0,
+      2,
+      3
+     ],
+     "qid": "RbpKkvlHYTw#2805",
+     "raw": "B",
+     "raw_permuted": "A",
+     "text_preserved": true
+    }
+   ]
+  },
+  "vision_tokens": {
+   "answer:0_frames": {
+    "counted_from": "image_token_id",
+    "counted_with": "the processor's own input_ids for the exact prompt this arm sends; no forward pass, so this is not a reading",
+    "n_images": 0,
+    "n_non_vision_tokens": 70,
+    "prompt_path": "text-only answer prompt (no image)",
+    "vision_tokens_per_image": null,
+    "vision_tokens_total": 0
+   },
+   "answer:16_frames": {
+    "counted_from": "image_token_id",
+    "counted_with": "the processor's own input_ids for the exact prompt this arm sends; no forward pass, so this is not a reading",
+    "n_images": 16,
+    "n_non_vision_tokens": 102,
+    "prompt_path": "many-image answer prompt (16 frames)",
+    "vision_tokens_per_image": 252.0,
+    "vision_tokens_total": 4032
+   },
+   "answer:1_frame": {
+    "counted_from": "image_token_id",
+    "counted_with": "the processor's own input_ids for the exact prompt this arm sends; no forward pass, so this is not a reading",
+    "n_images": 1,
+    "n_non_vision_tokens": 72,
+    "prompt_path": "single-image answer prompt (1 frame)",
+    "vision_tokens_per_image": 252.0,
+    "vision_tokens_total": 252
+   },
+   "arm_remap": {
+    "1-frame answer arms": [
+     "single_clean"
+    ],
+    "16-frame answer arms": [
+     "control-only 16-frame ask (no such arm here)"
+    ],
+    "no_frames": [
+     "answer:0_frames"
+    ],
+    "single-image scoring arms": [
+     "score:* (option_logits scores one image per prompt)"
+    ]
+   },
+   "per_image_equality": {
+    "all_equal": true,
+    "image_bearing_paths": 3,
+    "rule": "the three image-bearing prompt paths (16-frame answer, 1-frame answer, single-image scoring) must feed the same number of vision tokens per image. Runs of this design measured 1,149 (selection / single / distortion) and 1,037 (donor); the difference between readings is recorded but was not traced",
+    "values": [
+     252.0
+    ]
+   },
+   "score:single_image": {
+    "counted_from": "image_token_id",
+    "counted_with": "the processor's own input_ids for the exact prompt this arm sends; no forward pass, so this is not a reading",
+    "n_images": 1,
+    "n_non_vision_tokens": 72,
+    "prompt_path": "one image as its own prompt, option-letter logits",
+    "vision_tokens_per_image": 252.0,
+    "vision_tokens_total": 252
+   },
+   "valid_within": "this run only: the equality above is inside one run, on this backbone. It is not a fixed per-frame budget and it is not carried across readings or backbones"
+  }
+ },
+ "instrument_failure": {
+  "consequence": "when triggered this cell reports instrument_failure and writes NO landing; the computed blocks stay in the file for audit and are not a landing",
+  "rule": "implemented, not worded: any trigger makes this cell report instrument_failure and write no landing. Triggers are the letter decode, the three-path determinism, a model arm whose answered letters are all one letter (at n >= 5, annotation-only arms excluded), and a mapping criterion that is not satisfied.",
+  "triggered": true,
+  "triggers": [
+   {
+    "detail": "the option<->letter mapping criterion is not satisfied",
+    "id": "option_mapping",
+    "n_contradictions": 4,
+    "n_unparseable": 0,
+    "status": "not_discriminating"
+   }
+  ]
+ },
+ "instrument_guard": {
+  "excluded_arms": [
+   "constant_prior"
+  ],
+  "mapping_ok": false,
+  "mapping_status": "not_discriminating",
+  "near_constant": {
+   "distorted_evidence_noise_k0": {
+    "counts": {
+     "A": 3,
+     "B": 6,
+     "C": 5,
+     "D": 3
+    },
+    "max_letter_share": 0.35294117647058826,
+    "n_answered": 17,
+    "status": "ok"
+   },
+   "distorted_evidence_noise_k1": {
+    "counts": {
+     "A": 4,
+     "B": 4,
+     "C": 6,
+     "D": 3
+    },
+    "max_letter_share": 0.35294117647058826,
+    "n_answered": 17,
+    "status": "ok"
+   },
+   "distorted_evidence_noise_k2": {
+    "counts": {
+     "A": 4,
+     "B": 5,
+     "C": 6,
+     "D": 2
+    },
+    "max_letter_share": 0.35294117647058826,
+    "n_answered": 17,
+    "status": "ok"
+   },
+   "distorted_evidence_patchcopy_k0": {
+    "counts": {
+     "A": 3,
+     "B": 6,
+     "C": 4,
+     "D": 4
+    },
+    "max_letter_share": 0.35294117647058826,
+    "n_answered": 17,
+    "status": "ok"
+   },
+   "distorted_evidence_patchcopy_k1": {
+    "counts": {
+     "A": 3,
+     "B": 6,
+     "C": 4,
+     "D": 4
+    },
+    "max_letter_share": 0.35294117647058826,
+    "n_answered": 17,
+    "status": "ok"
+   },
+   "distorted_evidence_patchcopy_k2": {
+    "counts": {
+     "A": 3,
+     "B": 6,
+     "C": 4,
+     "D": 4
+    },
+    "max_letter_share": 0.35294117647058826,
+    "n_answered": 17,
+    "status": "ok"
+   },
+   "distorted_nonevidence_noise_k0": {
+    "counts": {
+     "A": 4,
+     "B": 5,
+     "C": 3,
+     "D": 5
+    },
+    "max_letter_share": 0.29411764705882354,
+    "n_answered": 17,
+    "status": "ok"
+   },
+   "distorted_nonevidence_noise_k1": {
+    "counts": {
+     "A": 4,
+     "B": 5,
+     "C": 3,
+     "D": 5
+    },
+    "max_letter_share": 0.29411764705882354,
+    "n_answered": 17,
+    "status": "ok"
+   },
+   "distorted_nonevidence_noise_k2": {
+    "counts": {
+     "A": 4,
+     "B": 5,
+     "C": 3,
+     "D": 5
+    },
+    "max_letter_share": 0.29411764705882354,
+    "n_answered": 17,
+    "status": "ok"
+   },
+   "distorted_nonevidence_patchcopy_k0": {
+    "counts": {
+     "A": 3,
+     "B": 6,
+     "C": 3,
+     "D": 5
+    },
+    "max_letter_share": 0.35294117647058826,
+    "n_answered": 17,
+    "status": "ok"
+   },
+   "distorted_nonevidence_patchcopy_k1": {
+    "counts": {
+     "A": 4,
+     "B": 5,
+     "C": 3,
+     "D": 5
+    },
+    "max_letter_share": 0.29411764705882354,
+    "n_answered": 17,
+    "status": "ok"
+   },
+   "distorted_nonevidence_patchcopy_k2": {
+    "counts": {
+     "A": 3,
+     "B": 6,
+     "C": 3,
+     "D": 5
+    },
+    "max_letter_share": 0.35294117647058826,
+    "n_answered": 17,
+    "status": "ok"
+   },
+   "single_clean": {
+    "counts": {
+     "A": 3,
+     "B": 5,
+     "C": 5,
+     "D": 4
+    },
+    "max_letter_share": 0.29411764705882354,
+    "n_answered": 17,
+    "status": "ok"
+   }
+  },
+  "near_constant_min_n": 5,
+  "rule": "implemented, not worded: any trigger makes this cell report instrument_failure and write no landing. Triggers are the letter decode, the three-path determinism, a model arm whose answered letters are all one letter (at n >= 5, annotation-only arms excluded), and a mapping criterion that is not satisfied.",
+  "triggered": true,
+  "triggers": [
+   {
+    "detail": "the option<->letter mapping criterion is not satisfied",
+    "id": "option_mapping",
+    "n_contradictions": 4,
+    "n_unparseable": 0,
+    "status": "not_discriminating"
+   }
+  ]
+ },
+ "landing": null,
+ "model": {
+  "architecture": "Qwen2VLForConditionalGeneration",
+  "backbone": "qwen2vl",
+  "cuda_available": true,
+  "device_index": 0,
+  "dtype_mode": "bf16",
+  "family": "Qwen2-VL-7B-Instruct",
+  "gpu_free_before_mib": 80834.2,
+  "gpu_name": "NVIDIA A100-SXM4-80GB",
+  "gpu_total_mib": 81251.2,
+  "model_dir": "<DATA_ROOT>/qwen2vl-7b-2cbada593a2b",
+  "model_identity": {
+   "bytes": 16594416604,
+   "config_sha256": {
+    "chat_template.json": "ad60d90252ed0b0705ba14e2d0ad0fec0beac1ea955642b54059b36052d8bc96",
+    "config.json": "4745aaba24756172765cb804b86512792202df6c65ac28989355971bbb27649c",
+    "generation_config.json": "85fb0349cef993fe7d1cab4baa61c81a42326c3a549dc220fcecb43e6eea3413",
+    "preprocessor_config.json": "b5eaad0c2815f07631535dcc58f3c462b0d73693638ad21d19f3c50820eae1cc",
+    "tokenizer_config.json": "ff5c4fd898fe8c39591eb70e5d39d2782802d4204d6ae9ba1223252f354842a0"
+   },
+   "deep": false,
+   "family": "Qwen2-VL-7B-Instruct",
+   "license": "Apache-2.0 (Qwen2-VL-7B-Instruct)",
+   "model_dir": "<DATA_ROOT>/qwen2vl-7b-2cbada593a2b",
+   "n_files": 20,
+   "name": "qwen2vl",
+   "name_size_manifest_sha256": "2402ffda2977a2ff7450b96c18771bfb0fe416ed840c2cff51014572f8f3cb9b",
+   "note": "computed by the run that reports it; no constant is asserted against a stale pin. deep=True hashes whole shards (probe only).",
+   "pixel_control": "min_pixels=28*28*4, max_pixels=448*448 (native dynamic resolution)",
+   "shards": {
+    "model-00001-of-00005.safetensors": {
+     "bytes": 3898649896,
+     "head_sha256": "e93037940eba6894e5c638b795fe2e6aa970790de24777b2b1eae48a15121db2",
+     "tail_sha256": "a4646103b4f77142f8731dd4c9c91e5f7cfae4b4b08e5fe69660554dbb878a32"
+    },
+    "model-00002-of-00005.safetensors": {
+     "bytes": 3864726320,
+     "head_sha256": "f911fe114dc2a0a584cb60e78dd1bf2613d5dc4befdee9c6d4d59417d1211421",
+     "tail_sha256": "74202dc43d2a365a1288966ab03e9a8ad6945ac607484efcc2904703b144f1d0"
+    },
+    "model-00003-of-00005.safetensors": {
+     "bytes": 3864726424,
+     "head_sha256": "4d3cde94e88b1b53d7b95e68774c4044b1d237be2775ce32ee3b124545bb3c7a",
+     "tail_sha256": "15ea73cc80a55391d09b84d5a80a7e9c24d038cbd2994e5925e1e4230efbe315"
+    },
+    "model-00004-of-00005.safetensors": {
+     "bytes": 3864733680,
+     "head_sha256": "d6ebf44d30edf43639fbb86541c87a6bb3cec483359c19291f2a8a4a04a64f7d",
+     "tail_sha256": "93d2f4e010d77b68fcff6a1d77ba4ec351f1e2afd17739f1e0ae1ac0e1c7831b"
+    },
+    "model-00005-of-00005.safetensors": {
+     "bytes": 1089994880,
+     "head_sha256": "c5975893ab7e7c18548207b9b41d10976747be7d45b7276aa1a3810ea192e371",
+     "tail_sha256": "a014221fc7a4006a6356bfa84efb5dcad628df218f94cadf5194cab1f11d6aa9"
+    }
+   },
+   "source": "device copy qwen2vl-7b-2cbada593a2b (first backbone, unchanged)"
+  },
+  "pixel_control": "min_pixels=28*28*4, max_pixels=448*448 (native dynamic resolution)",
+  "processor_settings_applied": {
+   "class": "Qwen2VLImageProcessorFast",
+   "max_pixels": 200704,
+   "min_pixels": 3136,
+   "model_config_image_grid_pinpoints": [],
+   "size": {
+    "longest_edge": 12845056,
+    "shortest_edge": 3136
+   }
+  },
+  "torch": "2.9.0+cu128",
+  "transformers": "4.57.3"
+ },
+ "n_measured": 17,
+ "notes": [],
+ "per_form": {
+  "noise": {
+   "0": {
+    "bar": 5,
+    "evidence_at_or_below_bar": false,
+    "evidence_cp95_upper_below_bar_frac": false,
+    "evidence_hits": 13,
+    "evidence_vs_nonevidence": {
+     "cluster_boot95": [
+      0.29411764705882354,
+      0.7647058823529411
+     ],
+     "mcnemar": {
+      "n01": 0,
+      "n10": 9,
+      "p": 0.00390625
+     },
+     "mean_diff": 0.5294117647058824,
+     "n_videos": 17,
+     "video_sign_test": {
+      "n_neg": 0,
+      "n_pos": 9,
+      "p": 0.00390625
+     }
+    },
+    "nonevidence_hits": 4
+   },
+   "1": {
+    "bar": 5,
+    "evidence_at_or_below_bar": false,
+    "evidence_cp95_upper_below_bar_frac": false,
+    "evidence_hits": 12,
+    "evidence_vs_nonevidence": {
+     "cluster_boot95": [
+      0.17647058823529413,
+      0.7647058823529411
+     ],
+     "mcnemar": {
+      "n01": 1,
+      "n10": 9,
+      "p": 0.021484375
+     },
+     "mean_diff": 0.47058823529411764,
+     "n_videos": 17,
+     "video_sign_test": {
+      "n_neg": 1,
+      "n_pos": 9,
+      "p": 0.021484375
+     }
+    },
+    "nonevidence_hits": 4
+   },
+   "2": {
+    "bar": 5,
+    "evidence_at_or_below_bar": false,
+    "evidence_cp95_upper_below_bar_frac": false,
+    "evidence_hits": 11,
+    "evidence_vs_nonevidence": {
+     "cluster_boot95": [
+      0.11764705882352941,
+      0.7058823529411765
+     ],
+     "mcnemar": {
+      "n01": 1,
+      "n10": 8,
+      "p": 0.0390625
+     },
+     "mean_diff": 0.4117647058823529,
+     "n_videos": 17,
+     "video_sign_test": {
+      "n_neg": 1,
+      "n_pos": 8,
+      "p": 0.0390625
+     }
+    },
+    "nonevidence_hits": 4
+   }
+  },
+  "patchcopy": {
+   "0": {
+    "bar": 5,
+    "evidence_at_or_below_bar": false,
+    "evidence_cp95_upper_below_bar_frac": false,
+    "evidence_hits": 12,
+    "evidence_vs_nonevidence": {
+     "cluster_boot95": [
+      0.17647058823529413,
+      0.7647058823529411
+     ],
+     "mcnemar": {
+      "n01": 1,
+      "n10": 9,
+      "p": 0.021484375
+     },
+     "mean_diff": 0.47058823529411764,
+     "n_videos": 17,
+     "video_sign_test": {
+      "n_neg": 1,
+      "n_pos": 9,
+      "p": 0.021484375
+     }
+    },
+    "nonevidence_hits": 4
+   },
+   "1": {
+    "bar": 5,
+    "evidence_at_or_below_bar": false,
+    "evidence_cp95_upper_below_bar_frac": false,
+    "evidence_hits": 12,
+    "evidence_vs_nonevidence": {
+     "cluster_boot95": [
+      0.17647058823529413,
+      0.7647058823529411
+     ],
+     "mcnemar": {
+      "n01": 1,
+      "n10": 9,
+      "p": 0.021484375
+     },
+     "mean_diff": 0.47058823529411764,
+     "n_videos": 17,
+     "video_sign_test": {
+      "n_neg": 1,
+      "n_pos": 9,
+      "p": 0.021484375
+     }
+    },
+    "nonevidence_hits": 4
+   },
+   "2": {
+    "bar": 5,
+    "evidence_at_or_below_bar": false,
+    "evidence_cp95_upper_below_bar_frac": false,
+    "evidence_hits": 12,
+    "evidence_vs_nonevidence": {
+     "cluster_boot95": [
+      0.17647058823529413,
+      0.7647058823529411
+     ],
+     "mcnemar": {
+      "n01": 1,
+      "n10": 9,
+      "p": 0.021484375
+     },
+     "mean_diff": 0.47058823529411764,
+     "n_videos": 17,
+     "video_sign_test": {
+      "n_neg": 1,
+      "n_pos": 9,
+      "p": 0.021484375
+     }
+    },
+    "nonevidence_hits": 4
+   }
+  }
+ },
+ "pin": {
+  "e_star_outside_i16u_all": true,
+  "minuid_shadow_matches_archive": true,
+  "minuid_shadow_pin_sha256": "94e667e1f7efcdab17038ac9635e14889772d7471bfa06afa715288300360944",
+  "n_pairs_in_pin": 17,
+  "n_pairs_measured_this_run": 17,
+  "note": "under ddraw-v1 the pin holds the DRAWN questions; the shadow is the unchanged min-uid construction, required to hash to the archived value",
+  "pin_sha256": "16f56561ffc89c6a8f665d17efa13490c234b56eab62e43f9c87dc8b6631ee34",
+  "report_pairs": [
+   0,
+   3,
+   4,
+   7,
+   10,
+   11,
+   12,
+   14,
+   15
+  ],
+  "screen_pairs": [
+   1,
+   2,
+   5,
+   6,
+   8,
+   9,
+   13,
+   16
+  ]
+ },
+ "question_selection": "ddraw-v1: per-video uniform draw over the compliant candidate set, seed 20261023 registered in plan-distortion-random-question (replaces the archived smallest-uid rule; that reading stays on record)",
+ "readings_withheld": {
+  "consequence": "landing = null; `arms`, `comparisons`, `bounded_difference` and `constant_letter_baseline` are computed for audit only and are NOT a reading",
+  "decides_claim": false,
+  "reason": [
+   {
+    "detail": "the option<->letter mapping criterion is not satisfied",
+    "id": "option_mapping",
+    "n_contradictions": 4,
+    "n_unparseable": 0,
+    "status": "not_discriminating"
+   }
+  ],
+  "stage": "full",
+  "withheld": true
+ },
+ "run": {
+  "exp_seed": 0,
+  "decides_claim": true,
+  "elapsed_seconds": 70.3,
+  "mode": "full",
+  "phases_seconds": {
+   "decode_s": 5.1,
+   "forward_s": 29.2,
+   "identity_s": 0.0,
+   "model_load_s": 11.7
+  },
+  "plan_id": "plan-distortion-random-question",
+  "plan_version": 2,
+  "reading": "distortion",
+  "stage": "full"
+ },
+ "samples": "results/four_distortion_samples.jsonl",
+ "structure": {
+  "all_structure_ok": true,
+  "checked_in_mode": "full",
+  "draw_falsification_vacuous": false,
+  "draw_n_differ_from_minuid": 11,
+  "draw_n_multi_videos": 15,
+  "draw_recheck_from_disk_ok": true,
+  "e_star_outside_i16u_all": true,
+  "n_pairs_expected": 17,
+  "n_pairs_in_pin": 17,
+  "note": "structure covers the WHOLE pin (17 pairs) in every mode; only the model steps shrink in a pilot",
+  "one_pair_per_video": true,
+  "skipped_matches_minuid_shadow": true,
+  "split_matches_minuid_shadow": true,
+  "videos_match_minuid_shadow": true
+ },
+ "unit_selection": {
+  "candidate_order": "ascending integer uid",
+  "candidates_file": {
+   "path": "results/distortion_ddraw_candidates.jsonl",
+   "rows": 80,
+   "sha256": "12ed3db23cac0d600987e08fc883c56e704ca5be875404ff6996f21542e5ae98"
+  },
+  "ddraw_source_sha256": "755f7d6d70f07d1b61a3096bdb177669cb34deb16b78e9c19aa98a7f0ec4a889",
+  "drawn_pin_sha256": "16f56561ffc89c6a8f665d17efa13490c234b56eab62e43f9c87dc8b6631ee34",
+  "empty_set_rule": "|C(v)| = 0 leaves the video a non-unit exactly as in the archived construction (pool 20 local videos -> 17 pairs); n stays 17",
+  "expected_n_differ": 11.100324675324675,
+  "forwards": 0,
+  "k_distribution": {
+   "1": 2,
+   "11": 2,
+   "2": 3,
+   "3": 2,
+   "4": 3,
+   "5": 1,
+   "6": 2,
+   "7": 1,
+   "8": 1
+  },
+  "minuid_shadow_pin": {
+   "archived_expected": "94e667e1f7efcdab17038ac9635e14889772d7471bfa06afa715288300360944",
+   "built_by": "untouched lv_common.build_pin",
+   "matches_archive": true,
+   "pin_sha256": "94e667e1f7efcdab17038ac9635e14889772d7471bfa06afa715288300360944"
+  },
+  "n_differ_from_minuid": 11,
+  "n_index0": 6,
+  "n_multi_videos": 15,
+  "n_singleton_videos": 2,
+  "n_videos": 17,
+  "ordering_note": "the rule and its seed were written in the Plan and committed before this file existed; this record and the candidate file are written by the run that first executed the committed selector",
+  "p_all_multi_index0": 1.7792690614660314e-10,
+  "per_video": [
+   {
+    "changed_from_minuid": true,
+    "k": 2,
+    "n_candidates": 4,
+    "qid": "16Z-XQh9jhk#2266",
+    "uid": 2266,
+    "uid_min": 2256,
+    "video_id": "16Z-XQh9jhk"
+   },
+   {
+    "changed_from_minuid": true,
+    "k": 4,
+    "n_candidates": 11,
+    "qid": "GcRKREorGSc#991",
+    "uid": 991,
+    "uid_min": 977,
+    "video_id": "GcRKREorGSc"
+   },
+   {
+    "changed_from_minuid": false,
+    "k": 0,
+    "n_candidates": 2,
+    "qid": "JPPMz8fEml0#2958",
+    "uid": 2958,
+    "uid_min": 2958,
+    "video_id": "JPPMz8fEml0"
+   },
+   {
+    "changed_from_minuid": true,
+    "k": 2,
+    "n_candidates": 6,
+    "qid": "KktLi3UifPY#1176",
+    "uid": 1176,
+    "uid_min": 1170,
+    "video_id": "KktLi3UifPY"
+   },
+   {
+    "changed_from_minuid": false,
+    "k": 0,
+    "n_candidates": 2,
+    "qid": "RCAqKnvu_P0#2898",
+    "uid": 2898,
+    "uid_min": 2898,
+    "video_id": "RCAqKnvu_P0"
+   },
+   {
+    "changed_from_minuid": false,
+    "k": 0,
+    "n_candidates": 2,
+    "qid": "RbpKkvlHYTw#2805",
+    "uid": 2805,
+    "uid_min": 2805,
+    "video_id": "RbpKkvlHYTw"
+   },
+   {
+    "changed_from_minuid": false,
+    "k": 0,
+    "n_candidates": 1,
+    "qid": "S8vPx-u9p_A#600",
+    "uid": 600,
+    "uid_min": 600,
+    "video_id": "S8vPx-u9p_A"
+   },
+   {
+    "changed_from_minuid": true,
+    "k": 1,
+    "n_candidates": 3,
+    "qid": "SRq0weUKskM#484",
+    "uid": 484,
+    "uid_min": 479,
+    "video_id": "SRq0weUKskM"
+   },
+   {
+    "changed_from_minuid": true,
+    "k": 4,
+    "n_candidates": 8,
+    "qid": "TZ0j6kr4ZJ0#1430",
+    "uid": 1430,
+    "uid_min": 1417,
+    "video_id": "TZ0j6kr4ZJ0"
+   },
+   {
+    "changed_from_minuid": false,
+    "k": 0,
+    "n_candidates": 4,
+    "qid": "TiQBTesZUJQ#842",
+    "uid": 842,
+    "uid_min": 842,
+    "video_id": "TiQBTesZUJQ"
+   },
+   {
+    "changed_from_minuid": true,
+    "k": 3,
+    "n_candidates": 5,
+    "qid": "W-BnDvXXfOs#4976",
+    "uid": 4976,
+    "uid_min": 4964,
+    "video_id": "W-BnDvXXfOs"
+   },
+   {
+    "changed_from_minuid": true,
+    "k": 3,
+    "n_candidates": 11,
+    "qid": "Z4HGQL_McDQ#1118",
+    "uid": 1118,
+    "uid_min": 1112,
+    "video_id": "Z4HGQL_McDQ"
+   },
+   {
+    "changed_from_minuid": true,
+    "k": 3,
+    "n_candidates": 6,
+    "qid": "Z86xysw5Ncc#4207",
+    "uid": 4207,
+    "uid_min": 4195,
+    "video_id": "Z86xysw5Ncc"
+   },
+   {
+    "changed_from_minuid": false,
+    "k": 0,
+    "n_candidates": 1,
+    "qid": "hROKtPqktO8#2642",
+    "uid": 2642,
+    "uid_min": 2642,
+    "video_id": "hROKtPqktO8"
+   },
+   {
+    "changed_from_minuid": true,
+    "k": 2,
+    "n_candidates": 3,
+    "qid": "pXD3txG2bVQ#747",
+    "uid": 747,
+    "uid_min": 730,
+    "video_id": "pXD3txG2bVQ"
+   },
+   {
+    "changed_from_minuid": true,
+    "k": 2,
+    "n_candidates": 4,
+    "qid": "pe_LddfHAUU#5116",
+    "uid": 5116,
+    "uid_min": 5110,
+    "video_id": "pe_LddfHAUU"
+   },
+   {
+    "changed_from_minuid": true,
+    "k": 6,
+    "n_candidates": 7,
+    "qid": "qAIRFyR6NyQ#23",
+    "uid": 23,
+    "uid_min": 2,
+    "video_id": "qAIRFyR6NyQ"
+   }
+  ],
+  "recheck_from_disk_ok": true,
+  "replaces": "one_question_per_video: smallest uid (lv_common.build_pin; registered in twin-lvbench r5@v4/r6 s2; measured by evidence.task-259e5c2b3a; that reading stays on record)",
+  "rule_text": "C(v) = the questions of video v admitted by the frozen inclusion rule of the distortion carrier (lv_common.build_pin, unchanged: time_reference parses as MM:SS-MM:SS; 0 <= end-start <= 3.0 s; end <= duration+1.0 s; the question splits into exactly four non-empty options A-D; answer in {A,B,C,D}), ordered by ascending integer uid. k(v) ~ Uniform{0,...,|C(v)|-1} with ss = numpy.random.SeedSequence([20261023, int(hashlib.sha256(v.encode()).hexdigest()[:8], 16)]); rng = numpy.random.default_rng(ss); k = int(rng.integers(0, len(C(v)))). chosen = C(v)[k]. No tie exists (integer uids are unique inside a video; a duplicate uid is a structural error and crashes the run, it is not deduplicated). |C(v)| = 0 leaves the video a non-unit exactly as in the archived construction; no video is dropped that the archived rule kept, no question is substituted, n stays 17, and the 17 unit videos and the screen 8 / report 9 split must be identical to the archived min-uid pin.",
+  "rule_version": "ddraw-v1",
+  "seed": 20261023,
+  "seed_fixed_not_exp_seed": true,
+  "seed_formula": "SeedSequence([20261023, int(sha256(video_id)[:8], 16)]) -> default_rng -> integers(0, |C(v)|)",
+  "selector_source_sha256": "72d55bbe89356cb781ae298c9314b131e796a3e2a8230d5509572d8cdcf404ec",
+  "structure_cross_check": "passed (video set, split, skipped, per-video fields; any divergence raises before any model step)",
+  "tie_rule": "none can occur: integer uids are unique inside a video; a duplicate uid crashes the run"
+ },
+ "verdict": {
+  "n_pairs": 17,
+  "resolution_pp": 5.882352941176471
+ },
+ "vision_tokens": {
+  "answer:0_frames": {
+   "counted_from": "image_token_id",
+   "counted_with": "the processor's own input_ids for the exact prompt this arm sends; no forward pass, so this is not a reading",
+   "n_images": 0,
+   "n_non_vision_tokens": 70,
+   "prompt_path": "text-only answer prompt (no image)",
+   "vision_tokens_per_image": null,
+   "vision_tokens_total": 0
+  },
+  "answer:16_frames": {
+   "counted_from": "image_token_id",
+   "counted_with": "the processor's own input_ids for the exact prompt this arm sends; no forward pass, so this is not a reading",
+   "n_images": 16,
+   "n_non_vision_tokens": 102,
+   "prompt_path": "many-image answer prompt (16 frames)",
+   "vision_tokens_per_image": 252.0,
+   "vision_tokens_total": 4032
+  },
+  "answer:1_frame": {
+   "counted_from": "image_token_id",
+   "counted_with": "the processor's own input_ids for the exact prompt this arm sends; no forward pass, so this is not a reading",
+   "n_images": 1,
+   "n_non_vision_tokens": 72,
+   "prompt_path": "single-image answer prompt (1 frame)",
+   "vision_tokens_per_image": 252.0,
+   "vision_tokens_total": 252
+  },
+  "arm_remap": {
+   "1-frame answer arms": [
+    "single_clean"
+   ],
+   "16-frame answer arms": [
+    "control-only 16-frame ask (no such arm here)"
+   ],
+   "no_frames": [
+    "answer:0_frames"
+   ],
+   "single-image scoring arms": [
+    "score:* (option_logits scores one image per prompt)"
+   ]
+  },
+  "per_image_equality": {
+   "all_equal": true,
+   "image_bearing_paths": 3,
+   "rule": "the three image-bearing prompt paths (16-frame answer, 1-frame answer, single-image scoring) must feed the same number of vision tokens per image. Runs of this design measured 1,149 (selection / single / distortion) and 1,037 (donor); the difference between readings is recorded but was not traced",
+   "values": [
+    252.0
+   ]
+  },
+  "score:single_image": {
+   "counted_from": "image_token_id",
+   "counted_with": "the processor's own input_ids for the exact prompt this arm sends; no forward pass, so this is not a reading",
+   "n_images": 1,
+   "n_non_vision_tokens": 72,
+   "prompt_path": "one image as its own prompt, option-letter logits",
+   "vision_tokens_per_image": 252.0,
+   "vision_tokens_total": 252
+  },
+  "valid_within": "this run only: the equality above is inside one run, on this backbone. It is not a fixed per-frame budget and it is not carried across readings or backbones"
+ }
+}

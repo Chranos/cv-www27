@@ -1,0 +1,20 @@
+def prompt_for(q, letters=LETTERS, with_query=True):
+    cands = list(q["candidates"])
+    opts = "\n".join("%s. %s" % (L, c) for L, c in zip(letters, cands))
+    if with_query:
+        head = q["question"]
+    else:                                   # unused here; kept as in mvp_common
+        head = "What is shown in this image? Choose the best option."
+    rng = letters[:len(cands)]
+    return ("%s\n%s\nAnswer with the single letter (%s-%s) of the correct option.\nAnswer:"
+            % (head, opts, rng[0], rng[-1]))
+
+
+def _msgs(pils, prompt, gaps=None):
+    content = []
+    for i, _ in enumerate(pils):
+        content.append({"type": "image"})
+        if gaps and i < len(gaps) and gaps[i]:
+            content.append({"type": "text", "text": gaps[i]})
+    content.append({"type": "text", "text": prompt})
+    return [{"role": "user", "content": content}]

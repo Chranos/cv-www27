@@ -1,0 +1,22 @@
+% tab-donor.tex -- fragment only: the float, caption and label are the typesetter ones.
+% Values read at run time from: evidence.task-07c9beea59.
+% Rates and CP95 in percent; paired differences in percentage points (pp).
+% SUGGESTED CAPTION: Donor reading (d2) on 23 donor-video questions: where the donor@16 arm sits relative to no frames and the zero-information prior. Instrument diagnostic only.
+% NOTE: Independent unit is the video; 24 pairs were built and 23 were in force (4.35 pp per question). This table is an instrument diagnostic: it is not a finding, not a method comparison, and enters no delta or decision chain. Segment condition D1 (the donor segment is not the segment of the question itself) holds in 23 of 23 cases, counted per question from the per-question records. Pixel-level condition D2 (the donor frames are the frames of the donor video itself) has no declared record in this run: the per-question D1/D2 pixel comparison is not among the declared outputs, so it is not checkable and no pass value for it is reported here. No producer-declared boolean or pass-count field is quoted.
+{\footnotesize
+\begin{tabular}{@{}l l l l l r r@{}}
+\toprule
+Arm or contrast & hits/\textit{n} & acc. (\%) & CP95 (\%) & \Delta, pp [video 95\% CI] & \textit{n}\textsubscript{01}/\textit{n}\textsubscript{10} & McNemar \textit{p} \\
+\midrule
+\multicolumn{7}{@{}l}{\emph{Arms}} \\
+donor@16 & 7/23 & 30.4 & 13.2--52.9 & --- & --- & --- \\
+no frames & 4/23 & 17.4 & 5.0--38.8 & --- & --- & --- \\
+constant-letter prior (A) & 6/23 & 26.1 & 10.2--48.4 & --- & --- & --- \\
+\midrule
+\multicolumn{7}{@{}l}{\emph{Paired contrasts}} \\
+donor@16 $-$ no frames & --- & --- & --- & 13.0 [$-8.7$, 34.8] & 2/5 & 0.4531 \\
+donor@16 $-$ prior & --- & --- & --- & 4.3 [$-21.7$, 30.4] & 4/5 & 1.0000 \\
+no frames $-$ prior & --- & --- & --- & $-8.7$ [$-34.8$, 17.4] & 6/4 & 0.7539 \\
+\bottomrule
+\end{tabular}
+}

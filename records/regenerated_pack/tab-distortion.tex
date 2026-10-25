@@ -1,0 +1,23 @@
+% tab-distortion.tex -- fragment only: the float, caption and label are the typesetter ones.
+% Values read at run time from: evidence.task-259e5c2b3a.
+% Rates and CP95 in percent; paired differences in percentage points (pp).
+% SUGGESTED CAPTION: Distortion reading (d1) on 17 video pairs: whether a pre-registered distortion removes the evidence it targets, per operator and noise stream.
+% NOTE: Independent unit is the video pair (5.88 pp per pair). The exact McNemar p is the unadjusted question-level value; the last column is the Holm adjustment over the family of 6 (evidence versus non-evidence per operator $\times$ stream). No member of the family is rejected at 0.05: the adjusted value is 0.1289 throughout.
+{\footnotesize
+\begin{tabular}{@{}l l l l l l l r r@{}}
+\toprule
+Operator $\times$ stream & evidence hits/17 & evidence acc. (\%) & CP95 (\%) & non-evidence hits/17 & non-ev. acc. (\%) & \Delta, pp [video 95\% CI] & exact McNemar \textit{p} (unadjusted) & Holm \textit{p} (family of 6) \\
+\midrule
+\multicolumn{9}{@{}l}{\emph{Reference}} \\
+single clean & 12/17 & 70.6 & 44.0--89.7 & --- & --- & --- & --- & --- \\
+\midrule
+\multicolumn{9}{@{}l}{\emph{Operator $\times$ stream: evidence patch against non-evidence patch (family of 6, Holm)}} \\
+noise $k_0$ & 12/17 & 70.6 & 44.0--89.7 & 4/17 & 23.5 & 47.1 [17.6, 76.5] & 0.0215 & 0.1289 \\
+noise $k_1$ & 10/17 & 58.8 & 32.9--81.6 & 3/17 & 17.6 & 41.2 [11.8, 70.6] & 0.0391 & 0.1289 \\
+noise $k_2$ & 11/17 & 64.7 & 38.3--85.8 & 3/17 & 17.6 & 47.1 [17.6, 76.5] & 0.0215 & 0.1289 \\
+patchcopy $k_0$ & 11/17 & 64.7 & 38.3--85.8 & 3/17 & 17.6 & 47.1 [11.8, 76.5] & 0.0386 & 0.1289 \\
+patchcopy $k_1$ & 11/17 & 64.7 & 38.3--85.8 & 3/17 & 17.6 & 47.1 [11.8, 76.5] & 0.0386 & 0.1289 \\
+patchcopy $k_2$ & 12/17 & 70.6 & 44.0--89.7 & 3/17 & 17.6 & 52.9 [17.6, 82.4] & 0.0225 & 0.1289 \\
+\bottomrule
+\end{tabular}
+}

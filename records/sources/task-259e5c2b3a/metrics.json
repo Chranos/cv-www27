@@ -1,0 +1,633 @@
+{
+ "arms": {
+  "distorted_evidence_noise_k0": {
+   "cp95": [
+    0.4404172812456628,
+    0.89686448562968
+   ],
+   "hits": 12,
+   "n": 17,
+   "value": 0.7058823529411765
+  },
+  "distorted_evidence_noise_k1": {
+   "cp95": [
+    0.32924715394675735,
+    0.8155630382160532
+   ],
+   "hits": 10,
+   "n": 17,
+   "value": 0.5882352941176471
+  },
+  "distorted_evidence_noise_k2": {
+   "cp95": [
+    0.3832836634434029,
+    0.857902516889779
+   ],
+   "hits": 11,
+   "n": 17,
+   "value": 0.6470588235294118
+  },
+  "distorted_evidence_patchcopy_k0": {
+   "cp95": [
+    0.3832836634434029,
+    0.857902516889779
+   ],
+   "hits": 11,
+   "n": 17,
+   "value": 0.6470588235294118
+  },
+  "distorted_evidence_patchcopy_k1": {
+   "cp95": [
+    0.3832836634434029,
+    0.857902516889779
+   ],
+   "hits": 11,
+   "n": 17,
+   "value": 0.6470588235294118
+  },
+  "distorted_evidence_patchcopy_k2": {
+   "cp95": [
+    0.4404172812456628,
+    0.89686448562968
+   ],
+   "hits": 12,
+   "n": 17,
+   "value": 0.7058823529411765
+  },
+  "distorted_nonevidence_noise_k0": {
+   "cp95": [
+    0.06810774043735666,
+    0.4989932732045801
+   ],
+   "hits": 4,
+   "n": 17,
+   "value": 0.23529411764705882
+  },
+  "distorted_nonevidence_noise_k1": {
+   "cp95": [
+    0.037985068070626,
+    0.43431787284428397
+   ],
+   "hits": 3,
+   "n": 17,
+   "value": 0.17647058823529413
+  },
+  "distorted_nonevidence_noise_k2": {
+   "cp95": [
+    0.037985068070626,
+    0.43431787284428397
+   ],
+   "hits": 3,
+   "n": 17,
+   "value": 0.17647058823529413
+  },
+  "distorted_nonevidence_patchcopy_k0": {
+   "cp95": [
+    0.037985068070626,
+    0.43431787284428397
+   ],
+   "hits": 3,
+   "n": 17,
+   "value": 0.17647058823529413
+  },
+  "distorted_nonevidence_patchcopy_k1": {
+   "cp95": [
+    0.037985068070626,
+    0.43431787284428397
+   ],
+   "hits": 3,
+   "n": 17,
+   "value": 0.17647058823529413
+  },
+  "distorted_nonevidence_patchcopy_k2": {
+   "cp95": [
+    0.037985068070626,
+    0.43431787284428397
+   ],
+   "hits": 3,
+   "n": 17,
+   "value": 0.17647058823529413
+  },
+  "single_clean": {
+   "cp95": [
+    0.4404172812456628,
+    0.89686448562968
+   ],
+   "hits": 12,
+   "n": 17,
+   "value": 0.7058823529411765
+  }
+ },
+ "bar_hits": 5,
+ "claim_tested": {
+  "d1": "a pre-registered distortion never destroyed the evidence it was meant to remove (behavioural criterion)"
+ },
+ "extraction": {
+  "examples": [],
+  "n_bad": 0,
+  "n_none_letter_cells": 0,
+  "rule": "mvp_common.parse_letter: first A-Ea-e uppercased; None counts as wrong and is not dropped"
+ },
+ "forward_counts": {
+  "by_arm": {
+   "answer:distorted_evidence_noise_k0": 17,
+   "answer:distorted_evidence_noise_k1": 17,
+   "answer:distorted_evidence_noise_k2": 17,
+   "answer:distorted_evidence_patchcopy_k0": 17,
+   "answer:distorted_evidence_patchcopy_k1": 17,
+   "answer:distorted_evidence_patchcopy_k2": 17,
+   "answer:distorted_nonevidence_noise_k0": 17,
+   "answer:distorted_nonevidence_noise_k1": 17,
+   "answer:distorted_nonevidence_noise_k2": 17,
+   "answer:distorted_nonevidence_patchcopy_k0": 17,
+   "answer:distorted_nonevidence_patchcopy_k1": 17,
+   "answer:distorted_nonevidence_patchcopy_k2": 17,
+   "answer:single_clean": 17
+  },
+  "by_kind": {
+   "answer:distorted_evidence_noise_k0": 17,
+   "answer:distorted_evidence_noise_k1": 17,
+   "answer:distorted_evidence_noise_k2": 17,
+   "answer:distorted_evidence_patchcopy_k0": 17,
+   "answer:distorted_evidence_patchcopy_k1": 17,
+   "answer:distorted_evidence_patchcopy_k2": 17,
+   "answer:distorted_nonevidence_noise_k0": 17,
+   "answer:distorted_nonevidence_noise_k1": 17,
+   "answer:distorted_nonevidence_noise_k2": 17,
+   "answer:distorted_nonevidence_patchcopy_k0": 17,
+   "answer:distorted_nonevidence_patchcopy_k1": 17,
+   "answer:distorted_nonevidence_patchcopy_k2": 17,
+   "answer:single_clean": 17
+  },
+  "note": "accumulated inside the run by the code path that actually ran; the same accumulator produces every sub-total and the grand total",
+  "total": 221
+ },
+ "holm_evidence_vs_nonevidence": [
+  {
+   "name": "patchcopy_k0_evidence_vs_nonevidence",
+   "p_holm": 0.12890625,
+   "p_raw": 0.03857421875,
+   "reject_005": false
+  },
+  {
+   "name": "patchcopy_k1_evidence_vs_nonevidence",
+   "p_holm": 0.12890625,
+   "p_raw": 0.03857421875,
+   "reject_005": false
+  },
+  {
+   "name": "patchcopy_k2_evidence_vs_nonevidence",
+   "p_holm": 0.12890625,
+   "p_raw": 0.0224609375,
+   "reject_005": false
+  },
+  {
+   "name": "noise_k0_evidence_vs_nonevidence",
+   "p_holm": 0.12890625,
+   "p_raw": 0.021484375,
+   "reject_005": false
+  },
+  {
+   "name": "noise_k1_evidence_vs_nonevidence",
+   "p_holm": 0.12890625,
+   "p_raw": 0.0390625,
+   "reject_005": false
+  },
+  {
+   "name": "noise_k2_evidence_vs_nonevidence",
+   "p_holm": 0.12890625,
+   "p_raw": 0.021484375,
+   "reject_005": false
+  }
+ ],
+ "identity": {
+  "annotation_matches": true,
+  "annotation_sha256": "a3042f766f568d457e2a91a30cdcf32a886c5421226eefa98a006ffaae038d8f",
+  "annotation_sha256_expected": "a3042f766f568d457e2a91a30cdcf32a886c5421226eefa98a006ffaae038d8f",
+  "dataset": "lvbench-24209d43cbdd",
+  "license": "README cc-by-nc-sa-4.0 / LICENSE Apache-2.0 text with a merge marker; non-commercial academic research only",
+  "manifest_matches": true,
+  "manifest_sha256_expected": "224e854da5ed0a527dd03dac9c42e384f2a11da194a9c29d6ef3678de405a184",
+  "manifest_sha256_recomputed": "224e854da5ed0a527dd03dac9c42e384f2a11da194a9c29d6ef3678de405a184",
+  "model_dir": "<DATA_ROOT>/qwen2vl-7b-2cbada593a2b",
+  "model_manifest_sha256": "2402ffda2977a2ff7450b96c18771bfb0fe416ed840c2cff51014572f8f3cb9b",
+  "model_manifest_sha256_expected": "47cf90f85514f119a5f77c6e91a77b46d97fa9860a8fca81f678e916b246831c",
+  "n_files": 27,
+  "n_files_expected": 27,
+  "path": "<DATA_ROOT>/lvbench-24209d43cbdd",
+  "revision": "24209d43cbddb260fcb43dbdee2de0899c87163f",
+  "source": "AI-ModelScope/LVBench (ModelScope mirror)",
+  "verified_by": "the run itself, not the sandbox (no data_dirs configured on this device)"
+ },
+ "identity_vs_archive": {
+  "agreement": {
+   "distorted_evidence_noise_k0": {
+    "agree": 8,
+    "n": 8
+   },
+   "distorted_evidence_noise_k1": {
+    "agree": 8,
+    "n": 8
+   },
+   "distorted_evidence_noise_k2": {
+    "agree": 8,
+    "n": 8
+   },
+   "distorted_evidence_patchcopy_k0": {
+    "agree": 8,
+    "n": 8
+   },
+   "distorted_evidence_patchcopy_k1": {
+    "agree": 8,
+    "n": 8
+   },
+   "distorted_evidence_patchcopy_k2": {
+    "agree": 8,
+    "n": 8
+   },
+   "distorted_nonevidence_noise_k0": {
+    "agree": 8,
+    "n": 8
+   },
+   "distorted_nonevidence_noise_k1": {
+    "agree": 8,
+    "n": 8
+   },
+   "distorted_nonevidence_noise_k2": {
+    "agree": 8,
+    "n": 8
+   },
+   "distorted_nonevidence_patchcopy_k0": {
+    "agree": 8,
+    "n": 8
+   },
+   "distorted_nonevidence_patchcopy_k1": {
+    "agree": 8,
+    "n": 8
+   },
+   "distorted_nonevidence_patchcopy_k2": {
+    "agree": 8,
+    "n": 8
+   },
+   "no_frames": {
+    "agree": 0,
+    "n": 8
+   },
+   "single_clean": {
+    "agree": 8,
+    "n": 8
+   },
+   "uniform@16": {
+    "agree": 0,
+    "n": 8
+   }
+  },
+  "available": true,
+  "mismatches": [
+   {
+    "archive": "B",
+    "arm": "uniform@16",
+    "pair": 1,
+    "qid": "GcRKREorGSc#977",
+    "this": null
+   },
+   {
+    "archive": "A",
+    "arm": "no_frames",
+    "pair": 1,
+    "qid": "GcRKREorGSc#977",
+    "this": null
+   },
+   {
+    "archive": "B",
+    "arm": "uniform@16",
+    "pair": 2,
+    "qid": "JPPMz8fEml0#2958",
+    "this": null
+   },
+   {
+    "archive": "A",
+    "arm": "no_frames",
+    "pair": 2,
+    "qid": "JPPMz8fEml0#2958",
+    "this": null
+   },
+   {
+    "archive": "C",
+    "arm": "uniform@16",
+    "pair": 5,
+    "qid": "RbpKkvlHYTw#2805",
+    "this": null
+   },
+   {
+    "archive": "C",
+    "arm": "no_frames",
+    "pair": 5,
+    "qid": "RbpKkvlHYTw#2805",
+    "this": null
+   },
+   {
+    "archive": "A",
+    "arm": "uniform@16",
+    "pair": 6,
+    "qid": "S8vPx-u9p_A#600",
+    "this": null
+   },
+   {
+    "archive": "A",
+    "arm": "no_frames",
+    "pair": 6,
+    "qid": "S8vPx-u9p_A#600",
+    "this": null
+   },
+   {
+    "archive": "A",
+    "arm": "uniform@16",
+    "pair": 8,
+    "qid": "TZ0j6kr4ZJ0#1417",
+    "this": null
+   },
+   {
+    "archive": "D",
+    "arm": "no_frames",
+    "pair": 8,
+    "qid": "TZ0j6kr4ZJ0#1417",
+    "this": null
+   },
+   {
+    "archive": "A",
+    "arm": "uniform@16",
+    "pair": 9,
+    "qid": "TiQBTesZUJQ#842",
+    "this": null
+   },
+   {
+    "archive": "A",
+    "arm": "no_frames",
+    "pair": 9,
+    "qid": "TiQBTesZUJQ#842",
+    "this": null
+   },
+   {
+    "archive": "A",
+    "arm": "uniform@16",
+    "pair": 13,
+    "qid": "hROKtPqktO8#2642",
+    "this": null
+   },
+   {
+    "archive": "B",
+    "arm": "no_frames",
+    "pair": 13,
+    "qid": "hROKtPqktO8#2642",
+    "this": null
+   },
+   {
+    "archive": "C",
+    "arm": "uniform@16",
+    "pair": 16,
+    "qid": "qAIRFyR6NyQ#2",
+    "this": null
+   },
+   {
+    "archive": "C",
+    "arm": "no_frames",
+    "pair": 16,
+    "qid": "qAIRFyR6NyQ#2",
+    "this": null
+   }
+  ],
+  "n_mismatch": 16,
+  "n_overlap": 8,
+  "path": "sources/task-68cebbe16b/results/twin5_P1_carrier_samples.jsonl"
+ },
+ "independent_unit": "video (one twin pair per video)",
+ "model": {
+  "architecture": "Qwen2VLForConditionalGeneration",
+  "cuda_available": true,
+  "device_index": 0,
+  "dtype_mode": "bf16",
+  "gpu_free_before_mib": 80834.2,
+  "gpu_name": "NVIDIA A100-SXM4-80GB",
+  "gpu_total_mib": 81251.2,
+  "model_dir": "<DATA_ROOT>/qwen2vl-7b-2cbada593a2b",
+  "model_identity": {
+   "model_dir": "<DATA_ROOT>/qwen2vl-7b-2cbada593a2b",
+   "model_fingerprint": {
+    "bytes": 16594416604,
+    "files": 20,
+    "name_size_manifest_sha256": "2402ffda2977a2ff7450b96c18771bfb0fe416ed840c2cff51014572f8f3cb9b"
+   },
+   "model_manifest_matches": false,
+   "model_manifest_sha256_expected": "47cf90f85514f119a5f77c6e91a77b46d97fa9860a8fca81f678e916b246831c"
+  },
+  "pixel_control": "min/max_pixels",
+  "torch": "2.9.0+cu128",
+  "transformers": "4.57.3"
+ },
+ "n_measured": 17,
+ "notes": [],
+ "per_form": {
+  "noise": {
+   "0": {
+    "bar": 5,
+    "evidence_at_or_below_bar": false,
+    "evidence_cp95_upper_below_bar_frac": false,
+    "evidence_hits": 12,
+    "evidence_vs_nonevidence": {
+     "cluster_boot95": [
+      0.17647058823529413,
+      0.7647058823529411
+     ],
+     "mcnemar": {
+      "n01": 1,
+      "n10": 9,
+      "p": 0.021484375
+     },
+     "mean_diff": 0.47058823529411764,
+     "n_videos": 17,
+     "video_sign_test": {
+      "n_neg": 1,
+      "n_pos": 9,
+      "p": 0.021484375
+     }
+    },
+    "nonevidence_hits": 4
+   },
+   "1": {
+    "bar": 5,
+    "evidence_at_or_below_bar": false,
+    "evidence_cp95_upper_below_bar_frac": false,
+    "evidence_hits": 10,
+    "evidence_vs_nonevidence": {
+     "cluster_boot95": [
+      0.11764705882352941,
+      0.7058823529411765
+     ],
+     "mcnemar": {
+      "n01": 1,
+      "n10": 8,
+      "p": 0.0390625
+     },
+     "mean_diff": 0.4117647058823529,
+     "n_videos": 17,
+     "video_sign_test": {
+      "n_neg": 1,
+      "n_pos": 8,
+      "p": 0.0390625
+     }
+    },
+    "nonevidence_hits": 3
+   },
+   "2": {
+    "bar": 5,
+    "evidence_at_or_below_bar": false,
+    "evidence_cp95_upper_below_bar_frac": false,
+    "evidence_hits": 11,
+    "evidence_vs_nonevidence": {
+     "cluster_boot95": [
+      0.17647058823529413,
+      0.7647058823529411
+     ],
+     "mcnemar": {
+      "n01": 1,
+      "n10": 9,
+      "p": 0.021484375
+     },
+     "mean_diff": 0.47058823529411764,
+     "n_videos": 17,
+     "video_sign_test": {
+      "n_neg": 1,
+      "n_pos": 9,
+      "p": 0.021484375
+     }
+    },
+    "nonevidence_hits": 3
+   }
+  },
+  "patchcopy": {
+   "0": {
+    "bar": 5,
+    "evidence_at_or_below_bar": false,
+    "evidence_cp95_upper_below_bar_frac": false,
+    "evidence_hits": 11,
+    "evidence_vs_nonevidence": {
+     "cluster_boot95": [
+      0.11764705882352941,
+      0.7647058823529411
+     ],
+     "mcnemar": {
+      "n01": 2,
+      "n10": 10,
+      "p": 0.03857421875
+     },
+     "mean_diff": 0.47058823529411764,
+     "n_videos": 17,
+     "video_sign_test": {
+      "n_neg": 2,
+      "n_pos": 10,
+      "p": 0.03857421875
+     }
+    },
+    "nonevidence_hits": 3
+   },
+   "1": {
+    "bar": 5,
+    "evidence_at_or_below_bar": false,
+    "evidence_cp95_upper_below_bar_frac": false,
+    "evidence_hits": 11,
+    "evidence_vs_nonevidence": {
+     "cluster_boot95": [
+      0.11764705882352941,
+      0.7647058823529411
+     ],
+     "mcnemar": {
+      "n01": 2,
+      "n10": 10,
+      "p": 0.03857421875
+     },
+     "mean_diff": 0.47058823529411764,
+     "n_videos": 17,
+     "video_sign_test": {
+      "n_neg": 2,
+      "n_pos": 10,
+      "p": 0.03857421875
+     }
+    },
+    "nonevidence_hits": 3
+   },
+   "2": {
+    "bar": 5,
+    "evidence_at_or_below_bar": false,
+    "evidence_cp95_upper_below_bar_frac": false,
+    "evidence_hits": 12,
+    "evidence_vs_nonevidence": {
+     "cluster_boot95": [
+      0.17647058823529413,
+      0.8235294117647058
+     ],
+     "mcnemar": {
+      "n01": 2,
+      "n10": 11,
+      "p": 0.0224609375
+     },
+     "mean_diff": 0.5294117647058824,
+     "n_videos": 17,
+     "video_sign_test": {
+      "n_neg": 2,
+      "n_pos": 11,
+      "p": 0.0224609375
+     }
+    },
+    "nonevidence_hits": 3
+   }
+  }
+ },
+ "pin": {
+  "e_star_outside_i16u_all": true,
+  "n_pairs": 17,
+  "pin_sha256": "94e667e1f7efcdab17038ac9635e14889772d7471bfa06afa715288300360944",
+  "report_pairs": [
+   0,
+   3,
+   4,
+   7,
+   10,
+   11,
+   12,
+   14,
+   15
+  ],
+  "screen_pairs": [
+   1,
+   2,
+   5,
+   6,
+   8,
+   9,
+   13,
+   16
+  ]
+ },
+ "run": {
+  "exp_seed": 0,
+  "decides_claim": true,
+  "elapsed_seconds": 56.5,
+  "mode": "full",
+  "phases_seconds": {
+   "decode_s": 5.4,
+   "forward_s": 30.0,
+   "identity_s": 0.0,
+   "model_load_s": 11.9
+  },
+  "plan_id": "plan-paper-full-four-readings-r3",
+  "plan_version": 4,
+  "reading": "distortion",
+  "stage": "full"
+ },
+ "samples": "results/four_distortion_samples.jsonl",
+ "verdict": {
+  "n_pairs": 17,
+  "resolution_pp": 5.882352941176471
+ }
+}

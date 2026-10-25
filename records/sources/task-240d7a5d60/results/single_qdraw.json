@@ -1,0 +1,255 @@
+{
+ "candidate_order": "ascending integer uid",
+ "candidates_file": {
+  "path": "results/single_qdraw_candidates.jsonl",
+  "rows": 109,
+  "sha256": "f84373174615142377802359341b503fb14e31f43704fd94b04524243ef7ace4"
+ },
+ "empty_set_rule": "|C(v)| = 0 crashes the run; no video dropped, no substitution, n=24",
+ "forwards": 0,
+ "k_distribution": {
+  "1": 13,
+  "2": 7,
+  "3": 2,
+  "4": 2
+ },
+ "k_distribution_expected": {
+  "1": 13,
+  "2": 7,
+  "3": 2,
+  "4": 2
+ },
+ "n_differ_from_minuid": 7,
+ "n_index0": 17,
+ "n_singleton_videos": 13,
+ "n_videos": 24,
+ "ordering_note": "the rule and its seed were written in the Plan and committed before this file existed; this record and the candidate file are written by the run that first executed the committed selector",
+ "per_video": [
+  {
+   "changed_from_minuid": false,
+   "k": 0,
+   "n_candidates": 1,
+   "qid": "-WnyRMZqV1U#1736",
+   "uid": 1736,
+   "uid_min": 1736,
+   "video_id": "-WnyRMZqV1U"
+  },
+  {
+   "changed_from_minuid": true,
+   "k": 1,
+   "n_candidates": 3,
+   "qid": "1FsiZgGZU70#3428",
+   "uid": 3428,
+   "uid_min": 3419,
+   "video_id": "1FsiZgGZU70"
+  },
+  {
+   "changed_from_minuid": false,
+   "k": 0,
+   "n_candidates": 2,
+   "qid": "20lTg3yUrO4#5171",
+   "uid": 5171,
+   "uid_min": 5171,
+   "video_id": "20lTg3yUrO4"
+  },
+  {
+   "changed_from_minuid": false,
+   "k": 0,
+   "n_candidates": 1,
+   "qid": "2LH3JCGkEBU#4319",
+   "uid": 4319,
+   "uid_min": 4319,
+   "video_id": "2LH3JCGkEBU"
+  },
+  {
+   "changed_from_minuid": true,
+   "k": 1,
+   "n_candidates": 2,
+   "qid": "2sriHX3PbXw#511",
+   "uid": 511,
+   "uid_min": 509,
+   "video_id": "2sriHX3PbXw"
+  },
+  {
+   "changed_from_minuid": false,
+   "k": 0,
+   "n_candidates": 2,
+   "qid": "2zkJFv-ro4A#3118",
+   "uid": 3118,
+   "uid_min": 3118,
+   "video_id": "2zkJFv-ro4A"
+  },
+  {
+   "changed_from_minuid": false,
+   "k": 0,
+   "n_candidates": 1,
+   "qid": "4LA_tH-VSnQ#5003",
+   "uid": 5003,
+   "uid_min": 5003,
+   "video_id": "4LA_tH-VSnQ"
+  },
+  {
+   "changed_from_minuid": true,
+   "k": 1,
+   "n_candidates": 2,
+   "qid": "5dZ_lvDgevk#917",
+   "uid": 917,
+   "uid_min": 916,
+   "video_id": "5dZ_lvDgevk"
+  },
+  {
+   "changed_from_minuid": true,
+   "k": 1,
+   "n_candidates": 4,
+   "qid": "81SbCR6p3Z0#553",
+   "uid": 553,
+   "uid_min": 542,
+   "video_id": "81SbCR6p3Z0"
+  },
+  {
+   "changed_from_minuid": false,
+   "k": 0,
+   "n_candidates": 1,
+   "qid": "9tBsMSDoDqk#4607",
+   "uid": 4607,
+   "uid_min": 4607,
+   "video_id": "9tBsMSDoDqk"
+  },
+  {
+   "changed_from_minuid": false,
+   "k": 0,
+   "n_candidates": 1,
+   "qid": "CgvJqGxzRfE#4459",
+   "uid": 4459,
+   "uid_min": 4459,
+   "video_id": "CgvJqGxzRfE"
+  },
+  {
+   "changed_from_minuid": false,
+   "k": 0,
+   "n_candidates": 1,
+   "qid": "FaV0tIaWWEg#2098",
+   "uid": 2098,
+   "uid_min": 2098,
+   "video_id": "FaV0tIaWWEg"
+  },
+  {
+   "changed_from_minuid": false,
+   "k": 0,
+   "n_candidates": 1,
+   "qid": "Hf-n1yfd8II#3938",
+   "uid": 3938,
+   "uid_min": 3938,
+   "video_id": "Hf-n1yfd8II"
+  },
+  {
+   "changed_from_minuid": true,
+   "k": 1,
+   "n_candidates": 2,
+   "qid": "QWXlvx1GoTY#2476",
+   "uid": 2476,
+   "uid_min": 2474,
+   "video_id": "QWXlvx1GoTY"
+  },
+  {
+   "changed_from_minuid": false,
+   "k": 0,
+   "n_candidates": 1,
+   "qid": "RjDrZkBwzho#764",
+   "uid": 764,
+   "uid_min": 764,
+   "video_id": "RjDrZkBwzho"
+  },
+  {
+   "changed_from_minuid": true,
+   "k": 1,
+   "n_candidates": 2,
+   "qid": "Vk_Af0htZGU#5050",
+   "uid": 5050,
+   "uid_min": 5049,
+   "video_id": "Vk_Af0htZGU"
+  },
+  {
+   "changed_from_minuid": false,
+   "k": 0,
+   "n_candidates": 1,
+   "qid": "_T2Avd3tFHc#2882",
+   "uid": 2882,
+   "uid_min": 2882,
+   "video_id": "_T2Avd3tFHc"
+  },
+  {
+   "changed_from_minuid": false,
+   "k": 0,
+   "n_candidates": 1,
+   "qid": "_zrgbA3FMVE#658",
+   "uid": 658,
+   "uid_min": 658,
+   "video_id": "_zrgbA3FMVE"
+  },
+  {
+   "changed_from_minuid": false,
+   "k": 0,
+   "n_candidates": 1,
+   "qid": "aJI8XTa_DII#1246",
+   "uid": 1246,
+   "uid_min": 1246,
+   "video_id": "aJI8XTa_DII"
+  },
+  {
+   "changed_from_minuid": false,
+   "k": 0,
+   "n_candidates": 3,
+   "qid": "cXDT44zT8JY#4042",
+   "uid": 4042,
+   "uid_min": 4042,
+   "video_id": "cXDT44zT8JY"
+  },
+  {
+   "changed_from_minuid": true,
+   "k": 1,
+   "n_candidates": 4,
+   "qid": "evYm0cELO3I#2756",
+   "uid": 2756,
+   "uid_min": 2754,
+   "video_id": "evYm0cELO3I"
+  },
+  {
+   "changed_from_minuid": false,
+   "k": 0,
+   "n_candidates": 1,
+   "qid": "k2FIFQIYBvA#4730",
+   "uid": 4730,
+   "uid_min": 4730,
+   "video_id": "k2FIFQIYBvA"
+  },
+  {
+   "changed_from_minuid": false,
+   "k": 0,
+   "n_candidates": 2,
+   "qid": "moALQl818ZY#5253",
+   "uid": 5253,
+   "uid_min": 5253,
+   "video_id": "moALQl818ZY"
+  },
+  {
+   "changed_from_minuid": false,
+   "k": 0,
+   "n_candidates": 1,
+   "qid": "o-gLbgpzCc8#2408",
+   "uid": 2408,
+   "uid_min": 2408,
+   "video_id": "o-gLbgpzCc8"
+  }
+ ],
+ "qdraw_source_sha256": "7820096a2cb47a3cba8d4b2ef029dcabce1de3f76949a1f6c5d918e89b10af63",
+ "recheck_from_disk_mismatches": [],
+ "recheck_from_disk_ok": true,
+ "rule_text": "C(v) = the questions of video v admitted by the frozen inclusion rule and selected by the frozen SELECT rule, ordered by ascending integer uid. k(v) ~ Uniform{0,...,|C(v)|-1} with ss = numpy.random.SeedSequence([20261021, int(hashlib.sha256(v.encode()).hexdigest()[:8], 16)]); rng = numpy.random.default_rng(ss); k = int(rng.integers(0, len(C(v)))). chosen = C(v)[k]. No tie exists (integer uids are unique inside a video; a duplicate uid is a structural error and crashes the run, it is not deduplicated). |C(v)| = 0 crashes the run: no video is dropped, no question is substituted, n stays 24.",
+ "rule_version": "qdraw-v1",
+ "seed": 20261021,
+ "seed_fixed_not_exp_seed": true,
+ "seed_formula": "SeedSequence([20261021, int(sha256(video_id)[:8], 16)]) -> default_rng -> integers(0, |C(v)|)",
+ "selector_source_sha256": "9a6003a02c1dada986bf8a62d8afda099880e4473d018a417fd5cafdd4609a17",
+ "tie_rule": "none can occur: integer uids are unique inside a video; a duplicate uid crashes the run"
+}

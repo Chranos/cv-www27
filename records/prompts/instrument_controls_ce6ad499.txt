@@ -1,0 +1,4 @@
+NAMING_FORCED_PREFIX = 'The option text is: "'
+# The one escalation retry, used only after a bare-letter reply.
+NAMING_ESCALATION_INSTRUCTION = ("Write only that option's words. Do not write a letter or "
+                                 "a number.")

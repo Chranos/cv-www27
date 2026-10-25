@@ -1,0 +1,202 @@
+{
+ "candidate_order": "ascending integer uid",
+ "candidates_file": {
+  "path": "results/distortion_ddraw_candidates.jsonl",
+  "rows": 80,
+  "sha256": "12ed3db23cac0d600987e08fc883c56e704ca5be875404ff6996f21542e5ae98"
+ },
+ "ddraw_source_sha256": "755f7d6d70f07d1b61a3096bdb177669cb34deb16b78e9c19aa98a7f0ec4a889",
+ "drawn_pin_sha256": "16f56561ffc89c6a8f665d17efa13490c234b56eab62e43f9c87dc8b6631ee34",
+ "empty_set_rule": "|C(v)| = 0 leaves the video a non-unit exactly as in the archived construction (pool 20 local videos -> 17 pairs); n stays 17",
+ "expected_n_differ": 11.100324675324675,
+ "forwards": 0,
+ "k_distribution": {
+  "1": 2,
+  "11": 2,
+  "2": 3,
+  "3": 2,
+  "4": 3,
+  "5": 1,
+  "6": 2,
+  "7": 1,
+  "8": 1
+ },
+ "minuid_shadow_pin": {
+  "archived_expected": "94e667e1f7efcdab17038ac9635e14889772d7471bfa06afa715288300360944",
+  "built_by": "untouched lv_common.build_pin",
+  "matches_archive": true,
+  "pin_sha256": "94e667e1f7efcdab17038ac9635e14889772d7471bfa06afa715288300360944"
+ },
+ "n_differ_from_minuid": 11,
+ "n_index0": 6,
+ "n_multi_videos": 15,
+ "n_singleton_videos": 2,
+ "n_videos": 17,
+ "ordering_note": "the rule and its seed were written in the Plan and committed before this file existed; this record and the candidate file are written by the run that first executed the committed selector",
+ "p_all_multi_index0": 1.7792690614660314e-10,
+ "per_video": [
+  {
+   "changed_from_minuid": true,
+   "k": 2,
+   "n_candidates": 4,
+   "qid": "16Z-XQh9jhk#2266",
+   "uid": 2266,
+   "uid_min": 2256,
+   "video_id": "16Z-XQh9jhk"
+  },
+  {
+   "changed_from_minuid": true,
+   "k": 4,
+   "n_candidates": 11,
+   "qid": "GcRKREorGSc#991",
+   "uid": 991,
+   "uid_min": 977,
+   "video_id": "GcRKREorGSc"
+  },
+  {
+   "changed_from_minuid": false,
+   "k": 0,
+   "n_candidates": 2,
+   "qid": "JPPMz8fEml0#2958",
+   "uid": 2958,
+   "uid_min": 2958,
+   "video_id": "JPPMz8fEml0"
+  },
+  {
+   "changed_from_minuid": true,
+   "k": 2,
+   "n_candidates": 6,
+   "qid": "KktLi3UifPY#1176",
+   "uid": 1176,
+   "uid_min": 1170,
+   "video_id": "KktLi3UifPY"
+  },
+  {
+   "changed_from_minuid": false,
+   "k": 0,
+   "n_candidates": 2,
+   "qid": "RCAqKnvu_P0#2898",
+   "uid": 2898,
+   "uid_min": 2898,
+   "video_id": "RCAqKnvu_P0"
+  },
+  {
+   "changed_from_minuid": false,
+   "k": 0,
+   "n_candidates": 2,
+   "qid": "RbpKkvlHYTw#2805",
+   "uid": 2805,
+   "uid_min": 2805,
+   "video_id": "RbpKkvlHYTw"
+  },
+  {
+   "changed_from_minuid": false,
+   "k": 0,
+   "n_candidates": 1,
+   "qid": "S8vPx-u9p_A#600",
+   "uid": 600,
+   "uid_min": 600,
+   "video_id": "S8vPx-u9p_A"
+  },
+  {
+   "changed_from_minuid": true,
+   "k": 1,
+   "n_candidates": 3,
+   "qid": "SRq0weUKskM#484",
+   "uid": 484,
+   "uid_min": 479,
+   "video_id": "SRq0weUKskM"
+  },
+  {
+   "changed_from_minuid": true,
+   "k": 4,
+   "n_candidates": 8,
+   "qid": "TZ0j6kr4ZJ0#1430",
+   "uid": 1430,
+   "uid_min": 1417,
+   "video_id": "TZ0j6kr4ZJ0"
+  },
+  {
+   "changed_from_minuid": false,
+   "k": 0,
+   "n_candidates": 4,
+   "qid": "TiQBTesZUJQ#842",
+   "uid": 842,
+   "uid_min": 842,
+   "video_id": "TiQBTesZUJQ"
+  },
+  {
+   "changed_from_minuid": true,
+   "k": 3,
+   "n_candidates": 5,
+   "qid": "W-BnDvXXfOs#4976",
+   "uid": 4976,
+   "uid_min": 4964,
+   "video_id": "W-BnDvXXfOs"
+  },
+  {
+   "changed_from_minuid": true,
+   "k": 3,
+   "n_candidates": 11,
+   "qid": "Z4HGQL_McDQ#1118",
+   "uid": 1118,
+   "uid_min": 1112,
+   "video_id": "Z4HGQL_McDQ"
+  },
+  {
+   "changed_from_minuid": true,
+   "k": 3,
+   "n_candidates": 6,
+   "qid": "Z86xysw5Ncc#4207",
+   "uid": 4207,
+   "uid_min": 4195,
+   "video_id": "Z86xysw5Ncc"
+  },
+  {
+   "changed_from_minuid": false,
+   "k": 0,
+   "n_candidates": 1,
+   "qid": "hROKtPqktO8#2642",
+   "uid": 2642,
+   "uid_min": 2642,
+   "video_id": "hROKtPqktO8"
+  },
+  {
+   "changed_from_minuid": true,
+   "k": 2,
+   "n_candidates": 3,
+   "qid": "pXD3txG2bVQ#747",
+   "uid": 747,
+   "uid_min": 730,
+   "video_id": "pXD3txG2bVQ"
+  },
+  {
+   "changed_from_minuid": true,
+   "k": 2,
+   "n_candidates": 4,
+   "qid": "pe_LddfHAUU#5116",
+   "uid": 5116,
+   "uid_min": 5110,
+   "video_id": "pe_LddfHAUU"
+  },
+  {
+   "changed_from_minuid": true,
+   "k": 6,
+   "n_candidates": 7,
+   "qid": "qAIRFyR6NyQ#23",
+   "uid": 23,
+   "uid_min": 2,
+   "video_id": "qAIRFyR6NyQ"
+  }
+ ],
+ "recheck_from_disk_ok": true,
+ "replaces": "one_question_per_video: smallest uid (lv_common.build_pin; registered in twin-lvbench r5@v4/r6 s2; measured by evidence.task-259e5c2b3a; that reading stays on record)",
+ "rule_text": "C(v) = the questions of video v admitted by the frozen inclusion rule of the distortion carrier (lv_common.build_pin, unchanged: time_reference parses as MM:SS-MM:SS; 0 <= end-start <= 3.0 s; end <= duration+1.0 s; the question splits into exactly four non-empty options A-D; answer in {A,B,C,D}), ordered by ascending integer uid. k(v) ~ Uniform{0,...,|C(v)|-1} with ss = numpy.random.SeedSequence([20261023, int(hashlib.sha256(v.encode()).hexdigest()[:8], 16)]); rng = numpy.random.default_rng(ss); k = int(rng.integers(0, len(C(v)))). chosen = C(v)[k]. No tie exists (integer uids are unique inside a video; a duplicate uid is a structural error and crashes the run, it is not deduplicated). |C(v)| = 0 leaves the video a non-unit exactly as in the archived construction; no video is dropped that the archived rule kept, no question is substituted, n stays 17, and the 17 unit videos and the screen 8 / report 9 split must be identical to the archived min-uid pin.",
+ "rule_version": "ddraw-v1",
+ "seed": 20261023,
+ "seed_fixed_not_exp_seed": true,
+ "seed_formula": "SeedSequence([20261023, int(sha256(video_id)[:8], 16)]) -> default_rng -> integers(0, |C(v)|)",
+ "selector_source_sha256": "72d55bbe89356cb781ae298c9314b131e796a3e2a8230d5509572d8cdcf404ec",
+ "structure_cross_check": "passed (video set, split, skipped, per-video fields; any divergence raises before any model step)",
+ "tie_rule": "none can occur: integer uids are unique inside a video; a duplicate uid crashes the run"
+}

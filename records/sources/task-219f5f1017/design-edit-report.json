@@ -1,0 +1,49 @@
+{
+  "file": "tab-design.tex",
+  "sha256_before": "940d2dcb52c0bd2fef407470c8a506e27497ebacfef15f33d1d81cfe5d8e8812",
+  "sha256_after": "1588329c56f8a433e35201d0024d5f1dce5437044a346cddf10617530b6c0bf4",
+  "changed_lines": [
+    13
+  ],
+  "row": "(c) single frame",
+  "old_phrase": "confirmation side, one rule-selected question per video",
+  "new_phrase": "confirmation side, one question per video drawn uniformly from its rule-eligible candidates",
+  "old_row_c": "(c) single frame & confirmation side, one rule-selected question per video & uniform@16; single frame $j^\\star$; no frames; constant-letter prior (A) & video (24); 24 units & 1 unit = 4.17 pp & no frames 7/24; prior 10/24 & no threshold; bounded-difference statement with the paired interval \\\\",
+  "new_row_c": "(c) single frame & confirmation side, one question per video drawn uniformly from its rule-eligible candidates & uniform@16; single frame $j^\\star$; no frames; constant-letter prior (A) & video (24); 24 units & 1 unit = 4.17 pp & no frames 7/24; prior 10/24 & no threshold; bounded-difference statement with the paired interval \\\\",
+  "row_c_checks_from_evidence.task-240d7a5d60": {
+    "floor (no frames / prior)": "no frames 7/24; prior 10/24",
+    "prior letter": "constant-letter prior (A)",
+    "independent unit and n": "video (24); 24 units",
+    "resolution": "1 unit = 4.17 pp",
+    "single-frame arm label": "single frame $j^\\star$",
+    "uniform@16 arm label": "uniform@16"
+  },
+  "row_c_arm_count": 4,
+  "other_files_source": "original/task-1f59540a60",
+  "other_files": {
+    "numbers.tex": {
+      "sha256": "bb9b99dbb38211d479d2bfaa24e1abd8a998054e477365e3c53b68016bc0a80e",
+      "matches_r5": true
+    },
+    "tab-single.tex": {
+      "sha256": "3c79d9ed406d254fc2a4fdf304cd86fe45dcfd0c44b987d46ea93db04a884399",
+      "matches_r5": true
+    },
+    "tab-selection.tex": {
+      "sha256": "12680679e836ae1d16751254aed9a845039ab58de35eb8b247c75430374177ef",
+      "matches_r5": true
+    },
+    "tab-noframes.tex": {
+      "sha256": "da802d570eeb14bfc4650f1e82ee8a13318e71ee2f6be3db5f50a438d4edafdf",
+      "matches_r5": true
+    },
+    "tab-distortion.tex": {
+      "sha256": "d2e3d9eb7deef829bad2d44b369c2cdeb923d1f9a03e50772a22f3df0c6c7552",
+      "matches_r5": true
+    },
+    "tab-donor.tex": {
+      "sha256": "b5194359834746ba93664788e39025611e40526e9120bc5a95bb0bd432246dbc",
+      "matches_r5": true
+    }
+  }
+}

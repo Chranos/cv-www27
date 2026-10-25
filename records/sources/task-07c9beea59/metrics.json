@@ -1,0 +1,272 @@
+{
+ "arms": {
+  "constant_prior": {
+   "cp95": [
+    0.10228613391535846,
+    0.48405197040243814
+   ],
+   "hits": 6,
+   "n": 23,
+   "value": 0.2608695652173913
+  },
+  "donor_floor_probe@16": {
+   "cp95": [
+    0.13210287969809986,
+    0.5291916660085065
+   ],
+   "hits": 7,
+   "n": 23,
+   "value": 0.30434782608695654
+  },
+  "no_frames": {
+   "cp95": [
+    0.04950764530579343,
+    0.38781188995479754
+   ],
+   "hits": 4,
+   "n": 23,
+   "value": 0.17391304347826086
+  }
+ },
+ "claim_tested": {
+  "d2": "instrument diagnostic only: where the donor arm sits relative to the no-frames arm and to the zero-information option prior. Not a finding, not a method comparison, not in any delta or decision chain."
+ },
+ "comparison": {
+  "cluster_boot95": [
+   -0.08695652173913043,
+   0.34782608695652173
+  ],
+  "mcnemar": {
+   "n01": 2,
+   "n10": 5,
+   "p": 0.453125
+  },
+  "mean_diff": 0.13043478260869565,
+  "n_videos": 23,
+  "video_sign_test": {
+   "n_neg": 2,
+   "n_pos": 5,
+   "p": 0.453125
+  }
+ },
+ "comparison_vs_prior": {
+  "cluster_boot95": [
+   -0.21739130434782608,
+   0.30434782608695654
+  ],
+  "mcnemar": {
+   "n01": 4,
+   "n10": 5,
+   "p": 1.0
+  },
+  "mean_diff": 0.043478260869565216,
+  "n_videos": 23,
+  "video_sign_test": {
+   "n_neg": 4,
+   "n_pos": 5,
+   "p": 1.0
+  }
+ },
+ "crash_guard": {
+  "budget": 4,
+  "enforced_by": "raise SystemExit(70) before any model step",
+  "n_excluded": 0,
+  "selftest": {
+   "budget": 4,
+   "injected_exclusions": 5,
+   "raised": true,
+   "returncode": 70,
+   "stderr_tail": "",
+   "stdout_tail": "reading=guard_selftest mode=pilot stage=smoke plan=plan-paper-full-four-readings-r3@4 seed=0\ncrash_destruction_unverified: selftest excluded 5 > budget 4\n"
+  }
+ },
+ "extraction": {
+  "examples": [],
+  "n_bad": 0,
+  "n_none_letter_cells": 0,
+  "rule": "mvp_common.parse_letter: first A-Ea-e uppercased; None counts as wrong and is not dropped"
+ },
+ "forward_counts": {
+  "by_arm": {
+   "answer:donor_floor_probe@16": 23,
+   "answer:no_frames": 23
+  },
+  "by_kind": {
+   "answer:donor_floor_probe@16": 23,
+   "answer:no_frames": 23
+  },
+  "note": "accumulated inside the run by the code path that actually ran; the same accumulator produces every sub-total and the grand total",
+  "total": 46
+ },
+ "identity": {
+  "carrier_manifest_expected": "38e93f0605209aa6192188a1c83e9baf6472a66cd2cc00e4dcd3fa677d24ee10",
+  "n_pairs": 24,
+  "n_visible_in_force": 23,
+  "pin_expected": "67563e778458ea50c2981103cd81cfe5af7efed00faef1949db5b83a76e7145c",
+  "pin_sha256": "67563e778458ea50c2981103cd81cfe5af7efed00faef1949db5b83a76e7145c",
+  "stage1_excluded": [
+   "1_plotQA/movie101_38.mp4#placebo",
+   "1_plotQA/movie101_38.mp4#visible",
+   "1_plotQA/movie101_79.mp4#placebo"
+  ]
+ },
+ "independent_unit": "video (one twin pair per video; questions are measurement units)",
+ "model": {
+  "architecture": "Qwen2VLForConditionalGeneration",
+  "cuda_available": true,
+  "device_index": 0,
+  "dtype_mode": "bf16",
+  "gpu_free_before_mib": 80834.2,
+  "gpu_name": "NVIDIA A100-SXM4-80GB",
+  "gpu_total_mib": 81251.2,
+  "model_dir": "<DATA_ROOT>/qwen2vl-7b-2cbada593a2b",
+  "model_identity": {
+   "model_dir": "<DATA_ROOT>/qwen2vl-7b-2cbada593a2b",
+   "model_fingerprint": {
+    "bytes": 16594416604,
+    "files": 20,
+    "name_size_manifest_sha256": "2402ffda2977a2ff7450b96c18771bfb0fe416ed840c2cff51014572f8f3cb9b"
+   },
+   "model_manifest_matches": false,
+   "model_manifest_sha256_expected": "47cf90f85514f119a5f77c6e91a77b46d97fa9860a8fca81f678e916b246831c"
+  },
+  "pixel_control": "min/max_pixels",
+  "torch": "2.9.0+cu128",
+  "transformers": "4.57.3"
+ },
+ "n_measured": 23,
+ "no_frames_vs_prior": {
+  "cluster_boot95": [
+   -0.34782608695652173,
+   0.17391304347826086
+  ],
+  "mcnemar": {
+   "n01": 6,
+   "n10": 4,
+   "p": 0.75390625
+  },
+  "mean_diff": -0.08695652173913043,
+  "n_videos": 23,
+  "video_sign_test": {
+   "n_neg": 6,
+   "n_pos": 4,
+   "p": 0.75390625
+  }
+ },
+ "notes": [],
+ "p_d": {
+  "budget": 4,
+  "d1_pass_count": 23,
+  "d2_pass_count": 23,
+  "failed_qids": [],
+  "holds": true,
+  "max_visible_excluded_allowed": 4,
+  "n_excluded_recounted": 0,
+  "n_fail": 0,
+  "n_pairs_built": 24,
+  "n_pass": 23,
+  "n_placebo": 0,
+  "n_placebo_excluded_replacement_not_clean": 0,
+  "n_questions": 23,
+  "n_retried": 0,
+  "n_visible": 23,
+  "n_visible_excluded_replacement_not_clean": 0,
+  "placebo_excluded_qids": [],
+  "retry_histogram": {
+   "1": 23,
+   "2": 0,
+   "3": 0,
+   "4": 0
+  },
+  "rule": "P-D: D1 (all four option combos match 0 pixels in all 16 fed frames) and D2 (16/16 slots equal the donor's independently re-decoded frames, <=1/16 equal to this video's own fed slots) on every in-force question; a question that still fails after donor offsets +1,+2,+3 is excluded with reason replacement_not_clean; more than 4 visible questions excluded => crash_destruction_unverified and the cell produces no control readings",
+  "verdict": "ok",
+  "visible_excluded_qids": []
+ },
+ "pretest_prior": {
+  "before_model_load": true,
+  "computed_from": "gold annotation only; no model output, no forward pass",
+  "forwards": 0,
+  "gold_letter_counts": {
+   "A": 6,
+   "B": 5,
+   "C": 6,
+   "D": 6
+  },
+  "n": 23,
+  "name": "donor_inforce_visible",
+  "path": "prerun/const_prior_donor_inforce_visible.json",
+  "prior_hits": 6,
+  "prior_letter": "A",
+  "prior_value": 0.2608695652173913,
+  "sha256": "90ff1bcc9bbfc3619ea5d70f90bb71d8296e87803c2251d444fb15dd9a04132c",
+  "tie": true,
+  "tie_break_rule": "alphabetically first letter among the maxima"
+ },
+ "pretest_prior_calibration": {
+  "in_force_visible": {
+   "expected_hits": 6,
+   "expected_letter": "A",
+   "n": 23,
+   "observed_hits": 6,
+   "observed_letter": "A"
+  },
+  "note": "the carrier-4 calibration value (24 visible questions A6 B6 C6 D6, in-force 23 A6 B5 C6 D6) is checked by prior_block before load_model(); a mismatch raises SystemExit and produces no reading",
+  "pin24_visible": {
+   "before_model_load": true,
+   "computed_from": "gold annotation only; no model output, no forward pass",
+   "forwards": 0,
+   "gold_letter_counts": {
+    "A": 6,
+    "B": 6,
+    "C": 6,
+    "D": 6
+   },
+   "n": 24,
+   "name": "donor_pin24",
+   "path": "prerun/const_prior_donor_pin24.json",
+   "prior_hits": 6,
+   "prior_letter": "A",
+   "prior_value": 0.25,
+   "sha256": "5743a08b6d70f461f41690e38a672538fa31ef6820f61ded9f9ad44452e1a6d4",
+   "tie": true,
+   "tie_break_rule": "alphabetically first letter among the maxima"
+  },
+  "selftest": {
+   "injected_hits": 9,
+   "injected_letter": "D",
+   "input_letters": [
+    "A",
+    "A",
+    "B",
+    "C"
+   ],
+   "observed_hits": 2,
+   "observed_letter": "A",
+   "raised": true,
+   "returncode": 1,
+   "stderr_tail": "prior calibration failed for prior_guard_selftest: letter A != D\n",
+   "stdout_tail": "reading=prior_guard_selftest mode=pilot stage=smoke plan=plan-paper-full-four-readings-r3@4 seed=0\n"
+  }
+ },
+ "run": {
+  "exp_seed": 0,
+  "decides_claim": true,
+  "elapsed_seconds": 139.0,
+  "mode": "full",
+  "phases_seconds": {
+   "decode_s": 0.0,
+   "forward_s": 33.7,
+   "identity_s": 0.0,
+   "model_load_s": 12.0
+  },
+  "plan_id": "plan-paper-full-four-readings-r3",
+  "plan_version": 4,
+  "reading": "donor",
+  "stage": "full"
+ },
+ "samples": "results/four_donor_samples.jsonl",
+ "verdict": {
+  "n_units": 23,
+  "resolution_pp": 4.3478260869565215
+ }
+}

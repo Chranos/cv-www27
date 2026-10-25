@@ -1,0 +1,8 @@
+def prompt_for(q, with_query=True):
+    opts = "\n".join("%s. %s" % (L, c) for L, c in zip(LETTERS, q["candidates"]))
+    if with_query:
+        head = q["question"]
+    else:
+        # Query-free (variant A) template: same options, no question-specific content.
+        head = "What is shown in this image? Choose the best option."
+    return ("%s\n%s\nAnswer with the single letter (A-E) of the correct option.\nAnswer:" % (head, opts))

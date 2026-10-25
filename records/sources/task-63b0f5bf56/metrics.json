@@ -1,0 +1,741 @@
+{
+ "pack_regenerate_acc": {
+  "n_inserted_cells": 52,
+  "inserted": [
+   {
+    "table": "tab-selection.tex",
+    "row": "HEADER",
+    "value": "arm acc. (\\%)",
+    "source": "arithmetic on the archived hits/n cells (same cells the table already shows); full-pool values equal metrics.arms.*.value"
+   },
+   {
+    "table": "tab-selection.tex",
+    "row": "uniform@16",
+    "value": "56.4",
+    "source": "arithmetic on the archived hits/n cells (same cells the table already shows); full-pool values equal metrics.arms.*.value"
+   },
+   {
+    "table": "tab-selection.tex",
+    "row": "contrast@16 $k_0$",
+    "value": "53.6",
+    "source": "arithmetic on the archived hits/n cells (same cells the table already shows); full-pool values equal metrics.arms.*.value"
+   },
+   {
+    "table": "tab-selection.tex",
+    "row": "contrast@16 $k_1$",
+    "value": "54.5",
+    "source": "arithmetic on the archived hits/n cells (same cells the table already shows); full-pool values equal metrics.arms.*.value"
+   },
+   {
+    "table": "tab-selection.tex",
+    "row": "contrast@16 $k_2$",
+    "value": "56.4",
+    "source": "arithmetic on the archived hits/n cells (same cells the table already shows); full-pool values equal metrics.arms.*.value"
+   },
+   {
+    "table": "tab-selection.tex",
+    "row": "archived 40 ($k_0$)",
+    "value": "45.0",
+    "source": "arithmetic on the archived hits/n cells (same cells the table already shows); full-pool values equal metrics.arms.*.value"
+   },
+   {
+    "table": "tab-selection.tex",
+    "row": "archived 40 ($k_1$)",
+    "value": "45.0",
+    "source": "arithmetic on the archived hits/n cells (same cells the table already shows); full-pool values equal metrics.arms.*.value"
+   },
+   {
+    "table": "tab-selection.tex",
+    "row": "archived 40 ($k_2$)",
+    "value": "50.0",
+    "source": "arithmetic on the archived hits/n cells (same cells the table already shows); full-pool values equal metrics.arms.*.value"
+   },
+   {
+    "table": "tab-selection.tex",
+    "row": "new 70 ($k_0$)",
+    "value": "58.6",
+    "source": "arithmetic on the archived hits/n cells (same cells the table already shows); full-pool values equal metrics.arms.*.value"
+   },
+   {
+    "table": "tab-selection.tex",
+    "row": "new 70 ($k_1$)",
+    "value": "60.0",
+    "source": "arithmetic on the archived hits/n cells (same cells the table already shows); full-pool values equal metrics.arms.*.value"
+   },
+   {
+    "table": "tab-selection.tex",
+    "row": "new 70 ($k_2$)",
+    "value": "60.0",
+    "source": "arithmetic on the archived hits/n cells (same cells the table already shows); full-pool values equal metrics.arms.*.value"
+   },
+   {
+    "table": "tab-noframes.tex",
+    "row": "HEADER",
+    "value": "acc. (\\%)",
+    "source": "arithmetic on the archived hits/n cells; arm values equal metrics.arms.*.value"
+   },
+   {
+    "table": "tab-noframes.tex",
+    "row": "no frames",
+    "value": "39.1",
+    "source": "arithmetic on the archived hits/n cells; arm values equal metrics.arms.*.value"
+   },
+   {
+    "table": "tab-noframes.tex",
+    "row": "uniform@16",
+    "value": "56.4",
+    "source": "arithmetic on the archived hits/n cells; arm values equal metrics.arms.*.value"
+   },
+   {
+    "table": "tab-noframes.tex",
+    "row": "constant-letter prior (C)",
+    "value": "28.2",
+    "source": "arithmetic on the archived hits/n cells; arm values equal metrics.arms.*.value"
+   },
+   {
+    "table": "tab-noframes.tex",
+    "row": "uniform@16 $-$ no frames",
+    "value": "---",
+    "source": "arithmetic on the archived hits/n cells; arm values equal metrics.arms.*.value"
+   },
+   {
+    "table": "tab-noframes.tex",
+    "row": "uniform@16 $-$ prior",
+    "value": "---",
+    "source": "arithmetic on the archived hits/n cells; arm values equal metrics.arms.*.value"
+   },
+   {
+    "table": "tab-noframes.tex",
+    "row": "no frames $-$ prior",
+    "value": "---",
+    "source": "arithmetic on the archived hits/n cells; arm values equal metrics.arms.*.value"
+   },
+   {
+    "table": "tab-single.tex",
+    "row": "HEADER",
+    "value": "acc. (\\%)",
+    "source": "SGL metrics.arms.*.value; asserted equal to the existing Sgl*Rate macros"
+   },
+   {
+    "table": "tab-single.tex",
+    "row": "uniform@16",
+    "value": "50.0",
+    "source": "SGL metrics.arms.*.value; asserted equal to the existing Sgl*Rate macros"
+   },
+   {
+    "table": "tab-single.tex",
+    "row": "single frame $j^\\star$",
+    "value": "58.3",
+    "source": "SGL metrics.arms.*.value; asserted equal to the existing Sgl*Rate macros"
+   },
+   {
+    "table": "tab-single.tex",
+    "row": "no frames",
+    "value": "29.2",
+    "source": "SGL metrics.arms.*.value; asserted equal to the existing Sgl*Rate macros"
+   },
+   {
+    "table": "tab-single.tex",
+    "row": "constant-letter prior (\\SglPriorLetter)",
+    "value": "41.7",
+    "source": "SGL metrics.arms.*.value; asserted equal to the existing Sgl*Rate macros"
+   },
+   {
+    "table": "tab-single.tex",
+    "row": "single frame $-$ uniform@16",
+    "value": "---",
+    "source": "SGL metrics.arms.*.value; asserted equal to the existing Sgl*Rate macros"
+   },
+   {
+    "table": "tab-single.tex",
+    "row": "single frame $-$ no frames",
+    "value": "---",
+    "source": "SGL metrics.arms.*.value; asserted equal to the existing Sgl*Rate macros"
+   },
+   {
+    "table": "tab-single.tex",
+    "row": "single frame $-$ prior",
+    "value": "---",
+    "source": "SGL metrics.arms.*.value; asserted equal to the existing Sgl*Rate macros"
+   },
+   {
+    "table": "tab-single.tex",
+    "row": "uniform@16 $-$ no frames",
+    "value": "---",
+    "source": "SGL metrics.arms.*.value; asserted equal to the existing Sgl*Rate macros"
+   },
+   {
+    "table": "tab-single.tex",
+    "row": "uniform@16 $-$ prior",
+    "value": "---",
+    "source": "SGL metrics.arms.*.value; asserted equal to the existing Sgl*Rate macros"
+   },
+   {
+    "table": "tab-single.tex",
+    "row": "no frames $-$ prior",
+    "value": "---",
+    "source": "SGL metrics.arms.*.value; asserted equal to the existing Sgl*Rate macros"
+   },
+   {
+    "table": "tab-distortion.tex",
+    "row": "HEADER",
+    "value": "non-ev. acc. (\\%)",
+    "source": "arithmetic on the archived hits/17 cells (evidence and non-evidence)"
+   },
+   {
+    "table": "tab-distortion.tex",
+    "row": "HEADER",
+    "value": "evidence acc. (\\%)",
+    "source": "arithmetic on the archived hits/17 cells (evidence and non-evidence)"
+   },
+   {
+    "table": "tab-distortion.tex",
+    "row": "single clean",
+    "value": "70.6",
+    "source": "arithmetic on the archived hits/17 cells (evidence and non-evidence)"
+   },
+   {
+    "table": "tab-distortion.tex",
+    "row": "single clean",
+    "value": "---",
+    "source": "arithmetic on the archived hits/17 cells (evidence and non-evidence)"
+   },
+   {
+    "table": "tab-distortion.tex",
+    "row": "noise $k_0$",
+    "value": "70.6",
+    "source": "arithmetic on the archived hits/17 cells (evidence and non-evidence)"
+   },
+   {
+    "table": "tab-distortion.tex",
+    "row": "noise $k_0$",
+    "value": "23.5",
+    "source": "arithmetic on the archived hits/17 cells (evidence and non-evidence)"
+   },
+   {
+    "table": "tab-distortion.tex",
+    "row": "noise $k_1$",
+    "value": "58.8",
+    "source": "arithmetic on the archived hits/17 cells (evidence and non-evidence)"
+   },
+   {
+    "table": "tab-distortion.tex",
+    "row": "noise $k_1$",
+    "value": "17.6",
+    "source": "arithmetic on the archived hits/17 cells (evidence and non-evidence)"
+   },
+   {
+    "table": "tab-distortion.tex",
+    "row": "noise $k_2$",
+    "value": "64.7",
+    "source": "arithmetic on the archived hits/17 cells (evidence and non-evidence)"
+   },
+   {
+    "table": "tab-distortion.tex",
+    "row": "noise $k_2$",
+    "value": "17.6",
+    "source": "arithmetic on the archived hits/17 cells (evidence and non-evidence)"
+   },
+   {
+    "table": "tab-distortion.tex",
+    "row": "patchcopy $k_0$",
+    "value": "64.7",
+    "source": "arithmetic on the archived hits/17 cells (evidence and non-evidence)"
+   },
+   {
+    "table": "tab-distortion.tex",
+    "row": "patchcopy $k_0$",
+    "value": "17.6",
+    "source": "arithmetic on the archived hits/17 cells (evidence and non-evidence)"
+   },
+   {
+    "table": "tab-distortion.tex",
+    "row": "patchcopy $k_1$",
+    "value": "64.7",
+    "source": "arithmetic on the archived hits/17 cells (evidence and non-evidence)"
+   },
+   {
+    "table": "tab-distortion.tex",
+    "row": "patchcopy $k_1$",
+    "value": "17.6",
+    "source": "arithmetic on the archived hits/17 cells (evidence and non-evidence)"
+   },
+   {
+    "table": "tab-distortion.tex",
+    "row": "patchcopy $k_2$",
+    "value": "70.6",
+    "source": "arithmetic on the archived hits/17 cells (evidence and non-evidence)"
+   },
+   {
+    "table": "tab-distortion.tex",
+    "row": "patchcopy $k_2$",
+    "value": "17.6",
+    "source": "arithmetic on the archived hits/17 cells (evidence and non-evidence)"
+   },
+   {
+    "table": "tab-donor.tex",
+    "row": "HEADER",
+    "value": "acc. (\\%)",
+    "source": "arithmetic on the archived hits/n cells"
+   },
+   {
+    "table": "tab-donor.tex",
+    "row": "donor@16",
+    "value": "30.4",
+    "source": "arithmetic on the archived hits/n cells"
+   },
+   {
+    "table": "tab-donor.tex",
+    "row": "no frames",
+    "value": "17.4",
+    "source": "arithmetic on the archived hits/n cells"
+   },
+   {
+    "table": "tab-donor.tex",
+    "row": "constant-letter prior (A)",
+    "value": "26.1",
+    "source": "arithmetic on the archived hits/n cells"
+   },
+   {
+    "table": "tab-donor.tex",
+    "row": "donor@16 $-$ no frames",
+    "value": "---",
+    "source": "arithmetic on the archived hits/n cells"
+   },
+   {
+    "table": "tab-donor.tex",
+    "row": "donor@16 $-$ prior",
+    "value": "---",
+    "source": "arithmetic on the archived hits/n cells"
+   },
+   {
+    "table": "tab-donor.tex",
+    "row": "no frames $-$ prior",
+    "value": "---",
+    "source": "arithmetic on the archived hits/n cells"
+   }
+  ],
+  "unchanged_files": [
+   "numbers.tex",
+   "tab-design.tex"
+  ],
+  "changed_files": [
+   "tab-selection.tex",
+   "tab-noframes.tex",
+   "tab-single.tex",
+   "tab-distortion.tex",
+   "tab-donor.tex"
+  ],
+  "new_measurement": false,
+  "note": "accuracy cells computed from records already held (archived metrics fields and the archived tables' own hits/n cells); cross-checked against the existing SelPool*/Sgl* rate macros; every other cell byte-identical (invariant enforced in-run)"
+ },
+ "pack_full_stage": {
+  "purpose": "full-stage re-run of the deterministic tables-and-macros packaging; no model calls, no new numbers",
+  "chain": [
+   "stage A regenerate (paper4/pack_regenerate_acc.py, sha 92e2e159..., same bytes as commit 6c4296c0 / smoke task-282e07a239)",
+   "stage B verify regenerated pack against task-282e07a239 output pins",
+   "stage C re-apply the tab-single span repair of task-30d800c7db and re-run all its checks"
+  ],
+  "stage_a_run": {
+   "entry": "python3 paper4/pack_regenerate_acc.py",
+   "returncode": 0,
+   "seconds": 0.0
+  },
+  "stage_b_regenerate_pins": {
+   "numbers.tex": {
+    "expected": "bb9b99dbb38211d479d2bfaa24e1abd8a998054e477365e3c53b68016bc0a80e",
+    "got": "bb9b99dbb38211d479d2bfaa24e1abd8a998054e477365e3c53b68016bc0a80e",
+    "identical": true
+   },
+   "tab-design.tex": {
+    "expected": "1588329c56f8a433e35201d0024d5f1dce5437044a346cddf10617530b6c0bf4",
+    "got": "1588329c56f8a433e35201d0024d5f1dce5437044a346cddf10617530b6c0bf4",
+    "identical": true
+   },
+   "tab-selection.tex": {
+    "expected": "8ba40629bf27563ed6efd92a890e937805c05c7352fe9fa5245a03990189b62c",
+    "got": "8ba40629bf27563ed6efd92a890e937805c05c7352fe9fa5245a03990189b62c",
+    "identical": true
+   },
+   "tab-noframes.tex": {
+    "expected": "5adf837b46e9e5fe39b08fd0fddb5044ca3556f3c321778e5a84287b0a1cd7a0",
+    "got": "5adf837b46e9e5fe39b08fd0fddb5044ca3556f3c321778e5a84287b0a1cd7a0",
+    "identical": true
+   },
+   "tab-single.tex": {
+    "expected": "8408999ce0813d4163eb29b22c6cbf464a97c152120aabc99890212d3fa42fc3",
+    "got": "8408999ce0813d4163eb29b22c6cbf464a97c152120aabc99890212d3fa42fc3",
+    "identical": true
+   },
+   "tab-distortion.tex": {
+    "expected": "56cf4c843aa495fa57afc8fb9392ee53bdcc398535491a140896bec34fcb7bc2",
+    "got": "56cf4c843aa495fa57afc8fb9392ee53bdcc398535491a140896bec34fcb7bc2",
+    "identical": true
+   },
+   "tab-donor.tex": {
+    "expected": "318b82a61fe82c48cabd0b77ec75c88af7c3c613c27bb41d75f417ae50af00b1",
+    "got": "318b82a61fe82c48cabd0b77ec75c88af7c3c613c27bb41d75f417ae50af00b1",
+    "identical": true
+   }
+  },
+  "stage_b_archive_pins": {
+   "archived numbers.tex (task-1f59540a60)": {
+    "expected": "bb9b99dbb38211d479d2bfaa24e1abd8a998054e477365e3c53b68016bc0a80e",
+    "got": "bb9b99dbb38211d479d2bfaa24e1abd8a998054e477365e3c53b68016bc0a80e",
+    "identical": true
+   },
+   "archived tab-single.tex (task-1f59540a60)": {
+    "expected": "3c79d9ed406d254fc2a4fdf304cd86fe45dcfd0c44b987d46ea93db04a884399",
+    "got": "3c79d9ed406d254fc2a4fdf304cd86fe45dcfd0c44b987d46ea93db04a884399",
+    "identical": true
+   },
+   "archived tab-design.tex (task-219f5f1017)": {
+    "expected": "1588329c56f8a433e35201d0024d5f1dce5437044a346cddf10617530b6c0bf4",
+    "got": "1588329c56f8a433e35201d0024d5f1dce5437044a346cddf10617530b6c0bf4",
+    "identical": true
+   }
+  },
+  "pack_repair_tab_single": {
+   "changed_file": "tab-single.tex",
+   "changed_rows": [
+    {
+     "row": "paired difference",
+     "before": "label(1) + \\multicolumn{3} + \\multicolumn{5} = 9",
+     "after": "label(1) + \\multicolumn{3} + \\multicolumn{4} = 8"
+    },
+    {
+     "row": "attainable precision",
+     "before": "label(1) + \\multicolumn{3} + \\multicolumn{5} = 9",
+     "after": "label(1) + \\multicolumn{3} + \\multicolumn{4} = 8"
+    },
+    {
+     "row": "exact bounds at $m = 0$",
+     "before": "label(1) + \\multicolumn{3} + \\multicolumn{5} = 9",
+     "after": "label(1) + \\multicolumn{3} + \\multicolumn{4} = 8"
+    }
+   ],
+   "cell_values_changed": 0,
+   "structure_pre_repair": {
+    "tab-selection.tex": {
+     "spec_cols": 9,
+     "rows": 13,
+     "bad_rows": []
+    },
+    "tab-noframes.tex": {
+     "spec_cols": 8,
+     "rows": 9,
+     "bad_rows": []
+    },
+    "tab-single.tex": {
+     "spec_cols": 8,
+     "rows": 17,
+     "bad_rows": [
+      {
+       "row": "paired difference",
+       "consumes": 9,
+       "spec": 8
+      },
+      {
+       "row": "attainable precision",
+       "consumes": 9,
+       "spec": 8
+      },
+      {
+       "row": "exact bounds at $m = 0$",
+       "consumes": 9,
+       "spec": 8
+      }
+     ]
+    },
+    "tab-distortion.tex": {
+     "spec_cols": 9,
+     "rows": 10,
+     "bad_rows": []
+    },
+    "tab-donor.tex": {
+     "spec_cols": 7,
+     "rows": 9,
+     "bad_rows": []
+    }
+   },
+   "structure_post_repair": {
+    "tab-selection.tex": {
+     "spec_cols": 9,
+     "rows": 13,
+     "bad_rows": []
+    },
+    "tab-noframes.tex": {
+     "spec_cols": 8,
+     "rows": 9,
+     "bad_rows": []
+    },
+    "tab-single.tex": {
+     "spec_cols": 8,
+     "rows": 17,
+     "bad_rows": []
+    },
+    "tab-distortion.tex": {
+     "spec_cols": 9,
+     "rows": 10,
+     "bad_rows": []
+    },
+    "tab-donor.tex": {
+     "spec_cols": 7,
+     "rows": 9,
+     "bad_rows": []
+    }
+   },
+   "tab_single_archived_cells_checked": 89,
+   "tab_single_acc_checks": [
+    {
+     "row": "uniform@16",
+     "hits_n": "12/24",
+     "acc": "50.0",
+     "recomputed": "50.0"
+    },
+    {
+     "row": "single frame $j^\\star$",
+     "hits_n": "14/24",
+     "acc": "58.3",
+     "recomputed": "58.3"
+    },
+    {
+     "row": "no frames",
+     "hits_n": "7/24",
+     "acc": "29.2",
+     "recomputed": "29.2"
+    },
+    {
+     "row": "constant-letter prior (\\SglPriorLetter)",
+     "hits_n": "10/24",
+     "acc": "41.7",
+     "recomputed": "41.7"
+    }
+   ],
+   "byte_identical": {
+    "numbers.tex": "archive task-1f59540a60",
+    "tab-design.tex": "archive task-219f5f1017",
+    "tab-selection.tex": "stage-A regeneration (= task-282e07a239 pin)",
+    "tab-noframes.tex": "stage-A regeneration (= task-282e07a239 pin)",
+    "tab-distortion.tex": "stage-A regeneration (= task-282e07a239 pin)",
+    "tab-donor.tex": "stage-A regeneration (= task-282e07a239 pin)"
+   }
+  },
+  "final_outputs": {
+   "numbers.tex": {
+    "sha256": "bb9b99dbb38211d479d2bfaa24e1abd8a998054e477365e3c53b68016bc0a80e",
+    "bytes": 43631
+   },
+   "tab-design.tex": {
+    "sha256": "1588329c56f8a433e35201d0024d5f1dce5437044a346cddf10617530b6c0bf4",
+    "bytes": 2542
+   },
+   "tab-selection.tex": {
+    "sha256": "8ba40629bf27563ed6efd92a890e937805c05c7352fe9fa5245a03990189b62c",
+    "bytes": 2302
+   },
+   "tab-noframes.tex": {
+    "sha256": "5adf837b46e9e5fe39b08fd0fddb5044ca3556f3c321778e5a84287b0a1cd7a0",
+    "bytes": 1702
+   },
+   "tab-single.tex": {
+    "sha256": "4f6c9e3b74129ea31b082b24c3c8114529152756fa7ee2b204d820f74624d53f",
+    "bytes": 5688
+   },
+   "tab-distortion.tex": {
+    "sha256": "56cf4c843aa495fa57afc8fb9392ee53bdcc398535491a140896bec34fcb7bc2",
+    "bytes": 1883
+   },
+   "tab-donor.tex": {
+    "sha256": "318b82a61fe82c48cabd0b77ec75c88af7c3c613c27bb41d75f417ae50af00b1",
+    "bytes": 1912
+   }
+  },
+  "byte_identity_vs_current_pack": {
+   "numbers.tex": {
+    "expected_current_pack": "bb9b99dbb38211d479d2bfaa24e1abd8a998054e477365e3c53b68016bc0a80e",
+    "got": "bb9b99dbb38211d479d2bfaa24e1abd8a998054e477365e3c53b68016bc0a80e",
+    "identical": true
+   },
+   "tab-design.tex": {
+    "expected_current_pack": "1588329c56f8a433e35201d0024d5f1dce5437044a346cddf10617530b6c0bf4",
+    "got": "1588329c56f8a433e35201d0024d5f1dce5437044a346cddf10617530b6c0bf4",
+    "identical": true
+   },
+   "tab-selection.tex": {
+    "expected_current_pack": "8ba40629bf27563ed6efd92a890e937805c05c7352fe9fa5245a03990189b62c",
+    "got": "8ba40629bf27563ed6efd92a890e937805c05c7352fe9fa5245a03990189b62c",
+    "identical": true
+   },
+   "tab-noframes.tex": {
+    "expected_current_pack": "5adf837b46e9e5fe39b08fd0fddb5044ca3556f3c321778e5a84287b0a1cd7a0",
+    "got": "5adf837b46e9e5fe39b08fd0fddb5044ca3556f3c321778e5a84287b0a1cd7a0",
+    "identical": true
+   },
+   "tab-single.tex": {
+    "expected_current_pack": "4f6c9e3b74129ea31b082b24c3c8114529152756fa7ee2b204d820f74624d53f",
+    "got": "4f6c9e3b74129ea31b082b24c3c8114529152756fa7ee2b204d820f74624d53f",
+    "identical": true
+   },
+   "tab-distortion.tex": {
+    "expected_current_pack": "56cf4c843aa495fa57afc8fb9392ee53bdcc398535491a140896bec34fcb7bc2",
+    "got": "56cf4c843aa495fa57afc8fb9392ee53bdcc398535491a140896bec34fcb7bc2",
+    "identical": true
+   },
+   "tab-donor.tex": {
+    "expected_current_pack": "318b82a61fe82c48cabd0b77ec75c88af7c3c613c27bb41d75f417ae50af00b1",
+    "got": "318b82a61fe82c48cabd0b77ec75c88af7c3c613c27bb41d75f417ae50af00b1",
+    "identical": true
+   }
+  },
+  "source_tasks": [
+   "task-1f59540a60",
+   "task-219f5f1017",
+   "task-240d7a5d60",
+   "task-23cd232b2b",
+   "task-259e5c2b3a",
+   "task-07c9beea59"
+  ],
+  "sources_manifest": [
+   {
+    "task_id": "task-1f59540a60",
+    "evidence_ref": "evidence.task-1f59540a60@v1#50831f604095c66c5c0000544b7bdafdfe6ee1002f6d9fda9a9db12fb6db8037",
+    "files": {
+     "numbers.tex": {
+      "sha256": "bb9b99dbb38211d479d2bfaa24e1abd8a998054e477365e3c53b68016bc0a80e",
+      "bytes": 43631
+     },
+     "tab-design.tex": {
+      "sha256": "940d2dcb52c0bd2fef407470c8a506e27497ebacfef15f33d1d81cfe5d8e8812",
+      "bytes": 2506
+     },
+     "tab-distortion.tex": {
+      "sha256": "d2e3d9eb7deef829bad2d44b369c2cdeb923d1f9a03e50772a22f3df0c6c7552",
+      "bytes": 1741
+     },
+     "tab-donor.tex": {
+      "sha256": "b5194359834746ba93664788e39025611e40526e9120bc5a95bb0bd432246dbc",
+      "bytes": 1859
+     },
+     "tab-noframes.tex": {
+      "sha256": "da802d570eeb14bfc4650f1e82ee8a13318e71ee2f6be3db5f50a438d4edafdf",
+      "bytes": 1649
+     },
+     "tab-selection.tex": {
+      "sha256": "12680679e836ae1d16751254aed9a845039ab58de35eb8b247c75430374177ef",
+      "bytes": 2214
+     },
+     "tab-single.tex": {
+      "sha256": "3c79d9ed406d254fc2a4fdf304cd86fe45dcfd0c44b987d46ea93db04a884399",
+      "bytes": 5610
+     }
+    }
+   },
+   {
+    "task_id": "task-219f5f1017",
+    "evidence_ref": "evidence.task-219f5f1017@v1#de0a92ef607480051a519a0b11fbf36ca3e1e005aa49d048358ca54da99391a6",
+    "files": {
+     "design-edit-report.json": {
+      "sha256": "fbdfae9ab7cb134d2464f808520b65dbab53f12fc5313eca10872d83a83bfac1",
+      "bytes": 2429
+     },
+     "tab-design.tex": {
+      "sha256": "1588329c56f8a433e35201d0024d5f1dce5437044a346cddf10617530b6c0bf4",
+      "bytes": 2542
+     }
+    }
+   },
+   {
+    "task_id": "task-240d7a5d60",
+    "evidence_ref": "evidence.task-240d7a5d60@v1#7e01bb7ceb498f1c51a66fa5bbc9f0943efcbfdf8f2a599da19c3e2bee2efdd3",
+    "files": {
+     "metrics.json": {
+      "sha256": "fafd7897debea2703fd7aa40c6395b1388c96d4de8bd367f9c6a24ada7ec027f",
+      "bytes": 197921
+     },
+     "prerun/const_prior_single_drawn24.json": {
+      "sha256": "8d1edaf7697399e97d7261b1a1cc71981fea79add5760d59234507d9348ef69e",
+      "bytes": 387
+     },
+     "prerun/const_prior_single_minuid24_shadow.json": {
+      "sha256": "68dd372716358ef4ded97e7a1de6b5b96ab249a35e70ebc7dad1dc4279ea3f03",
+      "bytes": 380
+     },
+     "results/four_single_samples.jsonl": {
+      "sha256": "dc4504d8da97cf77fe358111deae7fcf1eaa3745659cd564e81c10b4dc528ee1",
+      "bytes": 27391
+     },
+     "results/single_qdraw.json": {
+      "sha256": "2d2e2902273af8d4056e6f72621178738f1048e8a1e49759e89515bd073357f3",
+      "bytes": 6010
+     },
+     "results/single_qdraw_candidates.jsonl": {
+      "sha256": "f84373174615142377802359341b503fb14e31f43704fd94b04524243ef7ace4",
+      "bytes": 22123
+     }
+    }
+   },
+   {
+    "task_id": "task-23cd232b2b",
+    "evidence_ref": "evidence.task-23cd232b2b@v1#5fb289a4a594179cf2f806cf9439389a720f678db155b5b7545109545615578c",
+    "files": {
+     "metrics.json": {
+      "sha256": "65a1c9913a59e7a5b8a69460290c29a0f4fdac8154d8d833760bc52175d5e6e9",
+      "bytes": 16158
+     },
+     "prerun/const_prior_selection_pinned40.json": {
+      "sha256": "a134559d947864676d8b4d472284e6aac29ecb505fc4ad2951b56e4186dee2a0",
+      "bytes": 387
+     },
+     "prerun/const_prior_selection_pool110.json": {
+      "sha256": "b1c7be429e6a10da8d38a9c4d641d1516dcf130a092c6bc0b681abfbc51c3739",
+      "bytes": 405
+     },
+     "results/four_selection_samples.jsonl": {
+      "sha256": "9d88070e94f3f15b5a245412fc2af945dfa850a649112207b42a3221242f5b50",
+      "bytes": 100876
+     }
+    }
+   },
+   {
+    "task_id": "task-259e5c2b3a",
+    "evidence_ref": "evidence.task-259e5c2b3a@v1#68d1a0f56839e1bbe0bccffaa3778d6e924bc6e71d2080b99a828701b6ea5a26",
+    "files": {
+     "metrics.json": {
+      "sha256": "fa7d562806afb6b066a5404940e1bf1126763d7a79e61600ec907fa3db8de983",
+      "bytes": 14077
+     },
+     "results/four_distortion_samples.jsonl": {
+      "sha256": "498952e15314051d9a285ac238b8d2a6b9848f0782af4845e34922cb60093fd2",
+      "bytes": 27965
+     }
+    }
+   },
+   {
+    "task_id": "task-07c9beea59",
+    "evidence_ref": "evidence.task-07c9beea59@v1#93df4167ef5752bdbb1ce16fb44cf19b4cbb47a761bf11950dc3daa9e8907137",
+    "files": {
+     "metrics.json": {
+      "sha256": "eb67822fe780e3aab85efcfd7fd3bcd8b9d770f2a1c56bf46fd7d66ad2b403da",
+      "bytes": 7387
+     },
+     "prerun/const_prior_donor_inforce_visible.json": {
+      "sha256": "90ff1bcc9bbfc3619ea5d70f90bb71d8296e87803c2251d444fb15dd9a04132c",
+      "bytes": 391
+     },
+     "prerun/const_prior_donor_pin24.json": {
+      "sha256": "5743a08b6d70f461f41690e38a672538fa31ef6820f61ded9f9ad44452e1a6d4",
+      "bytes": 367
+     },
+     "results/four_donor_samples.jsonl": {
+      "sha256": "64549d5764a2dc52709fcb8c0adbd5347df478e1ac45426af86339dc3271bf93",
+      "bytes": 8976
+     }
+    }
+   }
+  ],
+  "model_calls": 0,
+  "new_measurement": false,
+  "failures": []
+ }
+}

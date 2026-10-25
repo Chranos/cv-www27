@@ -1,0 +1,730 @@
+{
+ "arms": {
+  "constant_prior": {
+   "cp95": [
+    0.20017966887757513,
+    0.3755707520885587
+   ],
+   "hits": 31,
+   "n": 110,
+   "value": 0.2818181818181818
+  },
+  "contrast@16_k0": {
+   "cp95": [
+    0.43875776068166855,
+    0.6319627092620955
+   ],
+   "hits": 59,
+   "n": 110,
+   "value": 0.5363636363636364
+  },
+  "contrast@16_k1": {
+   "cp95": [
+    0.44773404492316154,
+    0.6406663305362139
+   ],
+   "hits": 60,
+   "n": 110,
+   "value": 0.5454545454545454
+  },
+  "contrast@16_k2": {
+   "cp95": [
+    0.46577826299950825,
+    0.6579814649258466
+   ],
+   "hits": 62,
+   "n": 110,
+   "value": 0.5636363636363636
+  },
+  "no_frames": {
+   "cp95": [
+    0.2992788522100619,
+    0.48856718852819925
+   ],
+   "hits": 43,
+   "n": 110,
+   "value": 0.39090909090909093
+  },
+  "uniform@16": {
+   "cp95": [
+    0.46577826299950825,
+    0.6579814649258466
+   ],
+   "hits": 62,
+   "n": 110,
+   "value": 0.5636363636363636
+  }
+ },
+ "branches": {
+  "b4_identification_failure": false,
+  "b4_may_be_false_negative": "the in-sample max-letter prior is optimistic by roughly 4-5 pp at n=110 with 5 classes; on the archived 40 questions uniform vs prior was 19 v 6 (p=0.0146), so the headroom margin is thin and b4 can be a false negative",
+  "b_branch": "b2",
+  "b_mid_branch": "delta<0 with a video-level interval containing 0 is neither a reversal nor a confirmation; it is reported as 'same sign, not separable at this resolution' and is NOT folded into either branch",
+  "headroom": true,
+  "rule": "b1 needs the Holm decision AND the video-level CI lower bound > 0; b3 needs the Holm decision AND the video-level CI upper bound < 0; otherwise b2. (a) is written as a selection finding only when headroom is true."
+ },
+ "claim_tested": {
+  "a": "at a fixed 16-frame budget the training-free option-contrast selector does not beat uniform sampling (stated as a selection finding only where uniform separates from both no_frames and the zero-information option prior)",
+  "b": "the share of questions the model still answers with every frame removed, reported as a paired difference from the zero-information option prior (not as an absolute rate)"
+ },
+ "comparisons": {
+  "contrast@16_k0_vs_no_frames": {
+   "cluster_boot95": [
+    0.05952380952380953,
+    0.29464285714285715
+   ],
+   "mcnemar": {
+    "n01": 6,
+    "n10": 22,
+    "p": 0.0037191659212112427
+   },
+   "mean_diff": 0.14545454545454545,
+   "n_videos": 56,
+   "video_sign_test": {
+    "n_neg": 5,
+    "n_pos": 19,
+    "p": 0.006610751152038574
+   }
+  },
+  "contrast@16_k0_vs_uniform@16": {
+   "cluster_boot95": [
+    -0.1101190476190476,
+    0.01488095238095238
+   ],
+   "mcnemar": {
+    "n01": 7,
+    "n10": 4,
+    "p": 0.548828125
+   },
+   "mean_diff": -0.02727272727272727,
+   "n_videos": 56,
+   "video_sign_test": {
+    "n_neg": 5,
+    "n_pos": 3,
+    "p": 0.7265625
+   }
+  },
+  "contrast@16_k1_vs_no_frames": {
+   "cluster_boot95": [
+    0.09821428571428571,
+    0.31845238095238093
+   ],
+   "mcnemar": {
+    "n01": 5,
+    "n10": 22,
+    "p": 0.0015137195587158203
+   },
+   "mean_diff": 0.15454545454545454,
+   "n_videos": 56,
+   "video_sign_test": {
+    "n_neg": 3,
+    "n_pos": 19,
+    "p": 0.0008554458618164062
+   }
+  },
+  "contrast@16_k1_vs_uniform@16": {
+   "cluster_boot95": [
+    -0.05654761904761905,
+    0.02976190476190476
+   ],
+   "mcnemar": {
+    "n01": 7,
+    "n10": 5,
+    "p": 0.7744140625
+   },
+   "mean_diff": -0.01818181818181818,
+   "n_videos": 56,
+   "video_sign_test": {
+    "n_neg": 5,
+    "n_pos": 4,
+    "p": 1.0
+   }
+  },
+  "contrast@16_k2_vs_no_frames": {
+   "cluster_boot95": [
+    0.11309523809523811,
+    0.3482142857142857
+   ],
+   "mcnemar": {
+    "n01": 5,
+    "n10": 24,
+    "p": 0.0005461126565933228
+   },
+   "mean_diff": 0.17272727272727273,
+   "n_videos": 56,
+   "video_sign_test": {
+    "n_neg": 4,
+    "n_pos": 21,
+    "p": 0.0009105205535888672
+   }
+  },
+  "contrast@16_k2_vs_uniform@16": {
+   "cluster_boot95": [
+    -0.044642857142857144,
+    0.07440476190476189
+   ],
+   "mcnemar": {
+    "n01": 6,
+    "n10": 6,
+    "p": 1.0
+   },
+   "mean_diff": 0.0,
+   "n_videos": 56,
+   "video_sign_test": {
+    "n_neg": 5,
+    "n_pos": 6,
+    "p": 1.0
+   }
+  },
+  "no_frames_vs_constant_prior": {
+   "cluster_boot95": [
+    -0.03571428571428571,
+    0.255952380952381
+   ],
+   "mcnemar": {
+    "n01": 17,
+    "n10": 29,
+    "p": 0.10380535550410741
+   },
+   "mean_diff": 0.10909090909090909,
+   "n_videos": 56,
+   "video_sign_test": {
+    "n_neg": 12,
+    "n_pos": 19,
+    "p": 0.28104151505976915
+   }
+  },
+  "uniform@16_vs_constant_prior": {
+   "cluster_boot95": [
+    0.18154761904761907,
+    0.46733630952380845
+   ],
+   "mcnemar": {
+    "n01": 15,
+    "n10": 46,
+    "p": 8.837556327558756e-05
+   },
+   "mean_diff": 0.2818181818181818,
+   "n_videos": 56,
+   "video_sign_test": {
+    "n_neg": 7,
+    "n_pos": 31,
+    "p": 0.00011616700794547796
+   }
+  },
+  "uniform@16_vs_no_frames": {
+   "cluster_boot95": [
+    0.10714285714285714,
+    0.33035714285714285
+   ],
+   "mcnemar": {
+    "n01": 3,
+    "n10": 22,
+    "p": 0.00015652179718017578
+   },
+   "mean_diff": 0.17272727272727273,
+   "n_videos": 56,
+   "video_sign_test": {
+    "n_neg": 3,
+    "n_pos": 20,
+    "p": 0.00048828125
+   }
+  }
+ },
+ "constant_letter_baseline": {
+  "best_letter": "C",
+  "best_letter_hits": 31,
+  "gold_letter_counts": {
+   "A": 23,
+   "B": 23,
+   "C": 31,
+   "D": 20,
+   "E": 13
+  },
+  "n": 110,
+  "value": 0.2818181818181818
+ },
+ "extraction": {
+  "examples": [],
+  "n_bad": 0,
+  "n_none_letter_cells": 0,
+  "rule": "mvp_common.parse_letter: first A-Ea-e uppercased; None counts as wrong and is not dropped"
+ },
+ "forward_counts": {
+  "by_arm": {
+   "answer:contrast@16_k0": 110,
+   "answer:contrast@16_k1": 110,
+   "answer:contrast@16_k2": 110,
+   "answer:no_frames": 110,
+   "answer:uniform@16": 110
+  },
+  "by_kind": {
+   "answer:contrast@16_k0": 110,
+   "answer:contrast@16_k1": 110,
+   "answer:contrast@16_k2": 110,
+   "answer:no_frames": 110,
+   "answer:uniform@16": 110,
+   "score:clean@32": 3520,
+   "score:distorted@32": 10560
+  },
+  "note": "accumulated inside the run by the code path that actually ran; the same accumulator produces every sub-total and the grand total",
+  "total": 14630
+ },
+ "holm_family2_identification": {
+  "alpha": 0.05,
+  "decisions": {
+   "no_frames_vs_constant_prior": {
+    "p": 0.10380535550410741,
+    "p_holm": 0.10380535550410741,
+    "reject": false,
+    "threshold": 0.05
+   },
+   "no_frames_vs_uniform@16": {
+    "p": 0.00015652179718017578,
+    "p_holm": 0.00031304359436035156,
+    "reject": true,
+    "threshold": 0.025
+   },
+   "uniform@16_vs_constant_prior": {
+    "p": 8.837556327558756e-05,
+    "p_holm": 0.0002651266898267627,
+    "reject": true,
+    "threshold": 0.016666666666666666
+   }
+  },
+  "family_size": 3
+ },
+ "holm_streams_vs_uniform": [
+  {
+   "name": "contrast@16_k0_vs_uniform@16",
+   "p_holm": 1.0,
+   "p_raw": 0.548828125,
+   "reject_005": false
+  },
+  {
+   "name": "contrast@16_k1_vs_uniform@16",
+   "p_holm": 1.0,
+   "p_raw": 0.7744140625,
+   "reject_005": false
+  },
+  {
+   "name": "contrast@16_k2_vs_uniform@16",
+   "p_holm": 1.0,
+   "p_raw": 1.0,
+   "reject_005": false
+  }
+ ],
+ "identity": {
+  "data": {
+   "lvb_val_json_sha256": "d32bf2e0cbbdb4fa2e99666a5a49b5a19bca2ceec69222c9a7d3aad567d1fa23",
+   "n_val_records": 1337,
+   "n_video_files": 56,
+   "videos_manifest_sha256": "35dd905b810db2d5ee0f8bbee4dc22e5798ed7f4923f65ca8f420498be478ce5"
+  },
+  "n_questions": 110,
+  "n_videos": 56,
+  "note": "pool = every val record whose video file is on this device",
+  "pinned_40_set_sha256": "c1ee771fb2f963c9367ccb98d9b75c3770c55a2eb305abfbc212a2ef94050075",
+  "pool_questions": 110,
+  "pool_videos": 56,
+  "question_set_sha256": "57d5985387598a8286a47be78e7021e1433c1aaf101eaf335e0841b75de4de09"
+ },
+ "identity_vs_archive": {
+  "agreement": {
+   "uniform@16": {
+    "agree": 40,
+    "n": 40
+   }
+  },
+  "available": true,
+  "mismatches": [],
+  "n_expected": 40,
+  "n_mismatch": 0,
+  "n_overlap": 40,
+  "path": "sources/task-ca0a24e61b/results/mvp2_samples.jsonl"
+ },
+ "independent_unit": "video (questions clustered inside videos; both levels reported)",
+ "model": {
+  "architecture": "Qwen2VLForConditionalGeneration",
+  "cuda_available": true,
+  "device_index": 0,
+  "dtype_mode": "bf16",
+  "gpu_free_before_mib": 80834.2,
+  "gpu_name": "NVIDIA A100-SXM4-80GB",
+  "gpu_total_mib": 81251.2,
+  "model_dir": "<DATA_ROOT>/qwen2vl-7b-2cbada593a2b",
+  "model_identity": {
+   "model_dir": "<DATA_ROOT>/qwen2vl-7b-2cbada593a2b",
+   "model_fingerprint": {
+    "bytes": 16594416604,
+    "files": 20,
+    "name_size_manifest_sha256": "2402ffda2977a2ff7450b96c18771bfb0fe416ed840c2cff51014572f8f3cb9b"
+   },
+   "model_manifest_matches": false,
+   "model_manifest_sha256_expected": "47cf90f85514f119a5f77c6e91a77b46d97fa9860a8fca81f678e916b246831c"
+  },
+  "pixel_control": "min/max_pixels",
+  "torch": "2.9.0+cu128",
+  "transformers": "4.57.3"
+ },
+ "n_measured": 110,
+ "notes": [],
+ "pretest_prior": {
+  "pinned40_calibration": {
+   "before_model_load": true,
+   "computed_from": "gold annotation only; no model output, no forward pass",
+   "forwards": 0,
+   "gold_letter_counts": {
+    "A": 8,
+    "B": 9,
+    "C": 10,
+    "D": 9,
+    "E": 4
+   },
+   "n": 40,
+   "name": "selection_pinned40",
+   "path": "prerun/const_prior_selection_pinned40.json",
+   "prior_hits": 10,
+   "prior_letter": "C",
+   "prior_value": 0.25,
+   "sha256": "a134559d947864676d8b4d472284e6aac29ecb505fc4ad2951b56e4186dee2a0",
+   "tie": false,
+   "tie_break_rule": "alphabetically first letter among the maxima"
+  },
+  "pool110": {
+   "before_model_load": true,
+   "computed_from": "gold annotation only; no model output, no forward pass",
+   "forwards": 0,
+   "gold_letter_counts": {
+    "A": 23,
+    "B": 23,
+    "C": 31,
+    "D": 20,
+    "E": 13
+   },
+   "n": 110,
+   "name": "selection_pool110",
+   "path": "prerun/const_prior_selection_pool110.json",
+   "prior_hits": 31,
+   "prior_letter": "C",
+   "prior_value": 0.2818181818181818,
+   "sha256": "b1c7be429e6a10da8d38a9c4d641d1516dcf130a092c6bc0b681abfbc51c3739",
+   "tie": false,
+   "tie_break_rule": "alphabetically first letter among the maxima"
+  }
+ },
+ "run": {
+  "exp_seed": 0,
+  "decides_claim": true,
+  "elapsed_seconds": 2771.5,
+  "mode": "full",
+  "phases_seconds": {
+   "decode_s": 126.2,
+   "forward_s": 1990.9,
+   "identity_s": 0.0,
+   "model_load_s": 12.5
+  },
+  "plan_id": "plan-paper-full-four-readings-r3",
+  "plan_version": 4,
+  "reading": "selection",
+  "stage": "full"
+ },
+ "samples": "results/four_selection_samples.jsonl",
+ "selection_overlap": {
+  "contrast@16_k0": {
+   "mean": 0.48977272727272725
+  },
+  "contrast@16_k1": {
+   "mean": 0.48352272727272727
+  },
+  "contrast@16_k2": {
+   "mean": 0.49829545454545454
+  }
+ },
+ "structure": {
+  "checked_in_mode": "full",
+  "expected_questions_full": 110,
+  "expected_videos_full": 56,
+  "matches_expected": true,
+  "note": "None means this mode does not carry the pass condition; full must match",
+  "pool_questions": 110,
+  "pool_videos": 56
+ },
+ "subsets": {
+  "new70": {
+   "arms": {
+    "constant_prior": {
+     "cp95": [
+      0.1962269632994639,
+      0.42133392804250475
+     ],
+     "hits": 21,
+     "n": 70,
+     "value": 0.3
+    },
+    "contrast@16_k0": {
+     "cp95": [
+      0.46166163321854137,
+      0.7022790387650932
+     ],
+     "hits": 41,
+     "n": 70,
+     "value": 0.5857142857142857
+    },
+    "contrast@16_k1": {
+     "cp95": [
+      0.4759319252890307,
+      0.7153288984281269
+     ],
+     "hits": 42,
+     "n": 70,
+     "value": 0.6
+    },
+    "contrast@16_k2": {
+     "cp95": [
+      0.4759319252890307,
+      0.7153288984281269
+     ],
+     "hits": 42,
+     "n": 70,
+     "value": 0.6
+    },
+    "no_frames": {
+     "cp95": [
+      0.2588698044922683,
+      0.4952341373566867
+     ],
+     "hits": 26,
+     "n": 70,
+     "value": 0.37142857142857144
+    },
+    "uniform@16": {
+     "cp95": [
+      0.4334071696434523,
+      0.6758894503281417
+     ],
+     "hits": 39,
+     "n": 70,
+     "value": 0.5571428571428572
+    }
+   },
+   "deltas": {
+    "contrast@16_k0": {
+     "cluster_boot95": [
+      -0.06666666666666667,
+      0.1111111111111111
+     ],
+     "mcnemar": {
+      "n01": 2,
+      "n10": 4,
+      "p": 0.6875
+     },
+     "mean_diff": 0.02857142857142857,
+     "n_videos": 45,
+     "video_sign_test": {
+      "n_neg": 2,
+      "n_pos": 4,
+      "p": 0.6875
+     }
+    },
+    "contrast@16_k1": {
+     "cluster_boot95": [
+      0.0,
+      0.08888888888888889
+     ],
+     "mcnemar": {
+      "n01": 0,
+      "n10": 3,
+      "p": 0.25
+     },
+     "mean_diff": 0.04285714285714286,
+     "n_videos": 45,
+     "video_sign_test": {
+      "n_neg": 0,
+      "n_pos": 2,
+      "p": 0.5
+     }
+    },
+    "contrast@16_k2": {
+     "cluster_boot95": [
+      0.0,
+      0.1
+     ],
+     "mcnemar": {
+      "n01": 0,
+      "n10": 3,
+      "p": 0.25
+     },
+     "mean_diff": 0.04285714285714286,
+     "n_videos": 45,
+     "video_sign_test": {
+      "n_neg": 0,
+      "n_pos": 3,
+      "p": 0.25
+     }
+    }
+   },
+   "n_questions": 70,
+   "n_videos": 45,
+   "no_frames_vs_constant_prior": {
+    "cluster_boot95": [
+     -0.08148148148148147,
+     0.25555555555555554
+    ],
+    "mcnemar": {
+     "n01": 12,
+     "n10": 17,
+     "p": 0.45825831964612007
+    },
+    "mean_diff": 0.07142857142857142,
+    "n_videos": 45,
+    "video_sign_test": {
+     "n_neg": 9,
+     "n_pos": 14,
+     "p": 0.4048728942871094
+    }
+   }
+  },
+  "note": "pinned40 = questions already measured by task-ca0a24e61b (36% of the full pool); new70 = the rest. Both are reported; the new70 subset is the independent observation and pinned40 is the same-question replication.",
+  "pinned40": {
+   "arms": {
+    "constant_prior": {
+     "cp95": [
+      0.126914798932845,
+      0.4119619801514299
+     ],
+     "hits": 10,
+     "n": 40,
+     "value": 0.25
+    },
+    "contrast@16_k0": {
+     "cp95": [
+      0.29258835003987993,
+      0.6150932054659867
+     ],
+     "hits": 18,
+     "n": 40,
+     "value": 0.45
+    },
+    "contrast@16_k1": {
+     "cp95": [
+      0.29258835003987993,
+      0.6150932054659867
+     ],
+     "hits": 18,
+     "n": 40,
+     "value": 0.45
+    },
+    "contrast@16_k2": {
+     "cp95": [
+      0.33801781373723455,
+      0.6619821862627655
+     ],
+     "hits": 20,
+     "n": 40,
+     "value": 0.5
+    },
+    "no_frames": {
+     "cp95": [
+      0.27042903126886286,
+      0.5910994195730367
+     ],
+     "hits": 17,
+     "n": 40,
+     "value": 0.425
+    },
+    "uniform@16": {
+     "cp95": [
+      0.4089005804269633,
+      0.7295709687311371
+     ],
+     "hits": 23,
+     "n": 40,
+     "value": 0.575
+    }
+   },
+   "deltas": {
+    "contrast@16_k0": {
+     "cluster_boot95": [
+      -0.23333333333333334,
+      -0.016666666666666666
+     ],
+     "mcnemar": {
+      "n01": 5,
+      "n10": 0,
+      "p": 0.0625
+     },
+     "mean_diff": -0.125,
+     "n_videos": 30,
+     "video_sign_test": {
+      "n_neg": 4,
+      "n_pos": 0,
+      "p": 0.125
+     }
+    },
+    "contrast@16_k1": {
+     "cluster_boot95": [
+      -0.26666666666666666,
+      0.03333333333333333
+     ],
+     "mcnemar": {
+      "n01": 7,
+      "n10": 2,
+      "p": 0.1796875
+     },
+     "mean_diff": -0.125,
+     "n_videos": 30,
+     "video_sign_test": {
+      "n_neg": 6,
+      "n_pos": 2,
+      "p": 0.2890625
+     }
+    },
+    "contrast@16_k2": {
+     "cluster_boot95": [
+      -0.2,
+      0.11666666666666667
+     ],
+     "mcnemar": {
+      "n01": 6,
+      "n10": 3,
+      "p": 0.5078125
+     },
+     "mean_diff": -0.075,
+     "n_videos": 30,
+     "video_sign_test": {
+      "n_neg": 5,
+      "n_pos": 3,
+      "p": 0.7265625
+     }
+    }
+   },
+   "n_questions": 40,
+   "n_videos": 30,
+   "no_frames_vs_constant_prior": {
+    "cluster_boot95": [
+     -0.1,
+     0.35
+    ],
+    "mcnemar": {
+     "n01": 5,
+     "n10": 12,
+     "p": 0.143463134765625
+    },
+    "mean_diff": 0.175,
+    "n_videos": 30,
+    "video_sign_test": {
+     "n_neg": 5,
+     "n_pos": 9,
+     "p": 0.4239501953125
+    }
+   }
+  }
+ },
+ "verdict": {
+  "n_questions": 110,
+  "n_videos": 56,
+  "resolution_question_pp": 0.9090909090909091,
+  "resolution_video_pp": 1.7857142857142858
+ }
+}

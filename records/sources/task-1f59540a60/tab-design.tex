@@ -1,0 +1,18 @@
+% tab-design.tex -- fragment only: the float, caption and label are the typesetter ones.
+% Values read at run time from: evidence.task-23cd232b2b, evidence.task-240d7a5d60, evidence.task-259e5c2b3a, evidence.task-07c9beea59.
+% Rates and CP95 in percent; paired differences in percentage points (pp).
+% SUGGESTED CAPTION: The four readings: where each is measured, what is fed to the model, what counts as an independent unit, and which criterion decides it.
+% NOTE: Counts, resolutions and floors are read from the four run records. Floors are the zero-information alternatives measured in the same grid. The two criteria of (a) and (b) are both required (family-level Holm decision and video-level interval); (c) has no threshold and reports a bounded difference; (d2) is a diagnostic and decides nothing.
+{\footnotesize
+\begin{tabular}{@{}l p{1.02in} p{1.30in} p{0.92in} p{0.92in} p{0.92in} p{0.90in}@{}}
+\toprule
+Reading & grid (carrier set) & arms fed to the model & independent unit (\textit{n}) & resolution & floor (zero-information) & pre-registered criterion \\
+\midrule
+(a) selection & val pool, 16-frame budget & uniform@16; contrast@16 $k_0$--$k_2$; no frames; constant-letter prior (C) & video (56); 110 questions & 1 question = 0.91 pp; 1 video = 1.79 pp & no frames 43/110; prior 31/110 & family of 3 Holm (streams vs.\ uniform@16) and video-level 95\% CI \\
+(b) no frames & same 110 questions; all frames removed & no frames; uniform@16; constant-letter prior (C) & video (56); 110 questions & 1 question = 0.91 pp; 1 video = 1.79 pp & constant-letter prior 31/110 & family of 3 Holm (arms) and video-level 95\% CI \\
+(c) single frame & confirmation side, one rule-selected question per video & uniform@16; single frame $j^\star$; no frames; constant-letter prior (A) & video (24); 24 units & 1 unit = 4.17 pp & no frames 7/24; prior 10/24 & no threshold; bounded-difference statement with the paired interval \\
+(d1) distortion & 17 video twin pairs (clean + distorted); 13 arms & single clean; evidence patch (6 arms); non-evidence patch (6 arms) & video pair (17) & 1 pair = 5.88 pp & behavioural bar 5/17; non-evidence 3--4/17 & family of 6 Holm (evidence vs.\ non-evidence) \\
+(d2) donor & 23 donor-video questions (24 pairs built, 23 in force) & donor@16; no frames; constant-letter prior (A) & video (23); 23 units & 1 question = 4.35 pp & no frames 4/23; prior 6/23 & instrument diagnostic only; no family, no decision \\
+\bottomrule
+\end{tabular}
+}

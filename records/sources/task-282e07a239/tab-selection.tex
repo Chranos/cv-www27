@@ -1,0 +1,26 @@
+% tab-selection.tex -- fragment only: the float, caption and label are the typesetter ones.
+% Values read at run time from: evidence.task-23cd232b2b.
+% Rates and CP95 in percent; paired differences in percentage points (pp).
+% SUGGESTED CAPTION: Selection reading (a): three contrast@16 streams against uniform@16 on the full 110-question pool, and the archived/new segment split.
+% NOTE: Hits are correct answers out of the stated denominator. Delta is the question-level paired difference (stream minus uniform@16); the bracket is the video-level 95\% clustered bootstrap interval over the stated number of videos. The sign test is the video-level exact sign test, McNemar is the exact question-level test, and Holm is family 1 (the three streams). Segment rows use their own subset; Holm is reported for the full pool only.
+{\footnotesize
+\begin{tabular}{@{}l r l l l l r r r@{}}
+\toprule
+Row & \textit{n} (videos) & uniform@16 hits & arm hits & arm acc. (\%) & \Delta vs.\ uniform@16, pp [video 95\% CI] & sign test \textit{p} & McNemar \textit{p} & Holm \textit{p} \\
+\midrule
+\multicolumn{9}{@{}l}{\emph{Full pool (110 questions, 56 videos): streams against uniform@16}} \\
+uniform@16 & 110 (56) & 62/110 & 62/110 & 56.4 & --- & --- & --- & --- \\
+contrast@16 $k_0$ & 110 (56) & 62/110 & 59/110 & 53.6 & $-2.7$ [$-11.0$, 1.5] & 0.7266 & 0.5488 & 1.0000 \\
+contrast@16 $k_1$ & 110 (56) & 62/110 & 60/110 & 54.5 & $-1.8$ [$-5.7$, 3.0] & 1.0000 & 0.7744 & 1.0000 \\
+contrast@16 $k_2$ & 110 (56) & 62/110 & 62/110 & 56.4 & 0.0 [$-4.5$, 7.4] & 1.0000 & 1.0000 & 1.0000 \\
+\midrule
+\multicolumn{9}{@{}l}{\emph{Segments (the full pool above is the third segment)}} \\
+archived 40 ($k_0$) & 40 (30) & 23/40 & 18/40 & 45.0 & $-12.5$ [$-23.3$, $-1.7$] & 0.1250 & 0.0625 & --- \\
+archived 40 ($k_1$) & 40 (30) & 23/40 & 18/40 & 45.0 & $-12.5$ [$-26.7$, 3.3] & 0.2891 & 0.1797 & --- \\
+archived 40 ($k_2$) & 40 (30) & 23/40 & 20/40 & 50.0 & $-7.5$ [$-20.0$, 11.7] & 0.7266 & 0.5078 & --- \\
+new 70 ($k_0$) & 70 (45) & 39/70 & 41/70 & 58.6 & 2.9 [$-6.7$, 11.1] & 0.6875 & 0.6875 & --- \\
+new 70 ($k_1$) & 70 (45) & 39/70 & 42/70 & 60.0 & 4.3 [0.0, 8.9] & 0.5000 & 0.2500 & --- \\
+new 70 ($k_2$) & 70 (45) & 39/70 & 42/70 & 60.0 & 4.3 [0.0, 10.0] & 0.2500 & 0.2500 & --- \\
+\bottomrule
+\end{tabular}
+}

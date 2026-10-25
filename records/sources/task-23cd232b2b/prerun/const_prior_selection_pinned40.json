@@ -1,0 +1,19 @@
+{
+ "before_model_load": true,
+ "computed_from": "gold annotation only; no model output, no forward pass",
+ "forwards": 0,
+ "gold_letter_counts": {
+  "A": 8,
+  "B": 9,
+  "C": 10,
+  "D": 9,
+  "E": 4
+ },
+ "n": 40,
+ "name": "selection_pinned40",
+ "prior_hits": 10,
+ "prior_letter": "C",
+ "prior_value": 0.25,
+ "tie": false,
+ "tie_break_rule": "alphabetically first letter among the maxima"
+}

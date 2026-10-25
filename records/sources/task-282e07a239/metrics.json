@@ -1,0 +1,332 @@
+{
+ "pack_regenerate_acc": {
+  "n_inserted_cells": 52,
+  "inserted": [
+   {
+    "table": "tab-selection.tex",
+    "row": "HEADER",
+    "value": "arm acc. (\\%)",
+    "source": "arithmetic on the archived hits/n cells (same cells the table already shows); full-pool values equal metrics.arms.*.value"
+   },
+   {
+    "table": "tab-selection.tex",
+    "row": "uniform@16",
+    "value": "56.4",
+    "source": "arithmetic on the archived hits/n cells (same cells the table already shows); full-pool values equal metrics.arms.*.value"
+   },
+   {
+    "table": "tab-selection.tex",
+    "row": "contrast@16 $k_0$",
+    "value": "53.6",
+    "source": "arithmetic on the archived hits/n cells (same cells the table already shows); full-pool values equal metrics.arms.*.value"
+   },
+   {
+    "table": "tab-selection.tex",
+    "row": "contrast@16 $k_1$",
+    "value": "54.5",
+    "source": "arithmetic on the archived hits/n cells (same cells the table already shows); full-pool values equal metrics.arms.*.value"
+   },
+   {
+    "table": "tab-selection.tex",
+    "row": "contrast@16 $k_2$",
+    "value": "56.4",
+    "source": "arithmetic on the archived hits/n cells (same cells the table already shows); full-pool values equal metrics.arms.*.value"
+   },
+   {
+    "table": "tab-selection.tex",
+    "row": "archived 40 ($k_0$)",
+    "value": "45.0",
+    "source": "arithmetic on the archived hits/n cells (same cells the table already shows); full-pool values equal metrics.arms.*.value"
+   },
+   {
+    "table": "tab-selection.tex",
+    "row": "archived 40 ($k_1$)",
+    "value": "45.0",
+    "source": "arithmetic on the archived hits/n cells (same cells the table already shows); full-pool values equal metrics.arms.*.value"
+   },
+   {
+    "table": "tab-selection.tex",
+    "row": "archived 40 ($k_2$)",
+    "value": "50.0",
+    "source": "arithmetic on the archived hits/n cells (same cells the table already shows); full-pool values equal metrics.arms.*.value"
+   },
+   {
+    "table": "tab-selection.tex",
+    "row": "new 70 ($k_0$)",
+    "value": "58.6",
+    "source": "arithmetic on the archived hits/n cells (same cells the table already shows); full-pool values equal metrics.arms.*.value"
+   },
+   {
+    "table": "tab-selection.tex",
+    "row": "new 70 ($k_1$)",
+    "value": "60.0",
+    "source": "arithmetic on the archived hits/n cells (same cells the table already shows); full-pool values equal metrics.arms.*.value"
+   },
+   {
+    "table": "tab-selection.tex",
+    "row": "new 70 ($k_2$)",
+    "value": "60.0",
+    "source": "arithmetic on the archived hits/n cells (same cells the table already shows); full-pool values equal metrics.arms.*.value"
+   },
+   {
+    "table": "tab-noframes.tex",
+    "row": "HEADER",
+    "value": "acc. (\\%)",
+    "source": "arithmetic on the archived hits/n cells; arm values equal metrics.arms.*.value"
+   },
+   {
+    "table": "tab-noframes.tex",
+    "row": "no frames",
+    "value": "39.1",
+    "source": "arithmetic on the archived hits/n cells; arm values equal metrics.arms.*.value"
+   },
+   {
+    "table": "tab-noframes.tex",
+    "row": "uniform@16",
+    "value": "56.4",
+    "source": "arithmetic on the archived hits/n cells; arm values equal metrics.arms.*.value"
+   },
+   {
+    "table": "tab-noframes.tex",
+    "row": "constant-letter prior (C)",
+    "value": "28.2",
+    "source": "arithmetic on the archived hits/n cells; arm values equal metrics.arms.*.value"
+   },
+   {
+    "table": "tab-noframes.tex",
+    "row": "uniform@16 $-$ no frames",
+    "value": "---",
+    "source": "arithmetic on the archived hits/n cells; arm values equal metrics.arms.*.value"
+   },
+   {
+    "table": "tab-noframes.tex",
+    "row": "uniform@16 $-$ prior",
+    "value": "---",
+    "source": "arithmetic on the archived hits/n cells; arm values equal metrics.arms.*.value"
+   },
+   {
+    "table": "tab-noframes.tex",
+    "row": "no frames $-$ prior",
+    "value": "---",
+    "source": "arithmetic on the archived hits/n cells; arm values equal metrics.arms.*.value"
+   },
+   {
+    "table": "tab-single.tex",
+    "row": "HEADER",
+    "value": "acc. (\\%)",
+    "source": "SGL metrics.arms.*.value; asserted equal to the existing Sgl*Rate macros"
+   },
+   {
+    "table": "tab-single.tex",
+    "row": "uniform@16",
+    "value": "50.0",
+    "source": "SGL metrics.arms.*.value; asserted equal to the existing Sgl*Rate macros"
+   },
+   {
+    "table": "tab-single.tex",
+    "row": "single frame $j^\\star$",
+    "value": "58.3",
+    "source": "SGL metrics.arms.*.value; asserted equal to the existing Sgl*Rate macros"
+   },
+   {
+    "table": "tab-single.tex",
+    "row": "no frames",
+    "value": "29.2",
+    "source": "SGL metrics.arms.*.value; asserted equal to the existing Sgl*Rate macros"
+   },
+   {
+    "table": "tab-single.tex",
+    "row": "constant-letter prior (\\SglPriorLetter)",
+    "value": "41.7",
+    "source": "SGL metrics.arms.*.value; asserted equal to the existing Sgl*Rate macros"
+   },
+   {
+    "table": "tab-single.tex",
+    "row": "single frame $-$ uniform@16",
+    "value": "---",
+    "source": "SGL metrics.arms.*.value; asserted equal to the existing Sgl*Rate macros"
+   },
+   {
+    "table": "tab-single.tex",
+    "row": "single frame $-$ no frames",
+    "value": "---",
+    "source": "SGL metrics.arms.*.value; asserted equal to the existing Sgl*Rate macros"
+   },
+   {
+    "table": "tab-single.tex",
+    "row": "single frame $-$ prior",
+    "value": "---",
+    "source": "SGL metrics.arms.*.value; asserted equal to the existing Sgl*Rate macros"
+   },
+   {
+    "table": "tab-single.tex",
+    "row": "uniform@16 $-$ no frames",
+    "value": "---",
+    "source": "SGL metrics.arms.*.value; asserted equal to the existing Sgl*Rate macros"
+   },
+   {
+    "table": "tab-single.tex",
+    "row": "uniform@16 $-$ prior",
+    "value": "---",
+    "source": "SGL metrics.arms.*.value; asserted equal to the existing Sgl*Rate macros"
+   },
+   {
+    "table": "tab-single.tex",
+    "row": "no frames $-$ prior",
+    "value": "---",
+    "source": "SGL metrics.arms.*.value; asserted equal to the existing Sgl*Rate macros"
+   },
+   {
+    "table": "tab-distortion.tex",
+    "row": "HEADER",
+    "value": "non-ev. acc. (\\%)",
+    "source": "arithmetic on the archived hits/17 cells (evidence and non-evidence)"
+   },
+   {
+    "table": "tab-distortion.tex",
+    "row": "HEADER",
+    "value": "evidence acc. (\\%)",
+    "source": "arithmetic on the archived hits/17 cells (evidence and non-evidence)"
+   },
+   {
+    "table": "tab-distortion.tex",
+    "row": "single clean",
+    "value": "70.6",
+    "source": "arithmetic on the archived hits/17 cells (evidence and non-evidence)"
+   },
+   {
+    "table": "tab-distortion.tex",
+    "row": "single clean",
+    "value": "---",
+    "source": "arithmetic on the archived hits/17 cells (evidence and non-evidence)"
+   },
+   {
+    "table": "tab-distortion.tex",
+    "row": "noise $k_0$",
+    "value": "70.6",
+    "source": "arithmetic on the archived hits/17 cells (evidence and non-evidence)"
+   },
+   {
+    "table": "tab-distortion.tex",
+    "row": "noise $k_0$",
+    "value": "23.5",
+    "source": "arithmetic on the archived hits/17 cells (evidence and non-evidence)"
+   },
+   {
+    "table": "tab-distortion.tex",
+    "row": "noise $k_1$",
+    "value": "58.8",
+    "source": "arithmetic on the archived hits/17 cells (evidence and non-evidence)"
+   },
+   {
+    "table": "tab-distortion.tex",
+    "row": "noise $k_1$",
+    "value": "17.6",
+    "source": "arithmetic on the archived hits/17 cells (evidence and non-evidence)"
+   },
+   {
+    "table": "tab-distortion.tex",
+    "row": "noise $k_2$",
+    "value": "64.7",
+    "source": "arithmetic on the archived hits/17 cells (evidence and non-evidence)"
+   },
+   {
+    "table": "tab-distortion.tex",
+    "row": "noise $k_2$",
+    "value": "17.6",
+    "source": "arithmetic on the archived hits/17 cells (evidence and non-evidence)"
+   },
+   {
+    "table": "tab-distortion.tex",
+    "row": "patchcopy $k_0$",
+    "value": "64.7",
+    "source": "arithmetic on the archived hits/17 cells (evidence and non-evidence)"
+   },
+   {
+    "table": "tab-distortion.tex",
+    "row": "patchcopy $k_0$",
+    "value": "17.6",
+    "source": "arithmetic on the archived hits/17 cells (evidence and non-evidence)"
+   },
+   {
+    "table": "tab-distortion.tex",
+    "row": "patchcopy $k_1$",
+    "value": "64.7",
+    "source": "arithmetic on the archived hits/17 cells (evidence and non-evidence)"
+   },
+   {
+    "table": "tab-distortion.tex",
+    "row": "patchcopy $k_1$",
+    "value": "17.6",
+    "source": "arithmetic on the archived hits/17 cells (evidence and non-evidence)"
+   },
+   {
+    "table": "tab-distortion.tex",
+    "row": "patchcopy $k_2$",
+    "value": "70.6",
+    "source": "arithmetic on the archived hits/17 cells (evidence and non-evidence)"
+   },
+   {
+    "table": "tab-distortion.tex",
+    "row": "patchcopy $k_2$",
+    "value": "17.6",
+    "source": "arithmetic on the archived hits/17 cells (evidence and non-evidence)"
+   },
+   {
+    "table": "tab-donor.tex",
+    "row": "HEADER",
+    "value": "acc. (\\%)",
+    "source": "arithmetic on the archived hits/n cells"
+   },
+   {
+    "table": "tab-donor.tex",
+    "row": "donor@16",
+    "value": "30.4",
+    "source": "arithmetic on the archived hits/n cells"
+   },
+   {
+    "table": "tab-donor.tex",
+    "row": "no frames",
+    "value": "17.4",
+    "source": "arithmetic on the archived hits/n cells"
+   },
+   {
+    "table": "tab-donor.tex",
+    "row": "constant-letter prior (A)",
+    "value": "26.1",
+    "source": "arithmetic on the archived hits/n cells"
+   },
+   {
+    "table": "tab-donor.tex",
+    "row": "donor@16 $-$ no frames",
+    "value": "---",
+    "source": "arithmetic on the archived hits/n cells"
+   },
+   {
+    "table": "tab-donor.tex",
+    "row": "donor@16 $-$ prior",
+    "value": "---",
+    "source": "arithmetic on the archived hits/n cells"
+   },
+   {
+    "table": "tab-donor.tex",
+    "row": "no frames $-$ prior",
+    "value": "---",
+    "source": "arithmetic on the archived hits/n cells"
+   }
+  ],
+  "unchanged_files": [
+   "numbers.tex",
+   "tab-design.tex"
+  ],
+  "changed_files": [
+   "tab-selection.tex",
+   "tab-noframes.tex",
+   "tab-single.tex",
+   "tab-distortion.tex",
+   "tab-donor.tex"
+  ],
+  "new_measurement": false,
+  "note": "accuracy cells computed from records already held (archived metrics fields and the archived tables' own hits/n cells); cross-checked against the existing SelPool*/Sgl* rate macros; every other cell byte-identical (invariant enforced in-run)"
+ }
+}

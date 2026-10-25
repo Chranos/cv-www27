@@ -1,0 +1,18 @@
+{
+ "before_model_load": true,
+ "computed_from": "gold annotation only; no model output, no forward pass",
+ "forwards": 0,
+ "gold_letter_counts": {
+  "A": 6,
+  "B": 5,
+  "C": 6,
+  "D": 6
+ },
+ "n": 23,
+ "name": "donor_inforce_visible",
+ "prior_hits": 6,
+ "prior_letter": "A",
+ "prior_value": 0.2608695652173913,
+ "tie": true,
+ "tie_break_rule": "alphabetically first letter among the maxima"
+}
